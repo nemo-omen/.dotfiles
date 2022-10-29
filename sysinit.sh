@@ -31,3 +31,6 @@
 
 # mkdir ~/dev ~/dev/projects ~/dev/learning (The whole ~/dev folder may also be copied on the storage drive)
 
+
+# Misc
+# Turn on firefox autoscroll & in `about:config` set `services.sync.prefs.sync.general.autoScroll` to `false`

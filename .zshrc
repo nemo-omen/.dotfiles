@@ -8,7 +8,8 @@ export ZSH="$HOME/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="agnoster"
+ZSH_THEME="jonathan"
+# ZSH_THEME="agnoster"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -108,3 +109,9 @@ alias qtileconfig="code ~/.config/qtile/config.py"
 alias defaultapps="code ~/.config/mimeapps.list"
 alias dotfiles="code ~/.dotfiles"
 alias sourcerc="source ~/.zshrc"
+
+# Slightly temporary
+alias codeschool="code ~/school/2022-fall" # will change per semester
+alias 4301="cd ~/school/2022-fall/4301"
+alias 3352="cd ~/school/2022-fall/3352"
+alias 3372="cd ~/school/2022-fall/3372"

@@ -38,19 +38,22 @@ import os
 import subprocess
 import colors
 import traverse
-
 mod = "mod4"
-terminal = guess_terminal()
+# terminal = guess_terminal()
+terminal = "alacritty"
 HOME = "/home/trainingmontage/"
+
+# CHECK THIS EXAMPLE
+# https://github.com/qtile/qtile-examples/blob/master/mort65/config.py
 
 # AUTOSTART #
 
 
 @hook.subscribe.startup_once
-def setmonitorposition():
-    monitorscript = os.path.expanduser(
-        '~/.config/.screenlayout/LittleBrother_3Monitor.sh')
-    subprocess.Popen([monitorscript])
+def startup():
+    startupscript = os.path.expanduser(
+        '~/.config/startup/startup.sh')
+    subprocess.Popen([startupscript])
 
 
 @hook.subscribe.current_screen_change
@@ -77,12 +80,22 @@ focuscolor = colors[5]
 #     ["#f1fa8c", "#f1fa8c"]  # yellow (obliterate) [11]
 # ]
 
-# LAYOUT THEME #
+# LAYOUT THEME & WIDGET DEFAULTS#
+
+widget_defaults = dict(
+    font="Fira Mono for Powerline Bold",
+    fontsize=18,
+    padding=5,
+    background=backgroundColor,
+    foreground=foregroundColor
+)
+
+extension_defaults = widget_defaults.copy()
 
 
 def init_layout_theme():
     return {
-        "margin": 5,
+        "margin": 10,
         "border-width": 4,
         "border_focus": focuscolor,
         "border_normal": backgroundColor
@@ -90,6 +103,61 @@ def init_layout_theme():
 
 
 layout_theme = init_layout_theme()
+
+
+def initWidgets(screens):
+    return [
+        widget.CurrentLayoutIcon(
+            foreground=colors[4],
+            padding=5,
+            scale=0.5,
+        ),
+        widget.GroupBox(
+            highlight_method="block",
+            highlight_color=[backgroundColor, focuscolor],
+            active=focuscolor,
+            inactive=colors[3],
+            borderwidth=0,
+            padding_x=10,
+            visible_groups=list(screens)
+        ),
+        widget.Prompt(
+            background=colors[3]
+        ),
+        widget.Chord(
+            chords_colors={
+                "launch": (colors[10], "#ffffff"),
+            },
+            name_transform=lambda name: name.upper(),
+        ),
+        widget.WindowName(),
+
+        # widget.TextBox("default config", name="default"),
+
+        # widget.TextBox("Press &lt;M-r&gt; to spawn", foreground = workspaceColor),
+        # NB Systray is incompatible with Wayland, consider using StatusNotifier instead
+        # widget.StatusNotifier(),
+        widget.Clock(
+            background=backgroundColor,
+            format="%a %I:%M %p %m-%d",
+            mouse_callbacks={
+                "Button1": lazy.group['scratchpad'].dropdown_toggle('khal')}),
+        widget.Volume(fmt='🔊:{}'),
+        widget.QuickExit(
+            default_text="⏻",
+        ),
+    ]
+
+
+def initBar(groups, screen):
+    return bar.Bar(
+        initWidgets(groups),
+        50,
+        padding=5,
+        margin=[10, 10, 0, 10],
+        # border_width=[2, 0, 2, 0],  # Draw top and bottom borders
+        # border_color=["ff00ff", "000000", "ff00ff", "000000"]  # Borders are magenta
+    )
 
 
 def go_to_group(name):
@@ -249,76 +317,21 @@ layouts = [
     # layout.Zoomy(),
 ]
 
-widget_defaults = dict(
-    font="Fira Mono for Powerline Bold",
-    fontsize=18,
-    padding=5,
-    background=backgroundColor,
-    foreground=foregroundColor
-)
-
-extension_defaults = widget_defaults.copy()
-
-
-def initWidgets(screens):
-    return [
-        widget.CurrentLayoutIcon(
-            foreground=colors[4],
-            padding=5
-        ),
-        widget.GroupBox(
-            highlight_method="block",
-            highlight_color=[backgroundColor, focuscolor],
-            active=focuscolor,
-            inactive=colors[3],
-            borderwidth=0,
-            padding_x=10,
-            visible_groups=list(screens)
-        ),
-        widget.Prompt(
-            background=colors[3]
-        ),
-        widget.Chord(
-            chords_colors={
-                "launch": (colors[10], "#ffffff"),
-            },
-            name_transform=lambda name: name.upper(),
-        ),
-        widget.WindowName(),
-
-        # widget.TextBox("default config", name="default"),
-
-        # widget.TextBox("Press &lt;M-r&gt; to spawn", foreground = workspaceColor),
-        # NB Systray is incompatible with Wayland, consider using StatusNotifier instead
-        # widget.StatusNotifier(),
-        widget.Clock(
-            background=backgroundColor,
-            format="%a %I:%M %p %m-%d",
-            mouse_callbacks={
-                "Button1": lazy.group['scratchpad'].dropdown_toggle('khal')}),
-        widget.Volume(fmt='🔊:{}'),
-        widget.QuickExit(),
-    ]
-
-
-def initBar(screens):
-    return bar.Bar(
-        initWidgets(screens),
-        28,
-        # border_width=[2, 0, 2, 0],  # Draw top and bottom borders
-        # border_color=["ff00ff", "000000", "ff00ff", "000000"]  # Borders are magenta
-    )
-
-
 screens = [
     Screen(
-        top=initBar("1234")
+        top=initBar("1234", 0),
+        wallpaper="~/Pictures/JupiterJunoMissionWallpaper.jpg",
+        wallpaper_mode="fill"
     ),
     Screen(
-        top=initBar("567")
+        top=initBar("567", 1),
+        wallpaper="~/Pictures/CosmicCliffsWallpaper.png",
+        wallpaper_mode="fill"
     ),
     Screen(
-        top=initBar("89")
+        top=initBar("89", 2),
+        wallpaper="~/Pictures/PillarsOfCreationWallpaper.png",
+        wallpaper_mode="fill"
     ),
 ]
 
