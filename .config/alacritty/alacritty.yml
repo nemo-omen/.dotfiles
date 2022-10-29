@@ -1,0 +1,23 @@
+import:
+  - ~/.config/alacritty/blackbird.yml
+
+font:
+  bold:
+    family: Fira Mono for Powerline
+  italic:
+    family: Fira Mono for Powerline
+  normal:
+    family: Fira Mono for Powerline
+    style: Regular
+  size: 12
+  offset:
+    y: 0
+    x: 1
+
+window:
+  opacity: 0.95
+
+  padding:
+    x: 10
+    y: 10
+  

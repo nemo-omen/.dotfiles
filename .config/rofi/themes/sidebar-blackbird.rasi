@@ -1,0 +1,152 @@
+/**
+ * ROFI Color theme
+ * User: Qball
+ * Copyright: Dave Davenport
+ */
+
+* {
+    midnight: #011528;
+    midnight-lighter: #05213b;
+    midnight-lighter-lighter: #0a2d4d;
+    portal: #79efc4;
+    bb-cyan: #66d4ff;
+    bb-lightcyan: #85ddff;
+    bb-blue: #4ebaec;
+    bb-lightblue: #64c7f5;
+    nevermore-cyan: #009cb8;
+    nevermore: #00b8b4;
+    bb-orange: #fac185;
+    potion: #ff639d;
+    bb-magenta: #ff639d;
+    bb-lightmagenta: #ff83b1;
+    bb-purple: #e863ff;
+    bb-red: #ff6363;
+    bb-lightred: #ff7a7a;
+    obliterate: #fff500;
+    obliterate-muted: #e0dd6f;
+    limbo: #8695ae;
+    bb-white: #fdfddd;
+    bb-lightwhite: #fdfded;
+
+    text-color:  #ffffff;
+    background-color:  @midnight;
+    dark: @midnight-lighter;
+    // Black
+    black:       @midnight-lighter;
+    lightblack:  @midnight-lighter-lighter;
+    //
+    // Red
+    red:         @bb-red;
+    lightred:    @bb-lightred;
+    //
+    // Green
+    green:       @nevermore;
+    lightgreen:  @portal;
+    //
+    // Yellow
+    yellow:      @obliterate-muted;
+    lightyellow: @obliterate;
+    //
+    // Blue
+    blue:      @bb-blue;
+    lightblue: @bb-lightcyan;
+    //
+    // Magenta
+    magenta:      @bb-magenta;
+    lightmagenta:     @bb-lightmagenta;
+    //
+    // Cyan
+    cyan:      @bb-cyan;
+    lightcyan:     @bb-lightcyan;
+    //
+    // White
+    white:      @bb-white;
+    lightwhite:     @bb-lightwhite;
+    //
+    // Bold, Italic, Underline
+    highlight:     bold #ffffff;
+}
+window {
+    height:   50%;
+    width: 50%;
+    location: center;
+    anchor:   center;
+    // border:  0px 2px 0px 0px;
+    // border: 2px;
+    border-color: @black;
+    text-color: @lightwhite;
+    text-style: bold;
+}
+mode-switcher {
+    border: 2px 0px 0px 0px;
+    background-color: @lightblack;
+    padding: 4px;
+}
+button selected {
+    border-color: @lightgreen;
+    text-color: @lightgreen;
+}
+inputbar {
+    background-color: @lightblack;
+    text-color: @lightgreen;
+    padding: 2px;
+    // border: 0px 0px 2px 0px;
+}
+inputbar prompt {
+    background-color: @black;
+    padding: 4px;
+}
+inputbar entry {
+    background-color: @black;
+    padding: 4px;
+}
+
+mainbox {
+    expand: true;
+    background-color: @black;
+    spacing: 1em;
+}
+listview {
+    padding: 0em 0.4em 0em 1em;
+    dynamic: false;
+    lines: 0;
+}
+element-icon {
+    padding: 0px 8px 0px 0px;
+}
+element-text {
+    background-color: inherit;
+    text-color:       inherit;
+}
+element selected  normal {
+    background-color: @lightblack;
+}
+element normal active {
+    text-color: @lightblue;
+}
+element normal urgent {
+    text-color: @lightred;
+}
+element alternate normal {
+}
+element alternate active {
+    text-color: @lightblue;
+}
+element alternate urgent {
+    text-color: @lightred;
+}
+element selected active {
+    background-color: @lightblue;
+    text-color: @dark;
+}
+element selected urgent {
+    background-color: @lightred;
+    text-color: @dark;
+}
+error-message {
+    expand: true;
+    background-color: red;
+    border-color: darkred;
+    border: 2px;
+    padding: 1em;
+}
