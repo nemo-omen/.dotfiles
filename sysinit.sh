@@ -22,5 +22,12 @@
 # rNote
 # Xournal++ (just in case)
 
+# We'll need to set up gir/github credentials before proceeding with
+# private repo cloning
+
 # Repos to clone:
-# https://github.com/nemo-omen/
+# git clone https://github.com/nemo-omen/.dotfiles.git ~/.dotfiles
+# git clone https://github.com/nemo-omen/school.git ~/school (School may also be copied on storage drive)
+
+# mkdir ~/dev ~/dev/projects ~/dev/learning (The whole ~/dev folder may also be copied on the storage drive)
+
