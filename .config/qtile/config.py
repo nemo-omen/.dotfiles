@@ -56,11 +56,6 @@ def startup():
     subprocess.Popen([startupscript])
 
 
-@hook.subscribe.current_screen_change
-def log_screen():
-    logger.debug('Yep, screen changed')
-
-
 # COLORS #
 # See colors defined in ./colors.py
 colors, backgroundColor, foregroundColor, workspaceColor, chordColor = colors.blackbird()
@@ -83,7 +78,7 @@ focuscolor = colors[5]
 # LAYOUT THEME & WIDGET DEFAULTS#
 
 widget_defaults = dict(
-    font="Fira Mono for Powerline Bold",
+    font="Fira Code NF Bold",
     fontsize=18,
     padding=5,
     background=backgroundColor,
@@ -105,10 +100,6 @@ def init_layout_theme():
 layout_theme = init_layout_theme()
 
 
-# def open_combi(qtile):
-#     qtile.cmd(terminal + 'rofi -show combi -sidebar-mode -no-show-match')
-
-
 def initWidgets(screens):
     return [
         widget.Image(
@@ -121,34 +112,29 @@ def initWidgets(screens):
             size_percent=40
         ),
         widget.GroupBox(
+            borderwidth=3,
             highlight_method="block",
-            highlight_color=[backgroundColor, focuscolor],
-            active=focuscolor,
-            inactive=colors[3],
-            borderwidth=0,
+            active=colors[5],
+            inactive=colors[1],
+            block_highlight_text_color=colors[2],
+            highlight_color=[colors[3], colors[5]],
+            # spacing=5,
+            visible_groups=list(screens),
             padding_x=10,
-            visible_groups=list(screens)
         ),
         widget.Sep(
             foreground=colors[1],
             size_percent=40
         ),
-        widget.Prompt(
-            background=colors[3]
+        # widget.Chord(
+        #     chords_colors={
+        #         "launch": (colors[10], "#ffffff"),
+        #     },
+        #     name_transform=lambda name: name.upper(),
+        # ),
+        widget.WindowName(
+            max_chars=45
         ),
-        widget.Chord(
-            chords_colors={
-                "launch": (colors[10], "#ffffff"),
-            },
-            name_transform=lambda name: name.upper(),
-        ),
-        widget.WindowName(),
-
-        # widget.TextBox("default config", name="default"),
-
-        # widget.TextBox("Press &lt;M-r&gt; to spawn", foreground = workspaceColor),
-        # NB Systray is incompatible with Wayland, consider using StatusNotifier instead
-        # widget.StatusNotifier(),
         widget.Clock(
             background=backgroundColor,
             format="%a %I:%M %p %m-%d",
@@ -195,10 +181,8 @@ def initBar(groups, screen):
     return bar.Bar(
         initWidgets(groups),
         50,
-        padding=5,
+        # padding=5,
         margin=[10, 10, 0, 10],
-        # border_width=[2, 0, 2, 0],  # Draw top and bottom borders
-        # border_color=["ff00ff", "000000", "ff00ff", "000000"]  # Borders are magenta
     )
 
 
@@ -330,7 +314,8 @@ keys.extend([
 
 
 # GROUPS #
-groups = [Group(f"{i+1}", label="") for i in range(9)]
+# groups = [Group(f"{i+1}", label="") for i in range(9)]
+groups = [Group(f"{i+1}", label="⬢") for i in range(9)]
 # See: https://github.com/qtile/qtile/issues/1271#issuecomment-458107043
 
 for i in groups:
@@ -396,19 +381,6 @@ layouts = [
     # layout.Zoomy(**layout_theme),
     layout.Floating(**layout_theme)
 ]
-
-# floating_layout = layout.Floating(
-#     float_rules=[
-#         *layout.Floating.default_float_rules,
-#         Match(wm_class='confirm'),
-#         Match(wm_class='dialog'),
-#         Match(wm_class='download'),
-#         Match(wm_class='error'),
-#         Match(wm_class='file_progress'),
-#         Match(wm_class='Alacritty')
-#     ],
-#     **layout_theme,
-# )
 
 screens = [
     Screen(
