@@ -105,6 +105,10 @@ def init_layout_theme():
 layout_theme = init_layout_theme()
 
 
+# def open_combi(qtile):
+#     qtile.cmd(terminal + 'rofi -show combi -sidebar-mode -no-show-match')
+
+
 def initWidgets(screens):
     return [
         widget.Image(
@@ -321,7 +325,6 @@ for i in groups:
         ]
     )
 
-
 # SCRATCHPADS #
 groups.append(ScratchPad('scratchpad', [
     # Guake-like terminal
@@ -330,8 +333,8 @@ groups.append(ScratchPad('scratchpad', [
     # Calendar widget dropdown
     DropDown('khal', terminal + " -t ikhal -e ikhal",
              x=0.6785, y=0.006, width=0.32, height=0.997, opacity=1),
-    DropDown('start', 'rofi -show combi -modes combi -combi-modes "window,drun,run"', x=0.6785,
-             width=0.32, height=0.6, opacity=1),
+    DropDown(
+        'start', 'rofi -show combi -modes combi -combi-modes "window,drun,run" -sidebar-mode -no-show-match', opacity=1),
 ]))
 
 # Scratchpad keybindings
