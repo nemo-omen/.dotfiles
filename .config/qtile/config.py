@@ -159,6 +159,9 @@ def initWidgets(screens):
             mouse_callbacks={
                 "Button1": lazy.group['scratchpad'].dropdown_toggle('khal')}),
         widget.Spacer(),
+        widget.Net(
+            format='🌐 {interface}: {down}↓ {up}↑'
+        ),
         widget.Sep(
             foreground=colors[1],
             size_percent=40
