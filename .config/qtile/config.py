@@ -295,7 +295,8 @@ keys = [
     Key([mod, "control"], "k", lazy.spawn("rofi -show keys"), desc="Show keys"),
     # Key([], "Print", lazy.spawn("spectacle &"), desc="Take a screenshot"),
     Key([], "Print", lazy.spawn("flameshot gui"), desc="Take a screenshot"),
-    Key([mod], "t", lazy.spawn("thunar"), desc="File manager"),
+    # Key([mod], "f", lazy.spawn(terminal + "lf"), desc="File manager"),
+    Key([mod], "f", lazy.spawn("files"), desc="File manager"),
     # Key([], "Print", lazy.spawn("shutter"), desc="Take a screenshot"),
 ]
 
@@ -402,9 +403,7 @@ floating_layout = layout.Floating(
         Match(wm_class='download'),
         Match(wm_class='error'),
         Match(wm_class='file_progress'),
-        Match(wm_class='thunar'),
-        Match(title='Thunar'),
-        Match(wm_type='_NET_WM_WINDOW_TYPE_NORMAL')
+        Match(wm_class='Org.gnome.Nautilus')
     ],
     **layout_theme,
 )
