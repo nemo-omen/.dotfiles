@@ -172,7 +172,7 @@ def initWidgets(screens):
         ),
         widget.CurrentLayoutIcon(
             foreground=colors[4],
-            padding=-10,  # Wow, hackyo
+            padding=-10,  # Wow, hacky
             scale=0.4,
         ),
         widget.Sep(
@@ -181,6 +181,7 @@ def initWidgets(screens):
         ),
         widget.QuickExit(
             default_text="⏻",
+            countdown_format='{}'
         ),
         widget.Sep(
             foreground=backgroundColor,
@@ -292,7 +293,7 @@ keys = [
         "rofi -show run"), desc="Run a command"),
     Key([mod], "d", lazy.spawn(
         "rofi -show drun"), desc="Run a command with dmenu"),
-    Key([mod, "control"], "k", lazy.spawn("rofi -show keys"), desc="Show keys"),
+    # Key([mod, "control"], "k", lazy.spawn("rofi -show keys"), desc="Show keys"),
     # Key([], "Print", lazy.spawn("spectacle &"), desc="Take a screenshot"),
     Key([], "Print", lazy.spawn("flameshot gui"), desc="Take a screenshot"),
     # Key([mod], "f", lazy.spawn(terminal + "lf"), desc="File manager"),
@@ -393,20 +394,21 @@ layouts = [
     # layout.TreeTab(**layout_theme),
     # layout.VerticalTile(**layout_theme),
     # layout.Zoomy(**layout_theme),
+    layout.Floating(**layout_theme)
 ]
 
-floating_layout = layout.Floating(
-    float_rules=[
-        *layout.Floating.default_float_rules,
-        Match(wm_class='confirm'),
-        Match(wm_class='dialog'),
-        Match(wm_class='download'),
-        Match(wm_class='error'),
-        Match(wm_class='file_progress'),
-        Match(wm_class='Org.gnome.Nautilus')
-    ],
-    **layout_theme,
-)
+# floating_layout = layout.Floating(
+#     float_rules=[
+#         *layout.Floating.default_float_rules,
+#         Match(wm_class='confirm'),
+#         Match(wm_class='dialog'),
+#         Match(wm_class='download'),
+#         Match(wm_class='error'),
+#         Match(wm_class='file_progress'),
+#         Match(wm_class='Alacritty')
+#     ],
+#     **layout_theme,
+# )
 
 screens = [
     Screen(
@@ -452,6 +454,12 @@ floating_layout = layout.Floating(
         Match(wm_class="ssh-askpass"),  # ssh-askpass
         Match(title="branchdialog"),  # gitk
         Match(title="pinentry"),  # GPG key password entry
+        Match(wm_class="org.gnome.Nautilus"),
+        Match(wm_class='confirm'),
+        Match(wm_class='dialog'),
+        Match(wm_class='download'),
+        Match(wm_class='error'),
+        Match(wm_class='file_progress'),
     ]
 )
 auto_fullscreen = True

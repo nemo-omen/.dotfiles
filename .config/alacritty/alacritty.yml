@@ -3,11 +3,11 @@ import:
 
 font:
   bold:
-    family: Fira Mono for Powerline
+    family: Fira Code NF
   italic:
-    family: Fira Mono for Powerline
+    family: Fira Code NF
   normal:
-    family: Fira Mono for Powerline
+    family: Fira Code NF
     style: Regular
   size: 12
   offset:
