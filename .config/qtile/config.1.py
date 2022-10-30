@@ -92,12 +92,14 @@ widget_defaults = dict(
 
 extension_defaults = widget_defaults.copy()
 
+# FUNCTIONS #
+
 
 def init_layout_theme():
     return {
         "margin": 10,
         "border-width": 4,
-        "border_focus": focuscolor,
+        "border_focus": colors[5],
         "border_normal": backgroundColor
     }
 
@@ -107,15 +109,15 @@ layout_theme = init_layout_theme()
 
 def initWidgets(screens):
     return [
-        widget.Image(
-            filename="~/.config/Arch.png",
-            mouse_callbacks={
-                "Button1": lazy.group['scratchpad'].dropdown_toggle('start')}
-        ),
-        widget.Sep(
-            foreground=colors[1],
-            size_percent=40
-        ),
+        # widget.Image(
+        #     filename="~/.config/Arch.png",
+        #     mouse_callbacks={
+        #         "Button1": lazy.group['scratchpad'].dropdown_toggle('start')}
+        # ),
+        # widget.Sep(
+        #     foreground=colors[1],
+        #     size_percent=40
+        # ),
         widget.GroupBox(
             highlight_method="block",
             highlight_color=[backgroundColor, focuscolor],
@@ -288,8 +290,35 @@ keys = [
         "rofi -show run"), desc="Run a command"),
     Key([mod], "d", lazy.spawn(
         "rofi -show drun"), desc="Run a command with dmenu"),
-    Key([mod, "control"], "k", lazy.spawn("rofi -show keys"), desc="Show keys"),
+    # Key([mod, "control"], "k", lazy.spawn("rofi -show keys"), desc="Show keys"),
 ]
+
+
+def show_keys():
+    key_help = ""
+    for k in keys:
+        mods = ""
+
+        for m in k.modifiers:
+            if m == "mod4":
+                mods += "Super + "
+            else:
+                mods += m.capitalize() + " + "
+
+        if len(k.key) > 1:
+            mods += k.key.capitalize()
+        else:
+            mods += k.key
+
+        key_help += "{:<30} {}".format(mods, k.desc + "\n")
+
+    return key_help
+
+
+keys.extend([
+    Key([mod], "F1", lazy.spawn("sh -c 'echo \"" + show_keys() +
+        "\" | rofi -dmenu -i -mesg \"Keyboard shortcuts\"'"), desc="Print keyboard bindings"),
+])
 
 # GROUPS #
 groups = [Group(f"{i+1}", label="") for i in range(9)]
@@ -330,8 +359,8 @@ groups.append(ScratchPad('scratchpad', [
     # Calendar widget dropdown
     DropDown('khal', terminal + " -t ikhal -e ikhal",
              x=0.6785, y=0.006, width=0.32, height=0.997, opacity=1),
-    DropDown('start', 'rofi -show combi -modes combi -combi-modes "window,drun,run"', x=0.6785,
-             width=0.32, height=0.6, opacity=1),
+    # DropDown('start', 'rofi -show combi -modes combi -combi-modes "window,drun,run"', x=0.6785,
+    #          width=0.32, height=0.6, opacity=1)
 ]))
 
 # Scratchpad keybindings
@@ -341,19 +370,19 @@ keys.extend([
 ])
 
 layouts = [
-    layout.Columns(**layout_theme, border_on_single=True),
+    layout.Columns(**layout_theme),
     layout.MonadTall(**layout_theme),
     layout.Max(**layout_theme),
     # Try more layouts by unleashing below layouts.
-    # layout.Stack(num_stacks=2, **layout_theme),
-    # layout.Bsp(**layout_theme),
-    # layout.Matrix(**layout_theme),
-    # layout.MonadWide(**layout_theme),
-    # layout.RatioTile(**layout_theme),
-    # layout.Tile(**layout_theme),
-    # layout.TreeTab(**layout_theme),
-    # layout.VerticalTile(**layout_theme),
-    # layout.Zoomy(**layout_theme),
+    # layout.Stack(num_stacks=2),
+    # layout.Bsp(),
+    # layout.Matrix(),
+    # layout.MonadWide(),
+    # layout.RatioTile(),
+    # layout.Tile(),
+    # layout.TreeTab(),
+    # layout.VerticalTile(),
+    # layout.Zoomy(),
 ]
 
 screens = [
@@ -375,13 +404,13 @@ screens = [
 ]
 
 # Drag floating layouts.
-mouse = [
-    Drag([mod], "Button1", lazy.window.set_position_floating(),
-         start=lazy.window.get_position()),
-    Drag([mod], "Button3", lazy.window.set_size_floating(),
-         start=lazy.window.get_size()),
-    Click([mod], "Button2", lazy.window.bring_to_front()),
-]
+# mouse = [
+#     Drag([mod], "Button1", lazy.window.set_position_floating(),
+#          start=lazy.window.get_position()),
+#     Drag([mod], "Button3", lazy.window.set_size_floating(),
+#          start=lazy.window.get_size()),
+#     Click([mod], "Button2", lazy.window.bring_to_front()),
+# ]
 
 dgroups_key_binder = None
 dgroups_app_rules = []  # type: list
