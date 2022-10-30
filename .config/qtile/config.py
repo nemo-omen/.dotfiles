@@ -113,8 +113,8 @@ def initWidgets(screens):
     return [
         widget.Image(
             filename="~/.config/Arch.png",
-            mouse_callbacks={
-                "Button1": lazy.group['scratchpad'].dropdown_toggle('start')}
+            mouse_callbacks={"Button1": lazy.spawn(
+                "rofi -show combi -sidebar-mode")}
         ),
         widget.Sep(
             foreground=colors[1],
@@ -293,7 +293,39 @@ keys = [
     Key([mod], "d", lazy.spawn(
         "rofi -show drun"), desc="Run a command with dmenu"),
     Key([mod, "control"], "k", lazy.spawn("rofi -show keys"), desc="Show keys"),
+    # Key([], "Print", lazy.spawn("spectacle &"), desc="Take a screenshot"),
+    Key([], "Print", lazy.spawn("flameshot gui"), desc="Take a screenshot"),
+    Key([mod], "t", lazy.spawn("thunar"), desc="File manager"),
+    # Key([], "Print", lazy.spawn("shutter"), desc="Take a screenshot"),
 ]
+
+
+def show_keys():
+    key_help = ""
+    for k in keys:
+        mods = ""
+
+        for m in k.modifiers:
+            if m == "mod4":
+                mods += "Super + "
+            else:
+                mods += m.capitalize() + " + "
+
+        if len(k.key) > 1:
+            mods += k.key.capitalize()
+        else:
+            mods += k.key
+
+        key_help += "{:<30} {}".format(mods, k.desc + "\n")
+
+    return key_help
+
+
+keys.extend([
+    Key([mod], "F1", lazy.spawn("sh -c 'echo \"" + show_keys() +
+        "\" | rofi -dmenu -i -mesg \"Keyboard shortcuts\"'"), desc="Print keyboard bindings"),
+])
+
 
 # GROUPS #
 groups = [Group(f"{i+1}", label="") for i in range(9)]
@@ -333,14 +365,17 @@ groups.append(ScratchPad('scratchpad', [
     # Calendar widget dropdown
     DropDown('khal', terminal + " -t ikhal -e ikhal",
              x=0.6785, y=0.006, width=0.32, height=0.997, opacity=1),
-    DropDown(
-        'start', 'rofi -show combi -modes combi -combi-modes "window,drun,run" -sidebar-mode -no-show-match', opacity=1),
+    # Calendar widget dropdown
+    # DropDown('thunar', "thunar",
+    #          x=0.25, y=0.25, width=0.5, height=0.5, opacity=1),
 ]))
 
 # Scratchpad keybindings
 keys.extend([
     Key([mod], "F12", lazy.group['scratchpad'].dropdown_toggle(
-        'term'), "Toggle 'guakelike' terminal")
+        'term'), "Toggle 'guakelike' terminal"),
+    # Key([mod], "t", lazy.group['scratchpad'].dropdown_toggle(
+    #     'thunar'), "Open Thunar")
 ])
 
 layouts = [
@@ -358,6 +393,21 @@ layouts = [
     # layout.VerticalTile(**layout_theme),
     # layout.Zoomy(**layout_theme),
 ]
+
+floating_layout = layout.Floating(
+    float_rules=[
+        *layout.Floating.default_float_rules,
+        Match(wm_class='confirm'),
+        Match(wm_class='dialog'),
+        Match(wm_class='download'),
+        Match(wm_class='error'),
+        Match(wm_class='file_progress'),
+        Match(wm_class='thunar'),
+        Match(title='Thunar'),
+        Match(wm_type='_NET_WM_WINDOW_TYPE_NORMAL')
+    ],
+    **layout_theme,
+)
 
 screens = [
     Screen(

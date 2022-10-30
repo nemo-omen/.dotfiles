@@ -96,6 +96,9 @@ source $ZSH/oh-my-zsh.sh
 export DENO_INSTALL="/home/trainingmontage/.deno"
 export PATH="$DENO_INSTALL/bin:$PATH"
 
+# Export QT theme
+export QT_QPA_PLATFORMTHEME="qt5ct"
+
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
