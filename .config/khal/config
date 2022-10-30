@@ -3,6 +3,7 @@
 [[private1]]
 path = /home/trainingmontage/.local/share/khal/calendars/private1
 type = calendar
+color = light red
 
 [locale]
 timeformat = %I:%M %p
@@ -13,3 +14,9 @@ longdatetimeformat = %m/%d/%Y %I:%M %p
 
 [default]
 default_calendar = private1
+highlight_event_days = True
+
+[highlight_days]
+default_color = light gray
+color = light red
+method = background
