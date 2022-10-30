@@ -30,9 +30,14 @@
 from tokenize import Number
 from libqtile import bar, hook, layout, widget
 from libqtile.config import Click, Drag, DropDown, Group, Key, Match, Screen, ScratchPad
+# from libqtile.widget.base import _Widget
 from libqtile.lazy import lazy
 from libqtile.log_utils import logger
 from libqtile.utils import guess_terminal
+from qtile_extras import widget
+from qtile_extras.bar import Bar
+from qtile_extras.widget import modify
+from qtile_extras.widget.decorations import RectDecoration
 # os and subprocess needed for autostart
 import os
 import subprocess
@@ -58,21 +63,22 @@ def startup():
 
 # COLORS #
 # See colors defined in ./colors.py
-colors, backgroundColor, foregroundColor, workspaceColor, chordColor = colors.blackbird()
-focuscolor = colors[5]
+colors, backgroundColor, foregroundColor, workspaceColor, chordColor, offsetColor, offsetHoverColor, focusColor, accentColor, highlightColor = colors.blackbird()
+
 # colors = [
-#     ["#011528", "#011528"],  # background (midnight) [0]
-#     ["#8695ae", "#8695ae"],  # light gray (limbo) [1]
-#     ["#ffffff", "#ffffff"],  # foreground (spirit) [2]
-#     ["#05213b", "#05213b"],  # blue/grey (midnight-lighter) [3]
-#     ["#79efc4", "#79efc4"],  # lightgreen (portal)[4]
-#     ["#66d4ff", "#66d4ff"],  # cyan [5]
-#     ["#00b8b4", "#00b8b4"],  # green (nevermore) [6]
-#     ["#fac185", "#fac185"],  # orange [7]
-#     ["#ff639d", "#ff639d"],  # pink (potion) [8]
-#     ["#e863ff", "#e863ff"],  # purple [9]
-#     ['#ff6363', '#ff6363'],  # red [10]
-#     ["#f1fa8c", "#f1fa8c"]  # yellow (obliterate) [11]
+#     ["#011528", "#011528"],  # background [0]
+#     ["#8695ae", "#8695ae"],  # light gray [1]
+#     ["#ffffff", "#ffffff"],  # foreground [2]
+#     ["#05213b", "#05213b"],  # offsetColor [3]
+#     ["#0a2d4d", "#0a2d4d"],  # offsetHoverColor [4]
+#     ["#66d4ff", "#66d4ff"],  # focusColor [5]
+#     ["#00b8b4", "#00b8b4"],  # green  [6]
+#     ["#79efc4", "#79efc4"],  # highlightColor [7]
+#     ["#fac185", "#fac185"],  # orange [8]
+#     ["#ff639d", "#ff639d"],  # accentColor [9]
+#     ["#e863ff", "#e863ff"],  # purple [10]
+#     ['#ff6363', '#ff6363'],  # red [11]
+#     ["#f1fa8c", "#f1fa8c"]   # yellow [12]
 # ]
 
 # LAYOUT THEME & WIDGET DEFAULTS#
@@ -92,7 +98,7 @@ def init_layout_theme():
     return {
         "margin": 10,
         "border-width": 4,
-        "border_focus": focuscolor,
+        "border_focus": focusColor,
         "border_normal": backgroundColor
     }
 
@@ -100,12 +106,27 @@ def init_layout_theme():
 layout_theme = init_layout_theme()
 
 
+dark_rounded_rect_decoration = {
+    "decorations": [
+        RectDecoration(colour=offsetColor, radius=10, filled=True, padding=5)
+    ]
+}
+
+light_rounded_rect_decoration = {
+    "decorations": [
+        RectDecoration(colour=offsetHoverColor, radius=10,
+                       filled=True, padding=5, group=True)
+    ]
+}
+
+
 def initWidgets(screens):
     return [
         widget.Image(
             filename="~/.config/Arch.png",
             mouse_callbacks={"Button1": lazy.spawn(
-                "rofi -show combi -sidebar-mode")}
+                "rofi -show combi -sidebar-mode")},
+            **dark_rounded_rect_decoration
         ),
         widget.Sep(
             foreground=colors[1],
@@ -114,13 +135,12 @@ def initWidgets(screens):
         widget.GroupBox(
             borderwidth=3,
             highlight_method="block",
-            active=colors[5],
-            inactive=colors[1],
-            block_highlight_text_color=colors[2],
-            highlight_color=[colors[3], colors[5]],
-            # spacing=5,
+            active=focusColor,
+            inactive=offsetColor,
+            highlight_color=offsetColor,
+            block_highlight_text_color=foregroundColor,
             visible_groups=list(screens),
-            padding_x=10,
+            padding_x=5,
         ),
         widget.Sep(
             foreground=colors[1],
@@ -278,10 +298,10 @@ keys = [
     Key([mod], "d", lazy.spawn(
         "rofi -show drun"), desc="Run a command with dmenu"),
     # Key([mod, "control"], "k", lazy.spawn("rofi -show keys"), desc="Show keys"),
-    # Key([], "Print", lazy.spawn("spectacle &"), desc="Take a screenshot"),
+    Key([mod], "f", lazy.spawn("alacritty -e lf"), desc="File manager"),
+    Key([mod, "shift"], "f", lazy.spawn("files"), desc="File manager"),
     Key([], "Print", lazy.spawn("flameshot gui"), desc="Take a screenshot"),
-    # Key([mod], "f", lazy.spawn(terminal + "lf"), desc="File manager"),
-    Key([mod], "f", lazy.spawn("files"), desc="File manager"),
+    # Key([], "Print", lazy.spawn("spectacle &"), desc="Take a screenshot"),
     # Key([], "Print", lazy.spawn("shutter"), desc="Take a screenshot"),
 ]
 
@@ -427,6 +447,7 @@ floating_layout = layout.Floating(
         Match(title="branchdialog"),  # gitk
         Match(title="pinentry"),  # GPG key password entry
         Match(wm_class="org.gnome.Nautilus"),
+        Match(wm_class="thunar"),
         Match(wm_class='confirm'),
         Match(wm_class='dialog'),
         Match(wm_class='download'),

@@ -1,25 +1,31 @@
 # Blackbird
 def blackbird():
     colors = [
-        ["#011528", "#011528"],  # background (midnight) [0]
-        ["#8695ae", "#8695ae"],  # light gray (limbo) [1]
-        ["#ffffff", "#ffffff"],  # foreground (spirit) [2]
-        ["#05213b", "#05213b"],  # blue/grey (midnight-lighter) [3]
-        ["#79efc4", "#79efc4"],  # lightgreen (portal)[4]
-        ["#66d4ff", "#66d4ff"],  # cyan [5]
-        ["#00b8b4", "#00b8b4"],  # green (nevermore) [6]
-        ["#fac185", "#fac185"],  # orange [7]
-        ["#ff639d", "#ff639d"],  # pink (potion) [8]
-        ["#e863ff", "#e863ff"],  # purple [9]
-        ['#ff6363', '#ff6363'],  # red [10]
-        ["#f1fa8c", "#f1fa8c"]  # yellow (obliterate) [11]
+        ["#011528", "#011528"],  # background [0]
+        ["#8695ae", "#8695ae"],  # light gray [1]
+        ["#ffffff", "#ffffff"],  # foreground [2]
+        ["#05213b", "#05213b"],  # offsetColor [3]
+        ["#0a2d4d", "#0a2d4d"],  # blue/offsetHoverColor [4]
+        ["#66d4ff", "#66d4ff"],  # highlightColor [5]
+        ["#00b8b4", "#00b8b4"],  # green  [6]
+        ["#79efc4", "#79efc4"],  # lightgreen [7]
+        ["#fac185", "#fac185"],  # orange [8]
+        ["#ff639d", "#ff639d"],  # accentColor [9]
+        ["#e863ff", "#e863ff"],  # purple [10]
+        ['#ff6363', '#ff6363'],  # red [11]
+        ["#f1fa8c", "#f1fa8c"]   # yellow [12]
     ]
 
-    backgroundColor = colors[0][0]
-    foregroundColor = colors[2][0]
-    workspaceColor = colors[7][0]
-    foregroundColorTwo = colors[1][0]
-    return colors, backgroundColor, foregroundColor, workspaceColor, foregroundColorTwo
+    offsetColor = colors[3]
+    offsetHoverColor = colors[4]
+    accentColor = colors[9]
+    focusColor = colors[5]
+    highlightColor = colors[7]
+    backgroundColor = colors[0]
+    foregroundColor = colors[2]
+    workspaceColor = colors[7]
+    foregroundColorTwo = colors[1]
+    return colors, backgroundColor, foregroundColor, workspaceColor, foregroundColorTwo, offsetColor, offsetHoverColor, focusColor, accentColor, highlightColor
 
 # Dracula
 
