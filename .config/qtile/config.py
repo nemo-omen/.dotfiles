@@ -142,24 +142,23 @@ def initWidgets(screens):
             visible_groups=list(screens),
             padding_x=5,
         ),
-        widget.Sep(
-            foreground=colors[1],
-            size_percent=40
-        ),
         # widget.Chord(
         #     chords_colors={
         #         "launch": (colors[10], "#ffffff"),
         #     },
         #     name_transform=lambda name: name.upper(),
         # ),
-        widget.WindowName(
-            max_chars=45
-        ),
+        widget.Spacer(),
+        # widget.WindowName(
+        # max_chars=55,
+        # **dark_rounded_rect_decoration
+        # ),
         widget.Clock(
             background=backgroundColor,
-            format="%a %I:%M %p %m-%d",
+            format="%A, %B %d, %Y, %I:%M %p",
             mouse_callbacks={
                 "Button1": lazy.group['scratchpad'].dropdown_toggle('khal')}),
+        widget.Spacer(),
         widget.Sep(
             foreground=colors[1],
             size_percent=40
@@ -371,7 +370,7 @@ groups.append(ScratchPad('scratchpad', [
              height=0.4, x=0.2, y=0.006, opacity=1),
     # Calendar widget dropdown
     DropDown('khal', terminal + " -t ikhal -e ikhal",
-             x=0.6785, y=0.006, width=0.32, height=0.997, opacity=1),
+             x=0.25, y=0.001, width=0.5, height=0.5, opacity=1),
     # Calendar widget dropdown
     # DropDown('thunar', "thunar",
     #          x=0.25, y=0.25, width=0.5, height=0.5, opacity=1),
