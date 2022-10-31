@@ -28,23 +28,30 @@
 # qtile cmd-obj -o cmd -f reload_config
 
 from tokenize import Number
+
+# Qtile
 from libqtile import bar, hook, layout, widget
 from libqtile.config import Click, Drag, DropDown, Group, Key, Match, Screen, ScratchPad
-# from libqtile.widget.base import _Widget
+from libqtile.widget import TextBox
 from libqtile.lazy import lazy
 from libqtile.log_utils import logger
 from libqtile.utils import guess_terminal
+
+# Qtile extras
 from qtile_extras import widget
+# from qtile_extras.widget import globalmenu
 from qtile_extras.bar import Bar
 from qtile_extras.widget import modify
 from qtile_extras.widget.decorations import RectDecoration
+from qtile_extras.widget.mixins import TooltipMixin
+
 # os and subprocess needed for autostart
 import os
 import subprocess
 import colors
 import traverse
+
 mod = "mod4"
-# terminal = guess_terminal()
 terminal = "alacritty"
 HOME = "/home/trainingmontage/"
 
@@ -142,6 +149,11 @@ def initWidgets(screens):
             visible_groups=list(screens),
             padding_x=5,
         ),
+        widget.Sep(
+            foreground=colors[1],
+            size_percent=40
+        ),
+        # widget.GlobalMenu(),
         # widget.Chord(
         #     chords_colors={
         #         "launch": (colors[10], "#ffffff"),
@@ -188,8 +200,10 @@ def initWidgets(screens):
             size_percent=40
         ),
         widget.QuickExit(
-            default_text="⏻",
-            countdown_format='{}'
+            default_text="⏾",
+            countdown_format='{}',
+            padding=20,
+            **dark_rounded_rect_decoration
         ),
         widget.Sep(
             foreground=backgroundColor,
@@ -301,10 +315,10 @@ keys = [
         "rofi -show drun"), desc="Run a command with dmenu"),
     # Key([mod, "control"], "k", lazy.spawn("rofi -show keys"), desc="Show keys"),
     Key([mod], "f", lazy.spawn("alacritty -e lf"), desc="File manager"),
-    Key([mod, "shift"], "f", lazy.spawn("files"), desc="File manager"),
-    Key([], "Print", lazy.spawn("flameshot gui"), desc="Take a screenshot"),
+    Key([mod, "shift"], "f", lazy.spawn("thunar"), desc="File manager"),
+    # Key([], "Print", lazy.spawn("flameshot gui"), desc="Take a screenshot"),
     # Key([], "Print", lazy.spawn("spectacle &"), desc="Take a screenshot"),
-    # Key([], "Print", lazy.spawn("shutter"), desc="Take a screenshot"),
+    Key([], "Print", lazy.spawn("shutter"), desc="Take a screenshot"),
 ]
 
 
@@ -359,10 +373,6 @@ for i in groups:
                 desc="Switch to & move focused window to group {}".format(
                     i.name),
             ),
-            # Or, use below if you prefer not to switch to that group.
-            # # mod1 + shift + letter of group = move focused window to group
-            # Key([mod, "shift"], i.name, lazy.window.togroup(i.name),
-            #     desc="move focused window to group {}".format(i.name)),
         ]
     )
 
@@ -374,9 +384,6 @@ groups.append(ScratchPad('scratchpad', [
     # Calendar widget dropdown
     DropDown('khal', terminal + " -t ikhal -e ikhal",
              x=0.25, y=0.001, width=0.5, height=0.5, opacity=1),
-    # Calendar widget dropdown
-    # DropDown('thunar', "thunar",
-    #          x=0.25, y=0.25, width=0.5, height=0.5, opacity=1),
 ]))
 
 # Scratchpad keybindings
@@ -391,6 +398,7 @@ layouts = [
     layout.Columns(**layout_theme, border_on_single=True),
     layout.MonadTall(**layout_theme),
     layout.Max(**layout_theme),
+    layout.Floating(**layout_theme),
     # Try more layouts by unleashing below layouts.
     # layout.Stack(num_stacks=2, **layout_theme),
     # layout.Bsp(**layout_theme),
@@ -401,13 +409,12 @@ layouts = [
     # layout.TreeTab(**layout_theme),
     # layout.VerticalTile(**layout_theme),
     # layout.Zoomy(**layout_theme),
-    layout.Floating(**layout_theme)
 ]
 
 screens = [
     Screen(
         top=initBar("1234", 0),
-        wallpaper="~/Pictures/JupiterJunoMissionWallpaper.jpg",
+        wallpaper="~/Pictures/TarantulaNebulaWallpaper.png",
         wallpaper_mode="fill"
     ),
     Screen(
@@ -422,22 +429,8 @@ screens = [
     ),
 ]
 
-# Drag floating layouts.
-mouse = [
-    Drag([mod], "Button1", lazy.window.set_position_floating(),
-         start=lazy.window.get_position()),
-    Drag([mod], "Button3", lazy.window.set_size_floating(),
-         start=lazy.window.get_size()),
-    Click([mod], "Button2", lazy.window.bring_to_front()),
-]
-
-dgroups_key_binder = None
-dgroups_app_rules = []  # type: list
-follow_mouse_focus = True
-bring_front_click = False
-cursor_warp = False
 floating_layout = layout.Floating(
-    border_focus=focuscolor,
+    border_focus=focusColor,
     border_width=2,
     float_rules=[
         # Run the utility of `xprop` to see the wm class and name of an X client.
@@ -455,8 +448,25 @@ floating_layout = layout.Floating(
         Match(wm_class='download'),
         Match(wm_class='error'),
         Match(wm_class='file_progress'),
+        Match(wm_class='thunar'),
+        Match(wm_class='shutter'),
     ]
 )
+
+# Drag floating layouts.
+mouse = [
+    Drag([mod], "Button1", lazy.window.set_position_floating(),
+         start=lazy.window.get_position()),
+    Drag([mod], "Button3", lazy.window.set_size_floating(),
+         start=lazy.window.get_size()),
+    Click([mod], "Button2", lazy.window.bring_to_front()),
+]
+
+dgroups_key_binder = None
+dgroups_app_rules = []  # type: list
+follow_mouse_focus = True
+bring_front_click = False
+cursor_warp = False
 auto_fullscreen = True
 focus_on_window_activation = "smart"
 reconfigure_screens = True
