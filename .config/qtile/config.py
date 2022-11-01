@@ -213,11 +213,86 @@ def initWidgets(screens):
     ]
 
 
+def initWidgets_screen3(screens):
+    return [
+        widget.Image(
+            filename="~/.config/Arch.png",
+            mouse_callbacks={"Button1": lazy.spawn(
+                "rofi -show combi -sidebar-mode")},
+            **dark_rounded_rect_decoration
+        ),
+        widget.Sep(
+            foreground=colors[1],
+            size_percent=40
+        ),
+        widget.GroupBox(
+            borderwidth=3,
+            highlight_method="block",
+            active=focusColor,
+            inactive=offsetColor,
+            highlight_color=offsetColor,
+            block_highlight_text_color=foregroundColor,
+            visible_groups=list(screens),
+            padding_x=5,
+        ),
+        widget.Sep(
+            foreground=colors[1],
+            size_percent=40
+        ),
+        widget.Image(
+            filename="~/.dotfiles/.config/rnote.png",
+            mouse_callbacks={"Button1": lazy.spawn(
+                "rnote")},
+            **dark_rounded_rect_decoration
+        ),
+        widget.Spacer(),
+        widget.Clock(
+            background=backgroundColor,
+            format="%A, %B %d, %Y, %I:%M %p",
+            mouse_callbacks={
+                "Button1": lazy.group['scratchpad'].dropdown_toggle('khal')}),
+        widget.Spacer(),
+        widget.Volume(fmt='🔊 {}'),
+        widget.Sep(
+            foreground=colors[1],
+            size_percent=40
+        ),
+        widget.CurrentLayoutIcon(
+            foreground=colors[4],
+            padding=-10,  # Wow, hacky
+            scale=0.4,
+        ),
+        widget.Sep(
+            foreground=colors[1],
+            size_percent=40
+        ),
+        widget.QuickExit(
+            default_text="⏾",
+            countdown_format='{}',
+            padding=20,
+            **dark_rounded_rect_decoration
+        ),
+        widget.Sep(
+            foreground=backgroundColor,
+            linewidth=5,
+            size_percent=40
+        ),
+    ]
+
+
 def initBar(groups, screen):
     return bar.Bar(
         initWidgets(groups),
         50,
         # padding=5,
+        margin=[10, 10, 0, 10],
+    )
+
+
+def initBar_screen3(groups, screen):
+    return bar.Bar(
+        initWidgets_screen3(groups),
+        50,
         margin=[10, 10, 0, 10],
     )
 
@@ -319,6 +394,7 @@ keys = [
     # Key([], "Print", lazy.spawn("flameshot gui"), desc="Take a screenshot"),
     # Key([], "Print", lazy.spawn("spectacle &"), desc="Take a screenshot"),
     Key([], "Print", lazy.spawn("shutter"), desc="Take a screenshot"),
+    Key([mod], 'v', lazy.spawn("alacritty -e pulsemixer", 'Adjust the volume')),
 ]
 
 
@@ -423,7 +499,7 @@ screens = [
         wallpaper_mode="fill"
     ),
     Screen(
-        top=initBar("89", 2),
+        top=initBar_screen3("89", 2),
         wallpaper="~/Pictures/PillarsOfCreationWallpaper.png",
         wallpaper_mode="fill"
     ),
@@ -450,6 +526,7 @@ floating_layout = layout.Floating(
         Match(wm_class='file_progress'),
         Match(wm_class='thunar'),
         Match(wm_class='shutter'),
+        Match(wm_class='pamac-manager')
     ]
 )
 
