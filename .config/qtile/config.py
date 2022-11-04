@@ -399,7 +399,8 @@ keys = [
     # Key([], "Print", lazy.spawn("flameshot gui"), desc="Take a screenshot"),
     # Key([], "Print", lazy.spawn("spectacle &"), desc="Take a screenshot"),
     Key([], "Print", lazy.spawn("shutter"), desc="Take a screenshot"),
-    Key([mod], 'v', lazy.spawn("alacritty -e pulsemixer", 'Adjust the volume')),
+    Key([mod], 'v', lazy.spawn("alacritty -e pulsemixer"), 'Adjust the volume'),
+    Key([mod, "control"], 'f', lazy.window.toggle_floating(), 'Toggle floating'),
 ]
 
 
