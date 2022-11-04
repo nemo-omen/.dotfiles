@@ -252,6 +252,11 @@ def initWidgets_screen3(screens):
             mouse_callbacks={
                 "Button1": lazy.group['scratchpad'].dropdown_toggle('khal')}),
         widget.Spacer(),
+        widget.Notify(),
+        widget.Sep(
+            foreground=colors[1],
+            size_percent=40
+        ),
         widget.Volume(fmt='🔊 {}'),
         widget.Sep(
             foreground=colors[1],
@@ -517,6 +522,8 @@ floating_layout = layout.Floating(
         Match(wm_class="ssh-askpass"),  # ssh-askpass
         Match(title="branchdialog"),  # gitk
         Match(title="pinentry"),  # GPG key password entry
+        Match(title="zoom"),  # zoom
+        # Match(title="microsoft teams - preview"),  # teams
         Match(wm_class="org.gnome.Nautilus"),
         Match(wm_class="thunar"),
         Match(wm_class='confirm'),
@@ -526,7 +533,10 @@ floating_layout = layout.Floating(
         Match(wm_class='file_progress'),
         Match(wm_class='thunar'),
         Match(wm_class='shutter'),
-        Match(wm_class='pamac-manager')
+        Match(wm_class='pamac-manager'),
+        Match(wm_class="zoom"),  # zoom
+        Match(wm_class="zoom.real"),  # zoom
+        Match(wm_class="microsoft teams - preview"),  # teams
     ]
 )
 

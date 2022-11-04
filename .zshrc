@@ -109,7 +109,7 @@ export GTK2_RC_FILES="$HOME/.gtkrc-2.0"
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
 #
-# Example aliases
+# AILASES
 alias omzconfig="code ~/.oh-my-zsh"
 alias zshconfig="code ~/.zshrc"
 alias roficonfig="code ~/.config/rofi/config.rasi"
@@ -117,9 +117,13 @@ alias qtileconfig="code ~/.config/qtile/config.py"
 alias defaultapps="code ~/.config/mimeapps.list"
 alias dotfiles="code ~/.dotfiles"
 alias sourcerc="source ~/.zshrc"
+alias vim="nvim"
 
 # Slightly temporary
 alias codeschool="code ~/school/2022-fall" # will change per semester
 alias 4301="cd ~/school/2022-fall/4301"
 alias 3352="cd ~/school/2022-fall/3352"
 alias 3372="cd ~/school/2022-fall/3372"
+
+alias koreatime="/bin/zsh ~/koreatime.sh"
+alias compilerproject="code ~/school/2022-fall/4301/compiler"
