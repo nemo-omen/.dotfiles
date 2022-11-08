@@ -401,6 +401,7 @@ keys = [
     Key([], "Print", lazy.spawn("shutter"), desc="Take a screenshot"),
     Key([mod], 'v', lazy.spawn("alacritty -e pulsemixer"), 'Adjust the volume'),
     Key([mod, "control"], 'f', lazy.window.toggle_floating(), 'Toggle floating'),
+    Key([], 'F11', lazy.window.toggle_fullscreen(), 'Toggle fullscreen'),
 ]
 
 

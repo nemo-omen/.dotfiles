@@ -104,12 +104,26 @@ export PATH="$DENO_INSTALL/bin:$PATH"
 export QT_QPA_PLATFORMTHEME="qt5ct"
 export QT_AUTO_SCREEN_SCALE_FACTOR=0
 export GTK2_RC_FILES="$HOME/.gtkrc-2.0"
+
+# FUNCTIONS
+cpdat() {
+   scp jcaldwell2@csunix.angelo.edu:/usr/local/4301/data/stage0/"$1".dat .
+   scp jcaldwell2@csunix.angelo.edu:/usr/local/4301/data/stage0/"$1".lst .
+   scp jcaldwell2@csunix.angelo.edu:/usr/local/4301/data/stage0/"$1".asm .
+}
+
+runc() {
+   make clean
+   make stage0
+   ./stage0 "$1".dat dev_"$1".lst dev_"$1".asm
+}
+
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
 #
-# AILASES
+# ALIASES
 alias omzconfig="code ~/.oh-my-zsh"
 alias zshconfig="code ~/.zshrc"
 alias roficonfig="code ~/.config/rofi/config.rasi"
@@ -118,7 +132,7 @@ alias defaultapps="code ~/.config/mimeapps.list"
 alias dotfiles="code ~/.dotfiles"
 alias sourcerc="source ~/.zshrc"
 alias vim="nvim"
-
+alias ffd="firefox-developer-edition"
 # Slightly temporary
 alias codeschool="code ~/school/2022-fall" # will change per semester
 alias 4301="cd ~/school/2022-fall/4301"
@@ -127,3 +141,4 @@ alias 3372="cd ~/school/2022-fall/3372"
 
 alias koreatime="/bin/zsh ~/koreatime.sh"
 alias compilerproject="code ~/school/2022-fall/4301/compiler"
+alias sshasu="ssh jcaldwell2@csunix.angelo.edu"
