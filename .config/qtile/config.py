@@ -53,6 +53,7 @@ import traverse
 
 mod = "mod4"
 terminal = "alacritty"
+# terminal = "kitty"
 HOME = "/home/trainingmontage/"
 
 # CHECK THIS EXAMPLE
@@ -242,7 +243,7 @@ def initWidgets_screen3(screens):
         widget.Image(
             filename="~/.dotfiles/.config/rnote.png",
             mouse_callbacks={"Button1": lazy.spawn(
-                "rnote")},
+                "flatpak run com.github.flxzt.rnote")},
             **dark_rounded_rect_decoration
         ),
         widget.Spacer(),
@@ -527,13 +528,12 @@ floating_layout = layout.Floating(
         Match(title="zoom"),  # zoom
         # Match(title="microsoft teams - preview"),  # teams
         Match(wm_class="org.gnome.Nautilus"),
-        Match(wm_class="thunar"),
+        # Match(wm_class="thunar"),
         Match(wm_class='confirm'),
         Match(wm_class='dialog'),
         Match(wm_class='download'),
         Match(wm_class='error'),
         Match(wm_class='file_progress'),
-        Match(wm_class='thunar'),
         Match(wm_class='shutter'),
         Match(wm_class='pamac-manager'),
         Match(wm_class="zoom"),  # zoom

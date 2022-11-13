@@ -140,5 +140,9 @@ alias 3352="cd ~/school/2022-fall/3352"
 alias 3372="cd ~/school/2022-fall/3372"
 
 alias koreatime="/bin/zsh ~/koreatime.sh"
-alias compilerproject="code ~/school/2022-fall/4301/compiler"
+alias compilerproject="code ~/dev/compiler"
 alias sshasu="ssh jcaldwell2@csunix.angelo.edu"
+
+alias cpdat="./cpdat.sh $1"
+alias rmdat="./rmdat.sh $1"
+alias runc="./runc.sh $1"
