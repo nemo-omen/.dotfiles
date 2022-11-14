@@ -1,29 +1,21 @@
-stds.nvim = {
-  globals = {
-    vim = { fields = { "g", "opt" } },
-    table = { fields = { "unpack" } },
-    package = { fields = { "searchers" } },
-    doom = { fields = { "packages", "binds", "autocmds" } },
-    _doom = { fields = { "cmp_enable" } }
-  },
-  read_globals = {
-    "vim",
-    "jit",
-    "packer_plugins",
-    "doom",
-    "_doom"
-  },
+-- Global objects
+globals = {
+  "PACKER_BOOTSTRAP",
+  "astronvim",
+  "astronvim_installation",
+  "vim",
+  "bit",
+  "C",
+  "packer_plugins",
 }
-std = "lua51+nvim"
 
--- Rerun tests only if their modification time changed.
+-- Rerun tests only if their modification time changed
 cache = true
 
--- NOTE: rules from 200...400 are specific for Neovim stuff, e.g. vim.opt
-ignore = {
-  "212/_.*", -- Unused argument, for variables with "_" prefix.
-  "331", -- Value assigned to a local variable is mutated but never accessed.
-  "631", -- Line is too long.
-}
+-- Don't report unused self arguments of methods
+self = false
 
--- vim: ft=lua sw=2 ts=2
+ignore = {
+  "631", -- max_line_length
+  "212/_.*", -- unused argument, for vars with "_" prefix
+}

@@ -1,36 +1,21 @@
--- Check if user is running Doom in a supported Neovim version before trying to load anything
-if vim.fn.has("nvim-0.7.0") ~= 1 then
-  local message = table.concat({
-    "You are using an unsupported version of Neovim.",
-    "",
-    "Doom nvim and many of its plugins require at least version 0.7.0 to work as expected.",
-    "Consider updating if you run into issues.",
-    "https://github.com/NTBBloodbath/doom-nvim/blob/main/docs/updating-neovim.md",
-  }, "\n")
-  vim.notify(message, vim.log.levels.ERROR)
+local impatient_ok, impatient = pcall(require, "impatient")
+if impatient_ok then impatient.enable_profile() end
+
+for _, source in ipairs {
+  "core.utils",
+  "core.options",
+  "core.bootstrap",
+  "core.diagnostics",
+  "core.autocmds",
+  "core.mappings",
+  "configs.which-key-register",
+} do
+  local status_ok, fault = pcall(require, source)
+  if not status_ok then vim.api.nvim_err_writeln("Failed to load " .. source .. "\n\n" .. fault) end
 end
 
-local profiler = require("doom.services.profiler")
-profiler.start("framework|init.lua")
+astronvim.conditional_func(astronvim.user_plugin_opts("polish", nil, false))
 
-
--- Makes sure ~/.local/share/nvim exists, to prevent problems with logging
-vim.fn.mkdir(vim.fn.stdpath("data"), "p")
-
--- Add ~/.local/share to runtimepath early, such that
--- neovim autoloads plugin/packer_compiled.lua along with vimscript,
--- before we start using the plugins it lazy-loads.
-vim.opt.runtimepath:append(vim.fn.stdpath("data"))
-
--- Load the doom-nvim framework
-require("doom.core")
-
-vim.defer_fn(function()
-  -- Check for updates
-  if doom.check_updates and doom.core.updater then
-    doom.core.updater.check_updates(true)
-  end
-end, 1)
-
-
-profiler.stop("framework|init.lua")
+if vim.fn.has "nvim-0.8" ~= 1 or vim.version().prerelease then
+  vim.schedule(function() astronvim.notify("Unsupported Neovim Version! Please check the requirements", "error") end)
+end

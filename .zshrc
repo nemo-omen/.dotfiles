@@ -94,6 +94,11 @@ source $ZSH/oh-my-zsh.sh
 # export ARCHFLAGS="-arch x86_64"
 
 # Exports
+
+# nvm
+export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+
 export EDITOR="nvim"
 
 # Paths
@@ -106,16 +111,20 @@ export QT_AUTO_SCREEN_SCALE_FACTOR=0
 export GTK2_RC_FILES="$HOME/.gtkrc-2.0"
 
 # FUNCTIONS
-cpdat() {
+function cpdat() {
    scp jcaldwell2@csunix.angelo.edu:/usr/local/4301/data/stage0/"$1".dat .
    scp jcaldwell2@csunix.angelo.edu:/usr/local/4301/data/stage0/"$1".lst .
    scp jcaldwell2@csunix.angelo.edu:/usr/local/4301/data/stage0/"$1".asm .
 }
 
-runc() {
+function rmdat() {
+   rm $.dat $.lst $.asm
+}
+
+function runc() {
    make clean
-   make stage0
-   ./stage0 "$1".dat dev_"$1".lst dev_"$1".asm
+   make stage1
+   ./stage1 "$1".dat dev_"$1".lst dev_"$1".asm
 }
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
@@ -131,7 +140,7 @@ alias qtileconfig="code ~/.config/qtile/config.py"
 alias defaultapps="code ~/.config/mimeapps.list"
 alias dotfiles="code ~/.dotfiles"
 alias sourcerc="source ~/.zshrc"
-alias vim="nvim"
+alias vim="/home/trainingmontage/.local/bin/lvim"
 alias ffd="firefox-developer-edition"
 # Slightly temporary
 alias codeschool="code ~/school/2022-fall" # will change per semester
@@ -143,6 +152,14 @@ alias koreatime="/bin/zsh ~/koreatime.sh"
 alias compilerproject="code ~/dev/compiler"
 alias sshasu="ssh jcaldwell2@csunix.angelo.edu"
 
-alias cpdat="./cpdat.sh $1"
-alias rmdat="./rmdat.sh $1"
-alias runc="./runc.sh $1"
+# alias cpdat="./cpdat.sh $1"
+# alias rmdat="./rmdat.sh $1"
+# alias runc="./runc.sh $1"
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# pnpm
+export PNPM_HOME="/home/trainingmontage/.local/share/pnpm"
+export PATH="$PNPM_HOME:$PATH"
+# pnpm end
