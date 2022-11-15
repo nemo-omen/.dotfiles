@@ -140,7 +140,7 @@ alias qtileconfig="code ~/.config/qtile/config.py"
 alias defaultapps="code ~/.config/mimeapps.list"
 alias dotfiles="code ~/.dotfiles"
 alias sourcerc="source ~/.zshrc"
-alias vim="/home/trainingmontage/.local/bin/lvim"
+alias vim="lvim"
 alias ffd="firefox-developer-edition"
 # Slightly temporary
 alias codeschool="code ~/school/2022-fall" # will change per semester
@@ -155,6 +155,8 @@ alias sshasu="ssh jcaldwell2@csunix.angelo.edu"
 # alias cpdat="./cpdat.sh $1"
 # alias rmdat="./rmdat.sh $1"
 # alias runc="./runc.sh $1"
+
+# EXPORTS
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
