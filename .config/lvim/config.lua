@@ -180,6 +180,16 @@ lvim.plugins = {
       vim.g.mkdp_auto_start = 1
     end,
   },
+  {
+    'wfxr/minimap.vim',
+    run = "cargo install --locked code-minimap",
+    -- cmd = {"Minimap", "MinimapClose", "MinimapToggle", "MinimapRefresh", "MinimapUpdateHighlight"},
+    config = function ()
+      vim.cmd ("let g:minimap_width = 10")
+      vim.cmd ("let g:minimap_auto_start = 1")
+      vim.cmd ("let g:minimap_auto_start_win_enter = 1")
+    end,
+  },
 }
 
 -- Autocommands (https://neovim.io/doc/user/autocmd.html)
@@ -195,3 +205,20 @@ lvim.plugins = {
 --     require("nvim-treesitter.highlight").attach(0, "bash")
 --   end,
 -- })
+
+vim.opt.guifont = "monospace:h16"
+
+lvim.builtin.alpha.dashboard.section.header.val = {
+  [[                                                                                        ]],
+  [[ ___       ___  ___  ________   ________  ________  ___      ___ ___  _____ ______      ]],
+  [[|\  \     |\  \|\  \|\   ___  \|\   __  \|\   __  \|\  \    /  /|\  \|\   _ \  _   \    ]],
+  [[\ \  \    \ \  \\\  \ \  \\ \  \ \  \|\  \ \  \|\  \ \  \  /  / | \  \ \  \\\__\ \  \   ]],
+  [[ \ \  \    \ \  \\\  \ \  \\ \  \ \   __  \ \   _  _\ \  \/  / / \ \  \ \  \\|__| \  \  ]],
+  [[  \ \  \____\ \  \\\  \ \  \\ \  \ \  \ \  \ \  \\  \\ \    / /   \ \  \ \  \    \ \  \ ]],
+  [[   \ \_______\ \_______\ \__\\ \__\ \__\ \__\ \__\\ _\\ \__/ /     \ \__\ \__\    \ \__\]],
+  [[    \|_______|\|_______|\|__| \|__|\|__|\|__|\|__|\|__|\|__|/       \|__|\|__|     \|__|]],
+  [[                                                                                        ]],
+  os.date("                           %A %B %d, %Y, %I:%M %p")
+}
+-- lvim.builtin.alpha.dashboard.section.footer.val = "dookie" 
+lvim.builtin.alpha.dashboard.section.footer.opts.position = "center"

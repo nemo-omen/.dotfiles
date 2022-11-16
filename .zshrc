@@ -102,7 +102,7 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 export EDITOR="nvim"
 
 # Paths
-export DENO_INSTALL="/home/trainingmontage/.deno"
+export DENO_INSTALL="$HOME/.deno"
 export PATH="$DENO_INSTALL/bin:$PATH"
 
 # Export QT theme
@@ -133,23 +133,18 @@ function runc() {
 # For a full list of active aliases, run `alias`.
 #
 # ALIASES
-alias omzconfig="code ~/.oh-my-zsh"
-alias zshconfig="code ~/.zshrc"
-alias roficonfig="code ~/.config/rofi/config.rasi"
-alias qtileconfig="code ~/.config/qtile/config.py"
-alias defaultapps="code ~/.config/mimeapps.list"
-alias dotfiles="code ~/.dotfiles"
+alias vim="lvim-gui"
+alias dotfiles="cd ~/.dotfiles && vim"
 alias sourcerc="source ~/.zshrc"
-alias vim="lvim"
 alias ffd="firefox-developer-edition"
 # Slightly temporary
-alias codeschool="code ~/school/2022-fall" # will change per semester
+alias codeschool="cd ~/school/2022-fall && vim" # will change per semester
 alias 4301="cd ~/school/2022-fall/4301"
 alias 3352="cd ~/school/2022-fall/3352"
 alias 3372="cd ~/school/2022-fall/3372"
 
 alias koreatime="/bin/zsh ~/koreatime.sh"
-alias compilerproject="code ~/dev/compiler"
+alias compilerproject="cd ~/dev/compiler && vim"
 alias sshasu="ssh jcaldwell2@csunix.angelo.edu"
 
 # alias cpdat="./cpdat.sh $1"
@@ -162,6 +157,6 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 # pnpm
-export PNPM_HOME="/home/trainingmontage/.local/share/pnpm"
+export PNPM_HOME="$HOME/.local/share/pnpm"
 export PATH="$PNPM_HOME:$PATH"
 # pnpm end
