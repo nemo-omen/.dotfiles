@@ -11,7 +11,11 @@ an executable
 -- general
 lvim.log.level = "warn"
 lvim.format_on_save.enabled = true
-lvim.colorscheme = "lunar"
+lvim.colorscheme = "neon"
+vim.g.neon_style = "dark"
+vim.g.neon_italic_comment = true
+vim.g.neon_italic_keyword = true
+
 -- to disable icons and use a minimalist setup, uncomment the following
 -- lvim.use_icons = false
 
@@ -59,6 +63,9 @@ lvim.keys.normal_mode["<C-s>"] = ":w<cr>"
 --   l = { "<cmd>Trouble loclist<cr>", "LocationList" },
 --   w = { "<cmd>Trouble workspace_diagnostics<cr>", "Workspace Diagnostics" },
 -- }
+
+lvim.builtin.which_key.mappings["o"] = { "<cmd>SymbolsOutline<cr>", "Symbol Outline" }
+lvim.builtin.which_key.mappings["m"] = { "<cmd>MinimapToggle<cr>", "MiniMap" }
 
 -- TODO: User Config for predefined plugins
 -- After changing plugin config exit and reopen LunarVim, Run :PackerInstall :PackerCompile
@@ -190,6 +197,15 @@ lvim.plugins = {
       vim.cmd("let g:minimap_auto_start_win_enter = 1")
     end,
   },
+  {
+    "simrat39/symbols-outline.nvim",
+    config = function()
+      require('symbols-outline').setup()
+    end
+  },
+  { 'bluz71/vim-moonfly-colors', branch = 'cterm-compat' },
+  { 'bluz71/vim-nightfly-colors' },
+  { "rafamadriz/neon" }
 }
 
 -- Autocommands (https://neovim.io/doc/user/autocmd.html)
