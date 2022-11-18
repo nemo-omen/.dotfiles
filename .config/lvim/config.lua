@@ -11,20 +11,28 @@ an executable
 -- general
 lvim.log.level = "warn"
 lvim.format_on_save.enabled = true
-lvim.colorscheme = "neon"
-vim.g.neon_style = "dark"
-vim.g.neon_italic_comment = true
-vim.g.neon_italic_keyword = true
+lvim.colorscheme = "tokyodark"
+lvim.transparent_window = true
+-- vim.g.neon_style = "dark"
+-- vim.g.neon_italic_comment = true
+-- vim.g.neon_italic_keyword = true
+vim.opt.colorcolumn = "80"
+vim.opt.signcolumn = "yes"
+vim.opt.relativenumber = true
+
+vim.g.tokyodark_transparent_background = true
+vim.g.tokyodark_enable_italic_comment = true
+vim.g.tokyodark_enable_italic = true
 
 -- to disable icons and use a minimalist setup, uncomment the following
 -- lvim.use_icons = false
-
 -- keymappings [view all the defaults by pressing <leader>Lk]
 lvim.leader = "space"
 -- add your own keymapping
 lvim.keys.normal_mode["<C-s>"] = ":w<cr>"
+lvim.keys.normal_mode["<leader>y"] = "\"+y"
+lvim.keys.normal_mode["<leader>Y"] = "\"+Y"
 -- lvim.keys.normal_mode["<S-l>"] = ":BufferLineCycleNext<CR>"
--- lvim.keys.normal_mode["<S-h>"] = ":BufferLineCyclePrev<CR>"
 -- unmap a default keymapping
 -- vim.keymap.del("n", "<C-Up>")
 -- override a default keymapping
@@ -205,7 +213,41 @@ lvim.plugins = {
   },
   { 'bluz71/vim-moonfly-colors', branch = 'cterm-compat' },
   { 'bluz71/vim-nightfly-colors' },
-  { "rafamadriz/neon" }
+  { "rafamadriz/neon" },
+  { 'shaunsingh/moonlight.nvim' },
+  { 'NvChad/nvim-colorizer.lua',
+    config = function()
+      require('colorizer').setup()
+    end
+  },
+  -- {
+  --   "olimorris/onedarkpro.nvim",
+  --   config = function()
+  --     require('onedarkpro').setup({
+  --       theme = "onedark_dark",
+  --       dark_theme = "onedark_dark",
+  --       caching = true,
+  --       -- colors = {},
+  --       styles = {
+  --         types = "NONE", -- Style that is applied to types
+  --         numbers = "NONE", -- Style that is applied to numbers
+  --         strings = "NONE", -- Style that is applied to strings
+  --         comments = "italic", -- Style that is applied to comments
+  --         keywords = "bold", -- Style that is applied to keywords
+  --         constants = "bold", -- Style that is applied to constants
+  --         functions = "NONE", -- Style that is applied to functions
+  --         operators = "NONE", -- Style that is applied to operators
+  --         variables = "bold", -- Style that is applied to variables
+  --         conditionals = "NONE", -- Style that is applied to conditionals
+  --         virtual_text = "NONE", -- Style that is applied to virtual text
+  --       },
+  --       -- options = {
+  --       --   transparency = true,
+  --       -- }
+  --     })
+  --   end
+  -- }
+  { 'tiagovla/tokyodark.nvim' }
 }
 
 -- Autocommands (https://neovim.io/doc/user/autocmd.html)
