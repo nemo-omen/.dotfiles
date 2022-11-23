@@ -11,3 +11,5 @@ xsetwacom --set "11" MapToOutput DisplayPort-1
 picom --experimental-backends -b
 
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &	# Graphical authentication agent
+
+sshfs jcaldwell2@csunix.angelo.edu:/home/jcaldwell2 /home/trainingmontage/csunix

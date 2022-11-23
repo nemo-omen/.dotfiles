@@ -112,13 +112,13 @@ export GTK2_RC_FILES="$HOME/.gtkrc-2.0"
 
 # FUNCTIONS
 function cpdat() {
-   scp jcaldwell2@csunix.angelo.edu:/usr/local/4301/data/stage0/"$1".dat .
-   scp jcaldwell2@csunix.angelo.edu:/usr/local/4301/data/stage0/"$1".lst .
-   scp jcaldwell2@csunix.angelo.edu:/usr/local/4301/data/stage0/"$1".asm .
+   scp jcaldwell2@csunix.angelo.edu:/usr/local/4301/data/stage1/"$1".dat .
+   scp jcaldwell2@csunix.angelo.edu:/usr/local/4301/data/stage1/"$1".lst .
+   scp jcaldwell2@csunix.angelo.edu:/usr/local/4301/data/stage1/"$1".asm .
 }
 
 function rmdat() {
-   rm $.dat $.lst $.asm
+   rm "$1".dat "$1".lst $.asm
 }
 
 function runc() {
@@ -160,3 +160,5 @@ export NVM_DIR="$HOME/.nvm"
 export PNPM_HOME="$HOME/.local/share/pnpm"
 export PATH="$PNPM_HOME:$PATH"
 # pnpm end
+
+eval "$(starship init zsh)"

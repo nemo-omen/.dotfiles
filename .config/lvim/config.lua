@@ -74,7 +74,7 @@ lvim.keys.normal_mode["<leader>Y"] = "\"+Y"
 
 lvim.builtin.which_key.mappings["o"] = { "<cmd>SymbolsOutline<cr>", "Symbol Outline" }
 lvim.builtin.which_key.mappings["m"] = { "<cmd>MinimapToggle<cr>", "MiniMap" }
-
+lvim.builtin.which_key.mappings["D"] = { "<cmd>vert diffsplit<cr>", "DiffSplit" }
 -- TODO: User Config for predefined plugins
 -- After changing plugin config exit and reopen LunarVim, Run :PackerInstall :PackerCompile
 lvim.builtin.alpha.active = true
@@ -220,33 +220,7 @@ lvim.plugins = {
       require('colorizer').setup()
     end
   },
-  -- {
-  --   "olimorris/onedarkpro.nvim",
-  --   config = function()
-  --     require('onedarkpro').setup({
-  --       theme = "onedark_dark",
-  --       dark_theme = "onedark_dark",
-  --       caching = true,
-  --       -- colors = {},
-  --       styles = {
-  --         types = "NONE", -- Style that is applied to types
-  --         numbers = "NONE", -- Style that is applied to numbers
-  --         strings = "NONE", -- Style that is applied to strings
-  --         comments = "italic", -- Style that is applied to comments
-  --         keywords = "bold", -- Style that is applied to keywords
-  --         constants = "bold", -- Style that is applied to constants
-  --         functions = "NONE", -- Style that is applied to functions
-  --         operators = "NONE", -- Style that is applied to operators
-  --         variables = "bold", -- Style that is applied to variables
-  --         conditionals = "NONE", -- Style that is applied to conditionals
-  --         virtual_text = "NONE", -- Style that is applied to virtual text
-  --       },
-  --       -- options = {
-  --       --   transparency = true,
-  --       -- }
-  --     })
-  --   end
-  -- }
+  { 'ThePrimeagen/vim-be-good' },
   { 'tiagovla/tokyodark.nvim' }
 }
 
@@ -277,5 +251,5 @@ lvim.builtin.alpha.dashboard.section.header.val = {
   [[╚═╝  ╚═══╝╚══════╝╚═╝     ╚═╝ ╚═════╝   ╚═══╝  ╚═╝╚═╝     ╚═╝]],
   os.date("             %A %B %d, %Y, %I:%M %p")
 }
--- lvim.builtin.alpha.dashboard.section.footer.val = "dookie"
+lvim.builtin.alpha.dashboard.section.footer.val = ""
 lvim.builtin.alpha.dashboard.section.footer.opts.position = "center"
