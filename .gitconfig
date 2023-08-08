@@ -1,5 +1,9 @@
 [user]
 	name = nemo-omen
 	email = nemo.omen@gmail.com
-[pull]
-	rebase = true
+[core]
+  IndentityFile = ~/.ssh/id_ed25519
+[init]
+  defaultBranch = main
+# [pull]
+#	rebase = true

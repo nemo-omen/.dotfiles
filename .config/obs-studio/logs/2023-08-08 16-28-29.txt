@@ -1,0 +1,185 @@
+16:28:29.494: Platform: Wayland
+16:28:29.495: CPU Name: AMD Ryzen 5 4500U with Radeon Graphics
+16:28:29.495: CPU Speed: 1344.991MHz
+16:28:29.495: Physical Cores: 6, Logical Cores: 6
+16:28:29.495: Physical Memory: 63720MB Total, 33981MB Free
+16:28:29.495: Kernel Version: Linux 6.4.8-zen1-1-zen
+16:28:29.495: Distribution: "Garuda Linux" Unknown
+16:28:29.495: Desktop Environment: Hyprland (sway)
+16:28:29.495: Session Type: wayland
+16:28:29.497: Qt Version: 6.5.2 (runtime), 6.5.2 (compiled)
+16:28:29.497: Portable mode: false
+16:28:29.535: OBS 29.1.3-tytan652-2 (linux)
+16:28:29.535: ---------------------------------
+16:28:29.535: ---------------------------------
+16:28:29.535: audio settings reset:
+16:28:29.535: 	samples per sec: 48000
+16:28:29.535: 	speakers:        2
+16:28:29.535: 	max buffering:   960 milliseconds
+16:28:29.535: 	buffering type:  dynamically increasing
+16:28:29.540: ---------------------------------
+16:28:29.540: Initializing OpenGL...
+16:28:29.540: Using EGL/Wayland
+16:28:29.574: Initialized EGL 1.5
+16:28:29.591: Loading up OpenGL on adapter AMD AMD Radeon Graphics (renoir, LLVM 15.0.7, DRM 3.52, 6.4.8-zen1-1-zen)
+16:28:29.591: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 23.1.5, shading language 4.60
+16:28:29.616: ---------------------------------
+16:28:29.616: video settings reset:
+16:28:29.616: 	base resolution:   1920x1080
+16:28:29.616: 	output resolution: 1280x720
+16:28:29.616: 	downscale filter:  Bicubic
+16:28:29.616: 	fps:               60/1
+16:28:29.616: 	format:            NV12
+16:28:29.616: 	YUV mode:          Rec. 709/Partial
+16:28:29.616: NV12 texture support not available
+16:28:29.616: P010 texture support not available
+16:28:29.619: Audio monitoring device:
+16:28:29.619: 	name: Default
+16:28:29.619: 	id: default
+16:28:29.619: ---------------------------------
+16:28:29.640: No AJA devices found, skipping loading AJA UI plugin
+16:28:29.640: Failed to initialize module 'aja-output-ui.so'
+16:28:29.658: No AJA devices found, skipping loading AJA plugin
+16:28:29.658: Failed to initialize module 'aja.so'
+16:28:29.666: Failed to load 'en-US' text for module: 'decklink-captions.so'
+16:28:29.675: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+16:28:29.683: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+16:28:29.683: Failed to initialize module 'decklink.so'
+16:28:29.875: [pipewire] Available captures:
+16:28:29.875: [pipewire]     - Desktop capture
+16:28:29.897: v4l2loopback not installed, virtual camera disabled
+16:28:29.909: [obs-browser]: Version 2.21.1
+16:28:29.909: [obs-browser]: CEF Version 103.0.5060.134 (runtime), 103.0.0-5060-shared-textures_143.2591+g4204d54+chromium-103.0.5060.134 (compiled)
+16:28:29.941: VAAPI: API version 1.19
+16:28:29.943: FFmpeg VAAPI H264 encoding supported
+16:28:29.949: FFmpeg VAAPI HEVC encoding supported
+16:28:30.017: [obs-websocket] [obs_module_load] you can haz websockets (Version: 5.2.3 | RPC Version: 1)
+16:28:30.017: [obs-websocket] [obs_module_load] Qt version (compile-time): 6.5.2 | Qt version (run-time): 6.5.2
+16:28:30.017: [obs-websocket] [obs_module_load] Linked ASIO Version: 102800
+16:28:30.021: [obs-websocket] [obs_module_load] Module loaded.
+16:28:30.076: [vlc-video]: VLC 3.0.18 Vetinari found, VLC video source enabled
+16:28:30.094: ---------------------------------
+16:28:30.094:   Loaded Modules:
+16:28:30.094:     linux-pipewire-audio.so
+16:28:30.094:     wlrobs.so
+16:28:30.094:     vlc-video.so
+16:28:30.094:     text-freetype2.so
+16:28:30.094:     sndio.so
+16:28:30.094:     rtmp-services.so
+16:28:30.094:     obs-x264.so
+16:28:30.094:     obs-websocket.so
+16:28:30.094:     obs-vst.so
+16:28:30.094:     obs-transitions.so
+16:28:30.094:     obs-outputs.so
+16:28:30.094:     obs-libfdk.so
+16:28:30.094:     obs-filters.so
+16:28:30.094:     obs-ffmpeg.so
+16:28:30.094:     obs-browser.so
+16:28:30.094:     linux-v4l2.so
+16:28:30.094:     linux-pulseaudio.so
+16:28:30.094:     linux-pipewire.so
+16:28:30.094:     linux-jack.so
+16:28:30.094:     linux-capture.so
+16:28:30.094:     linux-alsa.so
+16:28:30.094:     image-source.so
+16:28:30.094:     frontend-tools.so
+16:28:30.094:     decklink-output-ui.so
+16:28:30.094:     decklink-captions.so
+16:28:30.094: ---------------------------------
+16:28:30.094: ==== Startup complete ===============================================
+16:28:30.095: Switched to Preview/Program mode
+16:28:30.095: ------------------------------------------------
+16:28:30.139: All scene data cleared
+16:28:30.139: ------------------------------------------------
+16:28:30.144: pulse-input: Server name: 'PulseAudio (on PipeWire 0.3.77) 15.0.0'
+16:28:30.144: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+16:28:30.144: pulse-input: Started recording from 'alsa_output.pci-0000_05_00.6.analog-stereo.monitor' (default)
+16:28:30.144: [Loaded global audio device]: 'Desktop Audio'
+16:28:30.145: pulse-input: Server name: 'PulseAudio (on PipeWire 0.3.77) 15.0.0'
+16:28:30.145: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+16:28:30.145: pulse-input: Started recording from 'alsa_input.pci-0000_05_00.6.analog-stereo' (default)
+16:28:30.145: [Loaded global audio device]: 'Mic/Aux'
+16:28:30.197: [Media Source 'Media Source']: settings:
+16:28:30.197: 	input:                   https://tkx.mp.lura.live/rest/v2/mcp/video/adstnK6qeDVydwa7?anvack=rz93EA0L2zkpVU2wY9fdOi6PnvRA8DMe&eud=1PfQlqQNPbM%2FYzKuNMFZcVAB70xSBb%2FPOCRP9hjrVDBpq0XdyAa1ShiMNFkzzkZk2SMWUiVdIcuGBmNDYmzoNA%3D%3D
+16:28:30.197: 	input_format:            
+16:28:30.197: 	speed:                   100
+16:28:30.197: 	is_looping:              no
+16:28:30.197: 	is_linear_alpha:         no
+16:28:30.197: 	is_hw_decoding:          no
+16:28:30.197: 	is_clear_on_media_end:   yes
+16:28:30.197: 	restart_on_activate:     yes
+16:28:30.197: 	close_when_inactive:     no
+16:28:30.197: 	full_decode:             no
+16:28:30.197: 	ffmpeg_options:          
+16:28:30.200: pulse-am: Server name: 'PulseAudio (on PipeWire 0.3.77) 15.0.0'
+16:28:30.200: pulse-am: Audio format: s32le, 48000 Hz, 2 channels
+16:28:30.200: pulse-am: Started Monitoring in 'alsa_output.pci-0000_05_00.6.analog-stereo'
+16:28:30.216: PipeWire initialized
+16:28:30.216: v4l2-input: Start capture from /dev/video0
+16:28:30.217: v4l2-input: Input: 0
+16:28:30.259: v4l2-input: Resolution: 640x480
+16:28:30.259: v4l2-input: Pixelformat: YUYV
+16:28:30.259: v4l2-input: Linesize: 1280 Bytes
+16:28:30.260: v4l2-input: Framerate: 30.00 fps
+16:28:30.260: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+16:28:30.264: alsa-input: PCM 'front:CARD=USB,DEV=0' rate set to 44100
+16:28:30.264: alsa-input: PCM 'front:CARD=USB,DEV=0' channels set to 2
+16:28:30.369: [pipewire] Created stream 0x562b9f103b50
+16:28:30.370: pulse-am: Server name: 'PulseAudio (on PipeWire 0.3.77) 15.0.0'
+16:28:30.370: pulse-am: Audio format: s32le, 48000 Hz, 2 channels
+16:28:30.370: pulse-am: Started Monitoring in 'alsa_output.pci-0000_05_00.6.analog-stereo'
+16:28:30.373: Switched to scene 'VLC Stream Window'
+16:28:30.374: [pipewire] Created app capture sink 94 with 2 channels and position FL,FR
+16:28:30.375: ------------------------------------------------
+16:28:30.375: Loaded scenes:
+16:28:30.375: - scene 'KLST Anvack Stream':
+16:28:30.375:     - source: 'Media Source' (ffmpeg_source)
+16:28:30.375:         - monitoring: monitor and output
+16:28:30.375: - scene 'Rodeo Parade Slate':
+16:28:30.375:     - source: 'Slate Image' (image_source)
+16:28:30.375:     - source: 'VLC Audio Source' (vlc_source)
+16:28:30.375: - scene 'HSFB Slate':
+16:28:30.375:     - source: 'Image' (image_source)
+16:28:30.375: - scene 'HSFB Timer Slate':
+16:28:30.375:     - source: 'Browser' (browser_source)
+16:28:30.375:     - source: 'Static Slate' (browser_source)
+16:28:30.375: - scene 'VLC Stream Window':
+16:28:30.375:     - source: 'Screen Capture (PipeWire)' (pipewire-desktop-capture-source)
+16:28:30.375:     - source: 'VLC Audio Capture (PipeWire)' (pipewire_audio_application_capture)
+16:28:30.375:         - monitoring: monitor and output
+16:28:30.375: - scene 'webcam':
+16:28:30.375:     - source: 'Video Capture Device (V4L2)' (v4l2_input)
+16:28:30.375:     - source: 'Scarlet Solo' (alsa_input_capture)
+16:28:30.375: - scene 'PIP Monitor':
+16:28:30.375:     - source: 'Monitor' (scene)
+16:28:30.375:     - source: 'webcam' (scene)
+16:28:30.375: - scene 'Monitor':
+16:28:30.375:     - source: 'Wayland output(dmabuf)' (wlrobs-dmabuf)
+16:28:30.376:     - source: 'Notes' (text_ft2_source_v2)
+16:28:30.376: ------------------------------------------------
+16:28:30.413: [pipewire] 0x562b9f103b50 Got format: rate 48000 - channels 2 - format 8
+16:28:30.431: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: VLC Audio Capture (PipeWire))
+16:28:30.431: 
+16:28:30.444: [pipewire] Screencast session created
+16:28:30.500: [pipewire] Asking for desktop
+16:28:30.532: [pipewire] desktop selected, setting up screencast
+16:28:30.544: v4l2-input: /dev/video0: select timed out
+16:28:30.544: v4l2-input: /dev/video0: failed to log status
+16:28:30.546: [pipewire] Server version: 0.3.77
+16:28:30.546: [pipewire] Library version: 0.3.77
+16:28:30.547: [pipewire] Header version: 0.3.75
+16:28:30.547: [pipewire] Created stream 0x562b9f9c7b10
+16:28:30.547: [pipewire] Stream 0x562b9f9c7b10 state: "connecting" (error: none)
+16:28:30.547: [pipewire] Playing stream 0x562b9f9c7b10
+16:28:30.549: [pipewire] Stream 0x562b9f9c7b10 state: "paused" (error: none)
+16:28:30.555: [pipewire] Negotiated format:
+16:28:30.555: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+16:28:30.555: [pipewire]     Modifier: 0x0
+16:28:30.555: [pipewire]     Size: 1920x1080
+16:28:30.555: [pipewire]     Framerate: 0/1
+16:28:30.555: [pipewire] Negotiated format:
+16:28:30.555: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+16:28:30.555: [pipewire]     Modifier: 0x20000044051ba01
+16:28:30.555: [pipewire]     Size: 1920x1080
+16:28:30.555: [pipewire]     Framerate: 0/1
+16:28:30.557: [pipewire] Stream 0x562b9f9c7b10 state: "streaming" (error: none)

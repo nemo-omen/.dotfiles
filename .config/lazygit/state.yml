@@ -1,16 +1,16 @@
 lastupdatecheck: 0
 recentrepos:
-- /home/trainingmontage/dev/projects/a11ycrwlr
-- /home/trainingmontage/dev/Fonts
-- /home/trainingmontage/Documents/Notes
-- /home/trainingmontage/school
-- /home/trainingmontage/dev/projects/jeffcaldwellwrites
-- /home/trainingmontage/.config/nvim
-- /home/trainingmontage/dev/ccg
-- /home/trainingmontage/dev/projects/jeffcaldwell.is-astro
-- /home/trainingmontage/dev/projects/newser
-- /home/trainingmontage/dev/projects/jeffcaldwell.is-2023
+    - /home/trainingmontage/.dotfiles
+    - /home/trainingmontage/dev/projects/a11ycrwlr
+    - /home/trainingmontage/dev/Fonts
+    - /home/trainingmontage/Documents/Notes
+    - /home/trainingmontage/school
+    - /home/trainingmontage/dev/projects/jeffcaldwellwrites
+    - /home/trainingmontage/dev/ccg
+    - /home/trainingmontage/dev/projects/jeffcaldwell.is-astro
+    - /home/trainingmontage/dev/projects/newser
+    - /home/trainingmontage/dev/projects/jeffcaldwell.is-2023
 startuppopupversion: 5
 customcommandshistory:
-- q
+    - q
 hidecommandlog: false
