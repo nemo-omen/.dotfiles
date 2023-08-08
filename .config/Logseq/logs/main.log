@@ -1,0 +1,489 @@
+[2023-04-22 11:17:03.500] [info] Logseq App(0.9.3) Starting... 
+[2023-04-22 11:17:03.506] [info] restore proxy settings {:type "system"}
+[2023-04-22 11:17:03.507] [info] set proxy to {:type "system"}
+[2023-04-22 11:17:05.385] [debug] :electron.handler/watch-dir {:path "/home/trainingmontage/.logseq/config"}
+[2023-04-22 11:17:16.307] [info] Logseq App(0.9.3) Starting... 
+[2023-04-22 11:17:16.313] [info] restore proxy settings {:type "system"}
+[2023-04-22 11:17:16.314] [info] set proxy to {:type "system"}
+[2023-04-22 11:17:18.289] [debug] :electron.handler/watch-dir {:path "/home/trainingmontage/.logseq/config"}
+[2023-04-22 11:26:21.700] [debug] [Marketplace] Installing: dracula/logseq
+[2023-04-22 11:26:22.004] [debug] [Marketplace] Error: Github API Failed(404) {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/repos#get-the-latest-release"}
+    at /opt/logseq-desktop/resources/app/electron.js:586:467
+    at Function.e [as g] (/opt/logseq-desktop/resources/app/electron.js:157:235)
+    at /opt/logseq-desktop/resources/app/electron.js:538:312
+    at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-04-22 11:26:22.005] [debug] [Marketplace] Error: [:release-channel-issue "Github API Failed(404) {\"message\":\"Not Found\",\"documentation_url\":\"https://docs.github.com/rest/reference/repos#get-the-latest-release\"}"]
+    at /opt/logseq-desktop/resources/app/electron.js:588:25
+    at /opt/logseq-desktop/resources/app/electron.js:539:343
+    at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-04-22 11:26:37.118] [debug] [Marketplace] Installing: sethfair/logseq-atlas-theme
+[2023-04-22 11:26:37.396] [debug] [Marketplace] [Release URL]  https://api.github.com/repos/sethfair/logseq-atlas-theme/releases/latest [Status/Text] 200
+[2023-04-22 11:26:37.400] [debug] [Marketplace] [Release Asset] # v0.3.5  => https://api.github.com/repos/sethfair/logseq-atlas-theme/releases/assets/83811325
+[2023-04-22 11:26:38.177] [debug] [Marketplace] [UpdatedDONE] v0.3.5
+[2023-04-22 11:28:03.262] [debug] window-all-closed Quitting...
+[2023-04-22 11:28:03.813] [info] Logseq App(0.9.3) Starting... 
+[2023-04-22 11:28:03.818] [info] restore proxy settings {:type "system"}
+[2023-04-22 11:28:03.819] [info] set proxy to {:type "system"}
+[2023-04-22 11:28:05.797] [debug] :electron.handler/watch-dir {:path "/home/trainingmontage/.logseq/config"}
+[2023-04-22 12:40:51.452] [info] :electron.handler/open-dir open folder selection dialog
+[2023-04-22 12:41:20.588] [debug] :electron.handler/open-dir {:path "/home/trainingmontage/Documents/Notes"}
+[2023-04-22 12:41:20.792] [debug] :electron.handler/watch-dir {:path "/home/trainingmontage/Documents/Notes"}
+[2023-04-22 12:43:48.092] [info] :electron.handler/backup backup db file logseq/custom.css
+[2023-04-22 12:44:06.050] [debug] window-all-closed Quitting...
+[2023-04-22 12:44:10.101] [info] Logseq App(0.9.3) Starting... 
+[2023-04-22 12:44:10.105] [info] restore proxy settings {:type "system"}
+[2023-04-22 12:44:10.108] [info] set proxy to {:type "system"}
+[2023-04-22 12:44:12.086] [debug] :electron.handler/watch-dir {:path "/home/trainingmontage/.logseq/config"}
+[2023-04-22 12:44:12.131] [debug] :electron.handler/unwatch-dir {:path "/home/trainingmontage/Documents/Notes"}
+[2023-04-22 12:44:12.132] [debug] :electron.handler/watch-dir {:path "/home/trainingmontage/Documents/Notes"}
+[2023-04-22 12:47:36.255] [info] :electron.handler/backup backup db file logseq/custom.css
+[2023-04-22 12:48:20.621] [info] :electron.handler/backup backup db file logseq/custom.css
+[2023-04-22 12:50:18.235] [info] :electron.handler/backup backup db file logseq/custom.css
+[2023-04-22 12:50:34.468] [info] :electron.handler/backup backup db file logseq/custom.css
+[2023-04-22 12:50:43.056] [info] :electron.handler/backup backup db file logseq/custom.css
+[2023-04-22 12:50:57.565] [info] :electron.handler/backup backup db file logseq/custom.css
+[2023-04-22 12:51:57.852] [info] :electron.handler/backup backup db file logseq/custom.css
+[2023-04-22 12:56:03.559] [debug] [Marketplace] Installing: pengx17/logseq-plugin-tabs
+[2023-04-22 12:56:03.860] [debug] [Marketplace] [Release URL]  https://api.github.com/repos/pengx17/logseq-plugin-tabs/releases/latest [Status/Text] 200
+[2023-04-22 12:56:03.864] [debug] [Marketplace] [Release Asset] # v1.18.3  => https://api.github.com/repos/pengx17/logseq-plugin-tabs/releases/assets/98325543
+[2023-04-22 12:56:04.410] [debug] [Marketplace] [UpdatedDONE] v1.18.3
+[2023-04-22 12:56:16.373] [debug] [Marketplace] Installing: sawhney17/logseq-pdf-export
+[2023-04-22 12:56:16.707] [debug] [Marketplace] [Release URL]  https://api.github.com/repos/sawhney17/logseq-pdf-export/releases/latest [Status/Text] 200
+[2023-04-22 12:56:16.709] [debug] [Marketplace] [Release Asset] # 2.2.8  => https://api.github.com/repos/sawhney17/logseq-pdf-export/releases/assets/102156132
+[2023-04-22 12:56:17.281] [debug] [Marketplace] [UpdatedDONE] 2.2.8
+[2023-04-22 12:56:25.439] [debug] [Marketplace] Installing: sethyuan/logseq-plugin-tocgen
+[2023-04-22 12:56:25.752] [debug] [Marketplace] [Release URL]  https://api.github.com/repos/sethyuan/logseq-plugin-tocgen/releases/latest [Status/Text] 200
+[2023-04-22 12:56:25.754] [debug] [Marketplace] [Release Asset] # v2.7.0  => https://api.github.com/repos/sethyuan/logseq-plugin-tocgen/releases/assets/104183083
+[2023-04-22 12:56:26.258] [debug] [Marketplace] [UpdatedDONE] v2.7.0
+[2023-04-22 12:56:44.385] [debug] [Marketplace] Installing: dracula/logseq
+[2023-04-22 12:56:44.647] [debug] [Marketplace] Error: Github API Failed(404) {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/repos#get-the-latest-release"}
+    at /opt/logseq-desktop/resources/app/electron.js:586:467
+    at Function.e [as g] (/opt/logseq-desktop/resources/app/electron.js:157:235)
+    at /opt/logseq-desktop/resources/app/electron.js:538:312
+    at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-04-22 12:56:44.649] [debug] [Marketplace] Error: [:release-channel-issue "Github API Failed(404) {\"message\":\"Not Found\",\"documentation_url\":\"https://docs.github.com/rest/reference/repos#get-the-latest-release\"}"]
+    at /opt/logseq-desktop/resources/app/electron.js:588:25
+    at /opt/logseq-desktop/resources/app/electron.js:539:343
+    at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-04-22 12:57:33.433] [debug] [Marketplace] Installing: blueteafrog/logseq-gunmetal-theme
+[2023-04-22 12:57:33.773] [debug] [Marketplace] [Release URL]  https://api.github.com/repos/blueteafrog/logseq-gunmetal-theme/releases/latest [Status/Text] 200
+[2023-04-22 12:57:33.775] [debug] [Marketplace] [Release Asset] # v0.1.4  => null
+[2023-04-22 12:57:35.424] [debug] [Marketplace] [UpdatedDONE] v0.1.4
+[2023-04-22 12:58:39.709] [info] :electron.handler/backup backup db file logseq/custom.css
+[2023-04-22 13:00:06.447] [info] :electron.handler/backup backup db file logseq/custom.css
+[2023-04-22 13:00:25.245] [info] :electron.handler/backup backup db file logseq/custom.css
+[2023-04-22 13:00:52.957] [info] :electron.handler/backup backup db file logseq/custom.css
+[2023-04-22 13:01:00.496] [info] :electron.handler/backup backup db file logseq/custom.css
+[2023-04-22 13:06:49.506] [info] :electron.handler/backup backup db file logseq/custom.css
+[2023-04-22 14:40:45.003] [info] new-window https://github.com/logseq/awesome-logseq
+[2023-04-22 18:38:40.901] [info] :electron.handler/rename from /home/trainingmontage/Documents/Notes/pages/Test One.md to /home/trainingmontage/Documents/Notes/pages/OCP.md
+[2023-04-22 18:38:41.002] [debug] :electron.fs-watcher/on-unlink {:path "/home/trainingmontage/Documents/Notes/pages/Test One.md"}
+[2023-04-22 19:12:04.234] [info] :electron.handler/rename from /home/trainingmontage/Documents/Notes/whiteboards/64443822-98ab-485a-88d7-ff0c58d8b21b.edn to /home/trainingmontage/Documents/Notes/whiteboards/OCP_NASH.edn
+[2023-04-22 19:12:04.335] [debug] :electron.fs-watcher/on-unlink {:path "/home/trainingmontage/Documents/Notes/whiteboards/64443822-98ab-485a-88d7-ff0c58d8b21b.edn"}
+[2023-04-23 09:38:03.659] [debug] window-all-closed Quitting...
+[2023-04-23 09:38:12.134] [info] Logseq App(0.9.3) Starting... 
+[2023-04-23 09:38:12.145] [info] restore proxy settings {:type "system"}
+[2023-04-23 09:38:12.147] [info] set proxy to {:type "system"}
+[2023-04-23 09:38:14.588] [debug] :electron.handler/watch-dir {:path "/home/trainingmontage/.logseq/config"}
+[2023-04-23 09:38:14.656] [debug] :electron.handler/unwatch-dir {:path "/home/trainingmontage/Documents/Notes"}
+[2023-04-23 09:38:14.657] [debug] :electron.handler/watch-dir {:path "/home/trainingmontage/Documents/Notes"}
+[2023-04-23 09:38:15.168] [debug] [Marketplace] Updating: sawhney17/logseq-pdf-export
+[2023-04-23 09:38:15.475] [debug] [Marketplace] [Release URL]  https://api.github.com/repos/sawhney17/logseq-pdf-export/releases/latest [Status/Text] 200
+[2023-04-23 09:38:15.478] [debug] [Marketplace] [Release Asset] # 2.2.8  => https://api.github.com/repos/sawhney17/logseq-pdf-export/releases/assets/102156132
+[2023-04-23 09:38:15.478] [debug] [Marketplace] [Updating Latest?]  2.2.8  >  2.2.8
+[2023-04-23 09:38:15.479] [debug] [Marketplace] Error: :no-new-version
+    at /opt/logseq-desktop/resources/app/electron.js:594:123
+    at /opt/logseq-desktop/resources/app/electron.js:594:146
+    at Function.e [as g] (/opt/logseq-desktop/resources/app/electron.js:157:235)
+    at /opt/logseq-desktop/resources/app/electron.js:538:312
+    at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-04-23 09:38:15.991] [debug] [Marketplace] Updating: sethyuan/logseq-plugin-tocgen
+[2023-04-23 09:38:16.275] [debug] [Marketplace] [Release URL]  https://api.github.com/repos/sethyuan/logseq-plugin-tocgen/releases/latest [Status/Text] 200
+[2023-04-23 09:38:16.278] [debug] [Marketplace] [Release Asset] # v2.7.0  => https://api.github.com/repos/sethyuan/logseq-plugin-tocgen/releases/assets/104183083
+[2023-04-23 09:38:16.278] [debug] [Marketplace] [Updating Latest?]  v2.7.0  >  v2.7.0
+[2023-04-23 09:38:16.279] [debug] [Marketplace] Error: :no-new-version
+    at /opt/logseq-desktop/resources/app/electron.js:594:123
+    at /opt/logseq-desktop/resources/app/electron.js:594:146
+    at Function.e [as g] (/opt/logseq-desktop/resources/app/electron.js:157:235)
+    at /opt/logseq-desktop/resources/app/electron.js:538:312
+    at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-04-23 09:38:16.788] [debug] [Marketplace] Updating: pengx17/logseq-plugin-tabs
+[2023-04-23 09:38:17.082] [debug] [Marketplace] [Release URL]  https://api.github.com/repos/pengx17/logseq-plugin-tabs/releases/latest [Status/Text] 200
+[2023-04-23 09:38:17.084] [debug] [Marketplace] [Release Asset] # v1.18.3  => https://api.github.com/repos/pengx17/logseq-plugin-tabs/releases/assets/98325543
+[2023-04-23 09:38:17.085] [debug] [Marketplace] [Updating Latest?]  v1.18.3  >  v1.18.3
+[2023-04-23 09:38:17.086] [debug] [Marketplace] Error: :no-new-version
+    at /opt/logseq-desktop/resources/app/electron.js:594:123
+    at /opt/logseq-desktop/resources/app/electron.js:594:146
+    at Function.e [as g] (/opt/logseq-desktop/resources/app/electron.js:157:235)
+    at /opt/logseq-desktop/resources/app/electron.js:538:312
+    at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-04-23 09:38:17.595] [debug] [Marketplace] Updating: sethfair/logseq-atlas-theme
+[2023-04-23 09:38:17.923] [debug] [Marketplace] [Release URL]  https://api.github.com/repos/sethfair/logseq-atlas-theme/releases/latest [Status/Text] 200
+[2023-04-23 09:38:17.924] [debug] [Marketplace] [Release Asset] # v0.3.5  => https://api.github.com/repos/sethfair/logseq-atlas-theme/releases/assets/83811325
+[2023-04-23 09:38:17.924] [debug] [Marketplace] [Updating Latest?]  v0.3.5  >  v0.3.5
+[2023-04-23 09:38:17.925] [debug] [Marketplace] Error: :no-new-version
+    at /opt/logseq-desktop/resources/app/electron.js:594:123
+    at /opt/logseq-desktop/resources/app/electron.js:594:146
+    at Function.e [as g] (/opt/logseq-desktop/resources/app/electron.js:157:235)
+    at /opt/logseq-desktop/resources/app/electron.js:538:312
+    at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-04-23 09:38:18.495] [debug] [Marketplace] Updating: blueteafrog/logseq-gunmetal-theme
+[2023-04-23 09:38:18.890] [debug] [Marketplace] [Release URL]  https://api.github.com/repos/blueteafrog/logseq-gunmetal-theme/releases/latest [Status/Text] 200
+[2023-04-23 09:38:18.892] [debug] [Marketplace] [Release Asset] # v0.1.4  => null
+[2023-04-23 09:38:18.893] [debug] [Marketplace] [Updating Latest?]  v0.1.4  >  v0.1.4
+[2023-04-23 09:38:18.895] [debug] [Marketplace] Error: :no-new-version
+    at /opt/logseq-desktop/resources/app/electron.js:594:123
+    at /opt/logseq-desktop/resources/app/electron.js:594:146
+    at Function.e [as g] (/opt/logseq-desktop/resources/app/electron.js:157:235)
+    at /opt/logseq-desktop/resources/app/electron.js:538:312
+    at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-04-23 09:41:57.324] [debug] window-all-closed Quitting...
+[2023-04-23 09:50:17.154] [info] Logseq App(0.9.3) Starting... 
+[2023-04-23 09:50:17.158] [info] restore proxy settings {:type "system"}
+[2023-04-23 09:50:17.158] [info] set proxy to {:type "system"}
+[2023-04-23 09:50:19.527] [debug] :electron.handler/watch-dir {:path "/home/trainingmontage/.logseq/config"}
+[2023-04-23 09:50:19.588] [debug] :electron.handler/unwatch-dir {:path "/home/trainingmontage/Documents/Notes"}
+[2023-04-23 09:50:19.589] [debug] :electron.handler/watch-dir {:path "/home/trainingmontage/Documents/Notes"}
+[2023-04-23 09:51:50.960] [debug] window-all-closed Quitting...
+[2023-04-23 09:57:08.203] [info] Logseq App(0.9.3) Starting... 
+[2023-04-23 09:57:08.208] [info] restore proxy settings {:type "system"}
+[2023-04-23 09:57:08.209] [info] set proxy to {:type "system"}
+[2023-04-23 09:57:10.855] [debug] :electron.handler/watch-dir {:path "/home/trainingmontage/.logseq/config"}
+[2023-04-23 09:57:10.908] [debug] :electron.handler/unwatch-dir {:path "/home/trainingmontage/Documents/Notes"}
+[2023-04-23 09:57:10.909] [debug] :electron.handler/watch-dir {:path "/home/trainingmontage/Documents/Notes"}
+[2023-04-24 10:57:29.266] [debug] window-all-closed Quitting...
+[2023-05-04 08:14:08.546] [info] Logseq App(0.9.4) Starting... 
+[2023-05-04 08:14:08.555] [info] restore proxy settings {:type "system"}
+[2023-05-04 08:14:08.556] [info] set proxy to {:type "system"}
+[2023-05-04 08:14:11.118] [debug] :electron.handler/watch-dir {:path "/home/trainingmontage/.logseq/config"}
+[2023-05-04 08:14:11.200] [debug] :electron.handler/unwatch-dir {:path "/home/trainingmontage/Documents/Notes"}
+[2023-05-04 08:14:11.201] [debug] :electron.handler/watch-dir {:path "/home/trainingmontage/Documents/Notes"}
+[2023-05-04 08:14:11.592] [debug] [Marketplace] Updating: sethyuan/logseq-plugin-tocgen
+[2023-05-04 08:14:11.947] [debug] [Marketplace] [Release URL]  https://api.github.com/repos/sethyuan/logseq-plugin-tocgen/releases/latest [Status/Text] 200
+[2023-05-04 08:14:11.954] [debug] [Marketplace] [Release Asset] # v2.7.0  => https://api.github.com/repos/sethyuan/logseq-plugin-tocgen/releases/assets/104183083
+[2023-05-04 08:14:11.954] [debug] [Marketplace] [Updating Latest?]  v2.7.0  >  v2.7.0
+[2023-05-04 08:14:11.955] [debug] [Marketplace] Error: :no-new-version
+    at /opt/logseq-desktop/resources/app/electron.js:594:123
+    at /opt/logseq-desktop/resources/app/electron.js:594:146
+    at Function.e [as g] (/opt/logseq-desktop/resources/app/electron.js:157:235)
+    at /opt/logseq-desktop/resources/app/electron.js:538:312
+    at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-05-04 08:14:12.466] [debug] [Marketplace] Updating: sawhney17/logseq-pdf-export
+[2023-05-04 08:14:12.852] [debug] [Marketplace] [Release URL]  https://api.github.com/repos/sawhney17/logseq-pdf-export/releases/latest [Status/Text] 200
+[2023-05-04 08:14:12.855] [debug] [Marketplace] [Release Asset] # 2.2.8  => https://api.github.com/repos/sawhney17/logseq-pdf-export/releases/assets/102156132
+[2023-05-04 08:14:12.856] [debug] [Marketplace] [Updating Latest?]  2.2.8  >  2.2.8
+[2023-05-04 08:14:12.857] [debug] [Marketplace] Error: :no-new-version
+    at /opt/logseq-desktop/resources/app/electron.js:594:123
+    at /opt/logseq-desktop/resources/app/electron.js:594:146
+    at Function.e [as g] (/opt/logseq-desktop/resources/app/electron.js:157:235)
+    at /opt/logseq-desktop/resources/app/electron.js:538:312
+    at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-05-04 08:14:13.362] [debug] [Marketplace] Updating: blueteafrog/logseq-gunmetal-theme
+[2023-05-04 08:14:13.657] [debug] [Marketplace] [Release URL]  https://api.github.com/repos/blueteafrog/logseq-gunmetal-theme/releases/latest [Status/Text] 200
+[2023-05-04 08:14:13.659] [debug] [Marketplace] [Release Asset] # v0.1.4  => null
+[2023-05-04 08:14:13.660] [debug] [Marketplace] [Updating Latest?]  v0.1.4  >  v0.1.4
+[2023-05-04 08:14:13.660] [debug] [Marketplace] Error: :no-new-version
+    at /opt/logseq-desktop/resources/app/electron.js:594:123
+    at /opt/logseq-desktop/resources/app/electron.js:594:146
+    at Function.e [as g] (/opt/logseq-desktop/resources/app/electron.js:157:235)
+    at /opt/logseq-desktop/resources/app/electron.js:538:312
+    at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-05-04 08:14:14.167] [debug] [Marketplace] Updating: sethfair/logseq-atlas-theme
+[2023-05-04 08:14:14.450] [debug] [Marketplace] [Release URL]  https://api.github.com/repos/sethfair/logseq-atlas-theme/releases/latest [Status/Text] 200
+[2023-05-04 08:14:14.452] [debug] [Marketplace] [Release Asset] # v0.3.5  => https://api.github.com/repos/sethfair/logseq-atlas-theme/releases/assets/83811325
+[2023-05-04 08:14:14.453] [debug] [Marketplace] [Updating Latest?]  v0.3.5  >  v0.3.5
+[2023-05-04 08:14:14.453] [debug] [Marketplace] Error: :no-new-version
+    at /opt/logseq-desktop/resources/app/electron.js:594:123
+    at /opt/logseq-desktop/resources/app/electron.js:594:146
+    at Function.e [as g] (/opt/logseq-desktop/resources/app/electron.js:157:235)
+    at /opt/logseq-desktop/resources/app/electron.js:538:312
+    at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-05-04 08:14:14.965] [debug] [Marketplace] Updating: pengx17/logseq-plugin-tabs
+[2023-05-04 08:14:15.194] [debug] [Marketplace] [Release URL]  https://api.github.com/repos/pengx17/logseq-plugin-tabs/releases/latest [Status/Text] 200
+[2023-05-04 08:14:15.196] [debug] [Marketplace] [Release Asset] # v1.19.0  => https://api.github.com/repos/pengx17/logseq-plugin-tabs/releases/assets/105814242
+[2023-05-04 08:14:15.196] [debug] [Marketplace] [Updating Latest?]  v1.18.3  >  v1.19.0
+[2023-05-04 08:14:15.196] [debug] [Marketplace] [Updating Latest]  v1.19.0
+[2023-05-04 08:14:15.197] [debug] [Marketplace] [CheckedDONE] v1.19.0
+[2023-05-04 13:04:18.931] [error] Search blocks failed:  SqliteError: no such column: game
+[2023-05-04 13:04:18.934] [error] Search page failed:  SqliteError: no such column: game
+[2023-05-04 13:04:24.274] [error] Search blocks failed:  SqliteError: no such column: game
+[2023-05-04 13:04:24.277] [error] Search page failed:  SqliteError: no such column: game
+[2023-05-04 13:04:26.747] [error] Search blocks failed:  SqliteError: no such column: game
+[2023-05-04 13:04:26.749] [error] Search page failed:  SqliteError: no such column: game
+[2023-05-04 13:04:28.059] [error] Search blocks failed:  SqliteError: no such column: game
+[2023-05-04 13:04:28.061] [error] Search page failed:  SqliteError: no such column: game
+[2023-05-04 13:04:30.018] [error] Search blocks failed:  SqliteError: no such column: game
+[2023-05-04 13:04:30.020] [error] Search page failed:  SqliteError: no such column: game
+[2023-05-04 13:04:31.170] [error] Search blocks failed:  SqliteError: no such column: game
+[2023-05-04 13:04:31.172] [error] Search page failed:  SqliteError: no such column: game
+[2023-05-04 13:04:31.786] [error] Search blocks failed:  SqliteError: no such column: game
+[2023-05-04 13:04:31.789] [error] Search page failed:  SqliteError: no such column: game
+[2023-05-04 13:04:32.363] [error] Search blocks failed:  SqliteError: no such column: game
+[2023-05-04 13:04:32.366] [error] Search page failed:  SqliteError: no such column: game
+[2023-05-04 13:04:33.643] [error] Search blocks failed:  SqliteError: no such column: game
+[2023-05-04 13:04:33.645] [error] Search page failed:  SqliteError: no such column: game
+[2023-05-04 15:35:14.307] [debug] window-all-closed Quitting...
+[2023-05-04 16:37:45.581] [info] Logseq App(0.9.4) Starting... 
+[2023-05-04 16:37:45.590] [info] restore proxy settings {:type "system"}
+[2023-05-04 16:37:45.590] [info] set proxy to {:type "system"}
+[2023-05-04 16:37:48.209] [debug] :electron.handler/watch-dir {:path "/home/trainingmontage/.logseq/config"}
+[2023-05-04 16:37:48.279] [debug] :electron.handler/unwatch-dir {:path "/home/trainingmontage/Documents/Notes"}
+[2023-05-04 16:37:48.280] [debug] :electron.handler/watch-dir {:path "/home/trainingmontage/Documents/Notes"}
+[2023-05-04 22:18:32.686] [error] Search blocks failed:  SqliteError: no such column: https
+[2023-05-04 22:18:32.690] [error] Search page failed:  SqliteError: no such column: https
+[2023-05-04 22:25:28.203] [info] new-window https://opensource.com/article/17/5/introduction-ext4-filesystem
+[2023-05-04 22:25:38.807] [info] new-window https://recoverit.wondershare.com/file-system/ext4-file-system.html
+[2023-05-05 12:20:59.285] [info] :electron.handler/backup backup db file pages/contents.md
+[2023-05-05 12:21:02.166] [info] :electron.handler/backup backup db file pages/Matching Strategy Game%3A A Genetic Algorithm Approach.md
+[2023-05-05 16:07:49.254] [debug] window-all-closed Quitting...
+[2023-05-05 19:32:28.821] [info] Logseq App(0.9.4) Starting... 
+[2023-05-05 19:32:28.828] [info] restore proxy settings {:type "system"}
+[2023-05-05 19:32:28.848] [info] set proxy to {:type "system"}
+[2023-05-05 19:32:31.161] [debug] :electron.handler/watch-dir {:path "/home/trainingmontage/.logseq/config"}
+[2023-05-05 19:32:31.221] [debug] :electron.handler/unwatch-dir {:path "/home/trainingmontage/Documents/Notes"}
+[2023-05-05 19:32:31.227] [debug] :electron.handler/watch-dir {:path "/home/trainingmontage/Documents/Notes"}
+[2023-05-05 19:32:31.642] [debug] [Marketplace] Updating: pengx17/logseq-plugin-tabs
+[2023-05-05 19:32:31.963] [debug] [Marketplace] [Release URL]  https://api.github.com/repos/pengx17/logseq-plugin-tabs/releases/latest [Status/Text] 200
+[2023-05-05 19:32:31.970] [debug] [Marketplace] [Release Asset] # v1.19.1  => https://api.github.com/repos/pengx17/logseq-plugin-tabs/releases/assets/106779429
+[2023-05-05 19:32:31.971] [debug] [Marketplace] [Updating Latest?]  v1.18.3  >  v1.19.1
+[2023-05-05 19:32:31.972] [debug] [Marketplace] [Updating Latest]  v1.19.1
+[2023-05-05 19:32:31.973] [debug] [Marketplace] [CheckedDONE] v1.19.1
+[2023-05-05 19:32:32.482] [debug] [Marketplace] Updating: sethfair/logseq-atlas-theme
+[2023-05-05 19:32:32.768] [debug] [Marketplace] [Release URL]  https://api.github.com/repos/sethfair/logseq-atlas-theme/releases/latest [Status/Text] 200
+[2023-05-05 19:32:32.769] [debug] [Marketplace] [Release Asset] # v0.3.5  => https://api.github.com/repos/sethfair/logseq-atlas-theme/releases/assets/83811325
+[2023-05-05 19:32:32.769] [debug] [Marketplace] [Updating Latest?]  v0.3.5  >  v0.3.5
+[2023-05-05 19:32:32.770] [debug] [Marketplace] Error: :no-new-version
+    at /opt/logseq-desktop/resources/app/electron.js:594:123
+    at /opt/logseq-desktop/resources/app/electron.js:594:146
+    at Function.e [as g] (/opt/logseq-desktop/resources/app/electron.js:157:235)
+    at /opt/logseq-desktop/resources/app/electron.js:538:312
+    at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-05-05 19:32:33.276] [debug] [Marketplace] Updating: blueteafrog/logseq-gunmetal-theme
+[2023-05-05 19:32:33.588] [debug] [Marketplace] [Release URL]  https://api.github.com/repos/blueteafrog/logseq-gunmetal-theme/releases/latest [Status/Text] 200
+[2023-05-05 19:32:33.591] [debug] [Marketplace] [Release Asset] # v0.1.4  => null
+[2023-05-05 19:32:33.592] [debug] [Marketplace] [Updating Latest?]  v0.1.4  >  v0.1.4
+[2023-05-05 19:32:33.592] [debug] [Marketplace] Error: :no-new-version
+    at /opt/logseq-desktop/resources/app/electron.js:594:123
+    at /opt/logseq-desktop/resources/app/electron.js:594:146
+    at Function.e [as g] (/opt/logseq-desktop/resources/app/electron.js:157:235)
+    at /opt/logseq-desktop/resources/app/electron.js:538:312
+    at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-05-05 19:32:34.096] [debug] [Marketplace] Updating: sethyuan/logseq-plugin-tocgen
+[2023-05-05 19:32:34.370] [debug] [Marketplace] [Release URL]  https://api.github.com/repos/sethyuan/logseq-plugin-tocgen/releases/latest [Status/Text] 200
+[2023-05-05 19:32:34.372] [debug] [Marketplace] [Release Asset] # v2.7.0  => https://api.github.com/repos/sethyuan/logseq-plugin-tocgen/releases/assets/104183083
+[2023-05-05 19:32:34.372] [debug] [Marketplace] [Updating Latest?]  v2.7.0  >  v2.7.0
+[2023-05-05 19:32:34.372] [debug] [Marketplace] Error: :no-new-version
+    at /opt/logseq-desktop/resources/app/electron.js:594:123
+    at /opt/logseq-desktop/resources/app/electron.js:594:146
+    at Function.e [as g] (/opt/logseq-desktop/resources/app/electron.js:157:235)
+    at /opt/logseq-desktop/resources/app/electron.js:538:312
+    at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-05-05 19:32:35.061] [debug] [Marketplace] Updating: sawhney17/logseq-pdf-export
+[2023-05-05 19:32:35.375] [debug] [Marketplace] [Release URL]  https://api.github.com/repos/sawhney17/logseq-pdf-export/releases/latest [Status/Text] 200
+[2023-05-05 19:32:35.377] [debug] [Marketplace] [Release Asset] # 2.2.8  => https://api.github.com/repos/sawhney17/logseq-pdf-export/releases/assets/102156132
+[2023-05-05 19:32:35.378] [debug] [Marketplace] [Updating Latest?]  2.2.8  >  2.2.8
+[2023-05-05 19:32:35.379] [debug] [Marketplace] Error: :no-new-version
+    at /opt/logseq-desktop/resources/app/electron.js:594:123
+    at /opt/logseq-desktop/resources/app/electron.js:594:146
+    at Function.e [as g] (/opt/logseq-desktop/resources/app/electron.js:157:235)
+    at /opt/logseq-desktop/resources/app/electron.js:538:312
+    at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-05-05 20:33:54.466] [info] new-window https://recoverit.wondershare.com/file-system/ext4-file-system.html
+[2023-05-05 20:39:38.043] [info] new-window https://opensource.com/article/17/5/introduction-ext4-filesystem
+[2023-05-05 22:08:48.451] [debug] window-all-closed Quitting...
+[2023-05-07 08:40:48.765] [info] Logseq App(0.9.4) Starting... 
+[2023-05-07 08:40:48.771] [info] restore proxy settings {:type "system"}
+[2023-05-07 08:40:48.788] [info] set proxy to {:type "system"}
+[2023-05-07 08:40:51.490] [debug] :electron.handler/watch-dir {:path "/home/trainingmontage/.logseq/config"}
+[2023-05-07 08:40:51.581] [debug] :electron.handler/unwatch-dir {:path "/home/trainingmontage/Documents/Notes"}
+[2023-05-07 08:40:51.584] [debug] :electron.handler/watch-dir {:path "/home/trainingmontage/Documents/Notes"}
+[2023-05-07 08:40:52.106] [debug] [Marketplace] Updating: pengx17/logseq-plugin-tabs
+[2023-05-07 08:40:52.424] [debug] [Marketplace] [Release URL]  https://api.github.com/repos/pengx17/logseq-plugin-tabs/releases/latest [Status/Text] 200
+[2023-05-07 08:40:52.428] [debug] [Marketplace] [Release Asset] # v1.19.1  => https://api.github.com/repos/pengx17/logseq-plugin-tabs/releases/assets/106779429
+[2023-05-07 08:40:52.428] [debug] [Marketplace] [Updating Latest?]  v1.18.3  >  v1.19.1
+[2023-05-07 08:40:52.429] [debug] [Marketplace] [Updating Latest]  v1.19.1
+[2023-05-07 08:40:52.429] [debug] [Marketplace] [CheckedDONE] v1.19.1
+[2023-05-07 08:40:52.938] [debug] [Marketplace] Updating: sethfair/logseq-atlas-theme
+[2023-05-07 08:40:53.224] [debug] [Marketplace] [Release URL]  https://api.github.com/repos/sethfair/logseq-atlas-theme/releases/latest [Status/Text] 200
+[2023-05-07 08:40:53.225] [debug] [Marketplace] [Release Asset] # v0.3.5  => https://api.github.com/repos/sethfair/logseq-atlas-theme/releases/assets/83811325
+[2023-05-07 08:40:53.226] [debug] [Marketplace] [Updating Latest?]  v0.3.5  >  v0.3.5
+[2023-05-07 08:40:53.226] [debug] [Marketplace] Error: :no-new-version
+    at /opt/logseq-desktop/resources/app/electron.js:594:123
+    at /opt/logseq-desktop/resources/app/electron.js:594:146
+    at Function.e [as g] (/opt/logseq-desktop/resources/app/electron.js:157:235)
+    at /opt/logseq-desktop/resources/app/electron.js:538:312
+    at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-05-07 08:40:53.735] [debug] [Marketplace] Updating: sethyuan/logseq-plugin-tocgen
+[2023-05-07 08:40:54.026] [debug] [Marketplace] [Release URL]  https://api.github.com/repos/sethyuan/logseq-plugin-tocgen/releases/latest [Status/Text] 200
+[2023-05-07 08:40:54.028] [debug] [Marketplace] [Release Asset] # v2.7.0  => https://api.github.com/repos/sethyuan/logseq-plugin-tocgen/releases/assets/104183083
+[2023-05-07 08:40:54.028] [debug] [Marketplace] [Updating Latest?]  v2.7.0  >  v2.7.0
+[2023-05-07 08:40:54.029] [debug] [Marketplace] Error: :no-new-version
+    at /opt/logseq-desktop/resources/app/electron.js:594:123
+    at /opt/logseq-desktop/resources/app/electron.js:594:146
+    at Function.e [as g] (/opt/logseq-desktop/resources/app/electron.js:157:235)
+    at /opt/logseq-desktop/resources/app/electron.js:538:312
+    at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-05-07 08:40:54.537] [debug] [Marketplace] Updating: sawhney17/logseq-pdf-export
+[2023-05-07 08:40:54.844] [debug] [Marketplace] [Release URL]  https://api.github.com/repos/sawhney17/logseq-pdf-export/releases/latest [Status/Text] 200
+[2023-05-07 08:40:54.846] [debug] [Marketplace] [Release Asset] # 2.2.8  => https://api.github.com/repos/sawhney17/logseq-pdf-export/releases/assets/102156132
+[2023-05-07 08:40:54.847] [debug] [Marketplace] [Updating Latest?]  2.2.8  >  2.2.8
+[2023-05-07 08:40:54.848] [debug] [Marketplace] Error: :no-new-version
+    at /opt/logseq-desktop/resources/app/electron.js:594:123
+    at /opt/logseq-desktop/resources/app/electron.js:594:146
+    at Function.e [as g] (/opt/logseq-desktop/resources/app/electron.js:157:235)
+    at /opt/logseq-desktop/resources/app/electron.js:538:312
+    at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-05-07 08:40:55.358] [debug] [Marketplace] Updating: blueteafrog/logseq-gunmetal-theme
+[2023-05-07 08:40:55.678] [debug] [Marketplace] [Release URL]  https://api.github.com/repos/blueteafrog/logseq-gunmetal-theme/releases/latest [Status/Text] 200
+[2023-05-07 08:40:55.680] [debug] [Marketplace] [Release Asset] # v0.1.4  => null
+[2023-05-07 08:40:55.680] [debug] [Marketplace] [Updating Latest?]  v0.1.4  >  v0.1.4
+[2023-05-07 08:40:55.681] [debug] [Marketplace] Error: :no-new-version
+    at /opt/logseq-desktop/resources/app/electron.js:594:123
+    at /opt/logseq-desktop/resources/app/electron.js:594:146
+    at Function.e [as g] (/opt/logseq-desktop/resources/app/electron.js:157:235)
+    at /opt/logseq-desktop/resources/app/electron.js:538:312
+    at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-05-07 09:48:00.957] [debug] window-all-closed Quitting...
+[2023-05-07 18:28:27.925] [info] Logseq App(0.9.4) Starting... 
+[2023-05-07 18:28:27.930] [info] restore proxy settings {:type "system"}
+[2023-05-07 18:28:27.952] [info] set proxy to {:type "system"}
+[2023-05-07 18:28:30.612] [debug] :electron.handler/watch-dir {:path "/home/trainingmontage/.logseq/config"}
+[2023-05-07 18:28:30.683] [debug] :electron.handler/unwatch-dir {:path "/home/trainingmontage/Documents/Notes"}
+[2023-05-07 18:28:30.685] [debug] :electron.handler/watch-dir {:path "/home/trainingmontage/Documents/Notes"}
+[2023-05-08 07:38:00.172] [debug] window-all-closed Quitting...
+[2023-05-14 08:13:51.005] [info] Logseq App(0.9.4) Starting... 
+[2023-05-14 08:13:51.013] [info] restore proxy settings {:type "system"}
+[2023-05-14 08:13:51.030] [info] set proxy to {:type "system"}
+[2023-05-14 08:13:53.695] [debug] :electron.handler/watch-dir {:path "/home/trainingmontage/.logseq/config"}
+[2023-05-14 08:13:53.731] [debug] :electron.handler/unwatch-dir {:path "/home/trainingmontage/Documents/Notes"}
+[2023-05-14 08:13:53.732] [debug] :electron.handler/watch-dir {:path "/home/trainingmontage/Documents/Notes"}
+[2023-05-14 08:13:54.360] [debug] [Marketplace] Updating: sethfair/logseq-atlas-theme
+[2023-05-14 08:13:54.667] [debug] [Marketplace] [Release URL]  https://api.github.com/repos/sethfair/logseq-atlas-theme/releases/latest [Status/Text] 200
+[2023-05-14 08:13:54.673] [debug] [Marketplace] [Release Asset] # v0.3.5  => https://api.github.com/repos/sethfair/logseq-atlas-theme/releases/assets/83811325
+[2023-05-14 08:13:54.673] [debug] [Marketplace] [Updating Latest?]  v0.3.5  >  v0.3.5
+[2023-05-14 08:13:54.675] [debug] [Marketplace] Error: :no-new-version
+    at /opt/logseq-desktop/resources/app/electron.js:594:123
+    at /opt/logseq-desktop/resources/app/electron.js:594:146
+    at Function.e [as g] (/opt/logseq-desktop/resources/app/electron.js:157:235)
+    at /opt/logseq-desktop/resources/app/electron.js:538:312
+    at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-05-14 08:13:55.184] [debug] [Marketplace] Updating: sethyuan/logseq-plugin-tocgen
+[2023-05-14 08:13:55.468] [debug] [Marketplace] [Release URL]  https://api.github.com/repos/sethyuan/logseq-plugin-tocgen/releases/latest [Status/Text] 200
+[2023-05-14 08:13:55.470] [debug] [Marketplace] [Release Asset] # v2.7.0  => https://api.github.com/repos/sethyuan/logseq-plugin-tocgen/releases/assets/104183083
+[2023-05-14 08:13:55.470] [debug] [Marketplace] [Updating Latest?]  v2.7.0  >  v2.7.0
+[2023-05-14 08:13:55.471] [debug] [Marketplace] Error: :no-new-version
+    at /opt/logseq-desktop/resources/app/electron.js:594:123
+    at /opt/logseq-desktop/resources/app/electron.js:594:146
+    at Function.e [as g] (/opt/logseq-desktop/resources/app/electron.js:157:235)
+    at /opt/logseq-desktop/resources/app/electron.js:538:312
+    at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-05-14 08:13:55.981] [debug] [Marketplace] Updating: blueteafrog/logseq-gunmetal-theme
+[2023-05-14 08:13:56.317] [debug] [Marketplace] [Release URL]  https://api.github.com/repos/blueteafrog/logseq-gunmetal-theme/releases/latest [Status/Text] 200
+[2023-05-14 08:13:56.320] [debug] [Marketplace] [Release Asset] # v0.1.4  => null
+[2023-05-14 08:13:56.321] [debug] [Marketplace] [Updating Latest?]  v0.1.4  >  v0.1.4
+[2023-05-14 08:13:56.322] [debug] [Marketplace] Error: :no-new-version
+    at /opt/logseq-desktop/resources/app/electron.js:594:123
+    at /opt/logseq-desktop/resources/app/electron.js:594:146
+    at Function.e [as g] (/opt/logseq-desktop/resources/app/electron.js:157:235)
+    at /opt/logseq-desktop/resources/app/electron.js:538:312
+    at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-05-14 08:13:56.833] [debug] [Marketplace] Updating: pengx17/logseq-plugin-tabs
+[2023-05-14 08:13:57.177] [debug] [Marketplace] [Release URL]  https://api.github.com/repos/pengx17/logseq-plugin-tabs/releases/latest [Status/Text] 200
+[2023-05-14 08:13:57.178] [debug] [Marketplace] [Release Asset] # v1.19.1  => https://api.github.com/repos/pengx17/logseq-plugin-tabs/releases/assets/106779429
+[2023-05-14 08:13:57.179] [debug] [Marketplace] [Updating Latest?]  v1.18.3  >  v1.19.1
+[2023-05-14 08:13:57.180] [debug] [Marketplace] [Updating Latest]  v1.19.1
+[2023-05-14 08:13:57.180] [debug] [Marketplace] [CheckedDONE] v1.19.1
+[2023-05-14 08:13:57.686] [debug] [Marketplace] Updating: sawhney17/logseq-pdf-export
+[2023-05-14 08:13:58.003] [debug] [Marketplace] [Release URL]  https://api.github.com/repos/sawhney17/logseq-pdf-export/releases/latest [Status/Text] 200
+[2023-05-14 08:13:58.006] [debug] [Marketplace] [Release Asset] # 2.2.8  => https://api.github.com/repos/sawhney17/logseq-pdf-export/releases/assets/102156132
+[2023-05-14 08:13:58.008] [debug] [Marketplace] [Updating Latest?]  2.2.8  >  2.2.8
+[2023-05-14 08:13:58.011] [debug] [Marketplace] Error: :no-new-version
+    at /opt/logseq-desktop/resources/app/electron.js:594:123
+    at /opt/logseq-desktop/resources/app/electron.js:594:146
+    at Function.e [as g] (/opt/logseq-desktop/resources/app/electron.js:157:235)
+    at /opt/logseq-desktop/resources/app/electron.js:538:312
+    at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-05-14 08:15:30.390] [debug] [Marketplace] Updating: pengx17/logseq-plugin-tabs
+[2023-05-14 08:15:30.688] [debug] [Marketplace] [Release URL]  https://api.github.com/repos/pengx17/logseq-plugin-tabs/releases/latest [Status/Text] 200
+[2023-05-14 08:15:30.689] [debug] [Marketplace] [Release Asset] # v1.19.1  => https://api.github.com/repos/pengx17/logseq-plugin-tabs/releases/assets/106779429
+[2023-05-14 08:15:30.690] [debug] [Marketplace] [Updating Latest?]  v1.18.3  >  v1.19.1
+[2023-05-14 08:15:30.690] [debug] [Marketplace] [Updating Latest]  v1.19.1
+[2023-05-14 08:15:31.872] [debug] [Marketplace] [UpdatedDONE] v1.19.1
+[2023-05-14 08:56:48.498] [info] new-window https://github.com/sethyuan/logseq-plugin-smart-typing
+[2023-05-14 08:57:11.163] [debug] [Marketplace] Installing: sethyuan/logseq-plugin-smart-typing
+[2023-05-14 08:57:11.447] [debug] [Marketplace] [Release URL]  https://api.github.com/repos/sethyuan/logseq-plugin-smart-typing/releases/latest [Status/Text] 200
+[2023-05-14 08:57:11.448] [debug] [Marketplace] [Release Asset] # v0.10.6  => https://api.github.com/repos/sethyuan/logseq-plugin-smart-typing/releases/assets/107292966
+[2023-05-14 08:57:12.018] [debug] [Marketplace] [UpdatedDONE] v0.10.6
+[2023-05-14 09:22:43.215] [info] new-window https://github.com/sawhney17/logseq-smartblocks
+[2023-05-14 09:25:12.896] [info] new-window https://github.com/sawhney17/logseq-web-parser
+[2023-05-16 20:42:13.197] [info] new-window https://github.com/CivicActions/purple-hats/tree/master
+[2023-05-16 20:43:16.669] [info] new-window https://github.com/salesforce/sa11y#a11y-results-formatter
+[2023-05-16 20:43:55.803] [info] new-window https://github.com/pa11y/pa11y-dashboard
+[2023-05-18 08:02:18.436] [debug] window-all-closed Quitting...
+[2023-05-28 16:24:52.707] [info] Logseq App(0.9.8) Starting... 
+[2023-05-28 16:24:52.713] [info] restore proxy settings {:type "system"}
+[2023-05-28 16:24:52.728] [info] set proxy to {:type "system"}
+[2023-05-28 16:24:55.903] [debug] :electron.handler/watch-dir {:path "/home/trainingmontage/.logseq/config"}
+[2023-05-28 16:24:55.986] [debug] :electron.handler/unwatch-dir {:path "/home/trainingmontage/Documents/Notes"}
+[2023-05-28 16:24:55.988] [debug] :electron.handler/watch-dir {:path "/home/trainingmontage/Documents/Notes"}
+[2023-05-28 16:24:56.491] [debug] [Marketplace] Updating: pengx17/logseq-plugin-tabs
+[2023-05-28 16:24:56.835] [debug] [Marketplace] [Release URL]  https://api.github.com/repos/pengx17/logseq-plugin-tabs/releases/latest [Status/Text] 200
+[2023-05-28 16:24:56.840] [debug] [Marketplace] [Release Asset] # v1.19.1  => https://api.github.com/repos/pengx17/logseq-plugin-tabs/releases/assets/106779429
+[2023-05-28 16:24:56.841] [debug] [Marketplace] [Updating Latest?]  v1.19.1  >  v1.19.1
+[2023-05-28 16:24:56.842] [debug] [Marketplace] Error: :no-new-version
+    at /opt/logseq-desktop/resources/app/electron.js:594:123
+    at /opt/logseq-desktop/resources/app/electron.js:594:146
+    at Function.e [as g] (/opt/logseq-desktop/resources/app/electron.js:157:235)
+    at /opt/logseq-desktop/resources/app/electron.js:538:312
+    at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-05-28 16:24:57.353] [debug] [Marketplace] Updating: sawhney17/logseq-pdf-export
+[2023-05-28 16:24:57.682] [debug] [Marketplace] [Release URL]  https://api.github.com/repos/sawhney17/logseq-pdf-export/releases/latest [Status/Text] 200
+[2023-05-28 16:24:57.684] [debug] [Marketplace] [Release Asset] # 2.2.8  => https://api.github.com/repos/sawhney17/logseq-pdf-export/releases/assets/102156132
+[2023-05-28 16:24:57.684] [debug] [Marketplace] [Updating Latest?]  2.2.8  >  2.2.8
+[2023-05-28 16:24:57.684] [debug] [Marketplace] Error: :no-new-version
+    at /opt/logseq-desktop/resources/app/electron.js:594:123
+    at /opt/logseq-desktop/resources/app/electron.js:594:146
+    at Function.e [as g] (/opt/logseq-desktop/resources/app/electron.js:157:235)
+    at /opt/logseq-desktop/resources/app/electron.js:538:312
+    at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-05-28 16:24:58.197] [debug] [Marketplace] Updating: sethyuan/logseq-plugin-tocgen
+[2023-05-28 16:24:58.475] [debug] [Marketplace] [Release URL]  https://api.github.com/repos/sethyuan/logseq-plugin-tocgen/releases/latest [Status/Text] 200
+[2023-05-28 16:24:58.477] [debug] [Marketplace] [Release Asset] # v2.7.0  => https://api.github.com/repos/sethyuan/logseq-plugin-tocgen/releases/assets/104183083
+[2023-05-28 16:24:58.477] [debug] [Marketplace] [Updating Latest?]  v2.7.0  >  v2.7.0
+[2023-05-28 16:24:58.478] [debug] [Marketplace] Error: :no-new-version
+    at /opt/logseq-desktop/resources/app/electron.js:594:123
+    at /opt/logseq-desktop/resources/app/electron.js:594:146
+    at Function.e [as g] (/opt/logseq-desktop/resources/app/electron.js:157:235)
+    at /opt/logseq-desktop/resources/app/electron.js:538:312
+    at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-05-28 16:24:58.989] [debug] [Marketplace] Updating: sethfair/logseq-atlas-theme
+[2023-05-28 16:24:59.263] [debug] [Marketplace] [Release URL]  https://api.github.com/repos/sethfair/logseq-atlas-theme/releases/latest [Status/Text] 200
+[2023-05-28 16:24:59.265] [debug] [Marketplace] [Release Asset] # v0.3.5  => https://api.github.com/repos/sethfair/logseq-atlas-theme/releases/assets/83811325
+[2023-05-28 16:24:59.265] [debug] [Marketplace] [Updating Latest?]  v0.3.5  >  v0.3.5
+[2023-05-28 16:24:59.265] [debug] [Marketplace] Error: :no-new-version
+    at /opt/logseq-desktop/resources/app/electron.js:594:123
+    at /opt/logseq-desktop/resources/app/electron.js:594:146
+    at Function.e [as g] (/opt/logseq-desktop/resources/app/electron.js:157:235)
+    at /opt/logseq-desktop/resources/app/electron.js:538:312
+    at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-05-28 16:24:59.778] [debug] [Marketplace] Updating: sethyuan/logseq-plugin-smart-typing
+[2023-05-28 16:25:00.067] [debug] [Marketplace] [Release URL]  https://api.github.com/repos/sethyuan/logseq-plugin-smart-typing/releases/latest [Status/Text] 200
+[2023-05-28 16:25:00.070] [debug] [Marketplace] [Release Asset] # v0.10.6  => https://api.github.com/repos/sethyuan/logseq-plugin-smart-typing/releases/assets/107292966
+[2023-05-28 16:25:00.070] [debug] [Marketplace] [Updating Latest?]  v0.10.6  >  v0.10.6
+[2023-05-28 16:25:00.072] [debug] [Marketplace] Error: :no-new-version
+    at /opt/logseq-desktop/resources/app/electron.js:594:123
+    at /opt/logseq-desktop/resources/app/electron.js:594:146
+    at Function.e [as g] (/opt/logseq-desktop/resources/app/electron.js:157:235)
+    at /opt/logseq-desktop/resources/app/electron.js:538:312
+    at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-05-28 16:25:00.584] [debug] [Marketplace] Updating: blueteafrog/logseq-gunmetal-theme
+[2023-05-28 16:25:00.943] [debug] [Marketplace] [Release URL]  https://api.github.com/repos/blueteafrog/logseq-gunmetal-theme/releases/latest [Status/Text] 200
+[2023-05-28 16:25:00.946] [debug] [Marketplace] [Release Asset] # v0.1.4  => null
+[2023-05-28 16:25:00.946] [debug] [Marketplace] [Updating Latest?]  v0.1.4  >  v0.1.4
+[2023-05-28 16:25:00.947] [debug] [Marketplace] Error: :no-new-version
+    at /opt/logseq-desktop/resources/app/electron.js:594:123
+    at /opt/logseq-desktop/resources/app/electron.js:594:146
+    at Function.e [as g] (/opt/logseq-desktop/resources/app/electron.js:157:235)
+    at /opt/logseq-desktop/resources/app/electron.js:538:312
+    at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-05-28 16:26:07.765] [debug] window-all-closed Quitting...

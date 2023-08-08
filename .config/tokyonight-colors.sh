@@ -1,0 +1,31 @@
+#!/bin/bash
+
+export  fg=#c0caf5
+export  fg_dark=#a9b1d6
+export  fg_gutter=#3b4261
+export  bg=#24283b
+export  bg_dark=#1f2335
+export  bg_highlight=#292e42
+export  terminal_black=#414868
+export  dark3=#545c7e
+export  dark5=#737aa2
+export  comment=#565f89
+export  blue0=#3d59a1
+export  blue=#7aa2f7
+export  cyan=#7dcfff
+export  blue1=#2ac3de
+export  blue2=#0db9d7
+export  blue5=#89ddff
+export  blue6=#b4f9f8
+export  blue7=#394b70
+export  magenta=#bb9af7
+export  magenta2=#ff007c
+export  purple=#9d7cd8
+export  orange=#ff9e64
+export  yellow=#e0af68
+export  green=#9ece6a
+export  green1=#73daca
+export  green2=#41a6b5
+export  teal=#1abc9c
+export  red=#f7768e
+export  red1=#db4b4b

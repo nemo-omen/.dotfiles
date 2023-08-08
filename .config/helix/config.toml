@@ -1,0 +1,19 @@
+theme="tokyonight_darker"
+
+[editor]
+cursorline = true
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.whitespace]
+render = "all"
+
+[editor.indent-guides]
+render = true
+
+[editor.soft-wrap]
+enable = true
+wrap-at-text-width = true

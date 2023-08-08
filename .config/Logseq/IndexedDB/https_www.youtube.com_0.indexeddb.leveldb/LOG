@@ -1,0 +1,7 @@
+2023/04/22-13:19:14.214 16e705 Reusing MANIFEST /home/trainingmontage/.config/Logseq/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/04/22-13:19:14.214 16e705 Recovering log #3
+2023/04/22-13:19:14.215 16e705 Reusing old log /home/trainingmontage/.config/Logseq/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000003.log 
+2023/04/22-14:38:50.753 1702aa Level-0 table #5: started
+2023/04/22-14:38:50.755 1702aa Level-0 table #5: 45332 bytes OK
+2023/04/22-14:38:50.757 1702aa Delete type=0 #3
+2023/04/22-14:38:50.757 1702aa Manual compaction at level-0 from (begin) .. (end); will stop at (end)
