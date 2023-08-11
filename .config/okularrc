@@ -26,26 +26,26 @@ XWAYLAND2 XWAYLAND31 XWAYLAND32 Window-Maximized 1920x1080 XWAYLAND31=true
 XWAYLAND2 XWAYLAND31 XWAYLAND32 Window-Maximized 1920x1080 XWAYLAND32=true
 
 [Recent Files]
-File1[$e]=$HOME/Documents/Vault/School/Summer 2023/PHYS 3444/Assignments/2B-10s-Complement-Arithmetic-template.pdf
-File10[$e]=$HOME/Downloads/Warrant List June 2023.pdf
-File2[$e]=$HOME/Documents/Vault/School/Summer 2023/PHYS 3444/PracticeTest2.pdf
-File3[$e]=$HOME/school/archive/2022-summer/4312/week03/lab10.pdf
-File4[$e]=$HOME/Digital/docu/Documentation_en.pdf
-File5[$e]=$HOME/Documents/Vault/School/Summer 2023/PHYS 3444/PracticeTest3.pdf
-File6[$e]=$HOME/Documents/Vault/School/Summer 2023/PHYS 3444/PracticeTest3_Inverted.pdf
-File7[$e]=$HOME/Documents/Vault/School/Summer 2023/PHYS 3444/Exam3.pdf
-File8[$e]=$HOME/Downloads/DocumentFragment_6499643.tif
-File9[$e]=$HOME/Downloads/Sarsosa_Deanda/Deanda_Affidavit.pdf
-Name1[$e]=2B-10s-Complement-Arithmetic-template.pdf
-Name10[$e]=Warrant List June 2023.pdf
-Name2[$e]=PracticeTest2.pdf
-Name3[$e]=lab10.pdf
-Name4[$e]=Documentation_en.pdf
-Name5[$e]=PracticeTest3.pdf
-Name6[$e]=PracticeTest3_Inverted.pdf
-Name7[$e]=Exam3.pdf
-Name8[$e]=DocumentFragment_6499643.tif
-Name9[$e]=Deanda_Affidavit.pdf
+File1[$e]=$HOME/Documents/Vault/School/Summer 2023/PHYS 3444/PracticeTest2.pdf
+File10[$e]=$HOME/Documents/Vault/Books/FundamentalsOfSoftwareArchitecture.pdf
+File2[$e]=$HOME/school/archive/2022-summer/4312/week03/lab10.pdf
+File3[$e]=$HOME/Digital/docu/Documentation_en.pdf
+File4[$e]=$HOME/Documents/Vault/School/Summer 2023/PHYS 3444/PracticeTest3.pdf
+File5[$e]=$HOME/Documents/Vault/School/Summer 2023/PHYS 3444/PracticeTest3_Inverted.pdf
+File6[$e]=$HOME/Documents/Vault/School/Summer 2023/PHYS 3444/Exam3.pdf
+File7[$e]=$HOME/Downloads/DocumentFragment_6499643.tif
+File8[$e]=$HOME/Downloads/Sarsosa_Deanda/Deanda_Affidavit.pdf
+File9[$e]=$HOME/Downloads/Warrant List June 2023.pdf
+Name1[$e]=PracticeTest2.pdf
+Name10[$e]=FundamentalsOfSoftwareArchitecture.pdf
+Name2[$e]=lab10.pdf
+Name3[$e]=Documentation_en.pdf
+Name4[$e]=PracticeTest3.pdf
+Name5[$e]=PracticeTest3_Inverted.pdf
+Name6[$e]=Exam3.pdf
+Name7[$e]=DocumentFragment_6499643.tif
+Name8[$e]=Deanda_Affidavit.pdf
+Name9[$e]=Warrant List June 2023.pdf
 
 [UiSettings]
 ColorScheme=KvDark

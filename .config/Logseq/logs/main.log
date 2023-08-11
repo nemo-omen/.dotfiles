@@ -487,3 +487,124 @@
     at /opt/logseq-desktop/resources/app/electron.js:538:312
     at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
 [2023-05-28 16:26:07.765] [debug] window-all-closed Quitting...
+[2023-08-08 19:56:58.647] [info] Logseq App(0.9.9) Starting... 
+[2023-08-08 19:56:58.666] [info] restore proxy settings {:type "system"}
+[2023-08-08 19:56:58.668] [info] set proxy to {:type "system"}
+[2023-08-08 19:57:02.047] [debug] :electron.handler/watch-dir {:path "/home/trainingmontage/.logseq/config"}
+[2023-08-08 19:57:02.165] [debug] :electron.handler/unwatch-dir {:path "/home/trainingmontage/Documents/Notes"}
+[2023-08-08 19:57:02.169] [debug] :electron.handler/watch-dir {:path "/home/trainingmontage/Documents/Notes"}
+[2023-08-08 19:57:02.540] [debug] [Marketplace] Updating: blueteafrog/logseq-gunmetal-theme
+[2023-08-08 19:57:03.015] [debug] [Marketplace] [Release URL]  https://api.github.com/repos/blueteafrog/logseq-gunmetal-theme/releases/latest [Status/Text] 200
+[2023-08-08 19:57:03.019] [debug] [Marketplace] [Release Asset] # v0.1.4  => null
+[2023-08-08 19:57:03.019] [debug] [Marketplace] [Updating Latest?]  v0.1.4  >  v0.1.4
+[2023-08-08 19:57:03.020] [debug] [Marketplace] Error: :no-new-version
+    at /opt/logseq-desktop/resources/app/electron.js:594:123
+    at /opt/logseq-desktop/resources/app/electron.js:594:146
+    at Function.e [as g] (/opt/logseq-desktop/resources/app/electron.js:157:235)
+    at /opt/logseq-desktop/resources/app/electron.js:538:312
+    at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-08-08 19:57:03.529] [debug] [Marketplace] Updating: sethyuan/logseq-plugin-tocgen
+[2023-08-08 19:57:03.814] [debug] [Marketplace] [Release URL]  https://api.github.com/repos/sethyuan/logseq-plugin-tocgen/releases/latest [Status/Text] 200
+[2023-08-08 19:57:03.817] [debug] [Marketplace] [Release Asset] # v2.11.0  => https://api.github.com/repos/sethyuan/logseq-plugin-tocgen/releases/assets/120453641
+[2023-08-08 19:57:03.818] [debug] [Marketplace] [Updating Latest?]  v2.7.0  >  v2.11.0
+[2023-08-08 19:57:03.818] [debug] [Marketplace] [Updating Latest]  v2.11.0
+[2023-08-08 19:57:03.819] [debug] [Marketplace] [CheckedDONE] v2.11.0
+[2023-08-08 19:57:04.329] [debug] [Marketplace] Updating: pengx17/logseq-plugin-tabs
+[2023-08-08 19:57:04.703] [debug] [Marketplace] [Release URL]  https://api.github.com/repos/pengx17/logseq-plugin-tabs/releases/latest [Status/Text] 200
+[2023-08-08 19:57:04.709] [debug] [Marketplace] [Release Asset] # v1.19.1  => https://api.github.com/repos/pengx17/logseq-plugin-tabs/releases/assets/106779429
+[2023-08-08 19:57:04.710] [debug] [Marketplace] [Updating Latest?]  v1.19.1  >  v1.19.1
+[2023-08-08 19:57:04.711] [debug] [Marketplace] Error: :no-new-version
+    at /opt/logseq-desktop/resources/app/electron.js:594:123
+    at /opt/logseq-desktop/resources/app/electron.js:594:146
+    at Function.e [as g] (/opt/logseq-desktop/resources/app/electron.js:157:235)
+    at /opt/logseq-desktop/resources/app/electron.js:538:312
+    at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-08-08 19:57:05.222] [debug] [Marketplace] Updating: sawhney17/logseq-pdf-export
+[2023-08-08 19:57:05.539] [debug] [Marketplace] [Release URL]  https://api.github.com/repos/sawhney17/logseq-pdf-export/releases/latest [Status/Text] 200
+[2023-08-08 19:57:05.541] [debug] [Marketplace] [Release Asset] # 2.2.8  => https://api.github.com/repos/sawhney17/logseq-pdf-export/releases/assets/102156132
+[2023-08-08 19:57:05.541] [debug] [Marketplace] [Updating Latest?]  2.2.8  >  2.2.8
+[2023-08-08 19:57:05.541] [debug] [Marketplace] Error: :no-new-version
+    at /opt/logseq-desktop/resources/app/electron.js:594:123
+    at /opt/logseq-desktop/resources/app/electron.js:594:146
+    at Function.e [as g] (/opt/logseq-desktop/resources/app/electron.js:157:235)
+    at /opt/logseq-desktop/resources/app/electron.js:538:312
+    at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-08-08 19:57:06.053] [debug] [Marketplace] Updating: sethyuan/logseq-plugin-smart-typing
+[2023-08-08 19:57:06.318] [debug] [Marketplace] [Release URL]  https://api.github.com/repos/sethyuan/logseq-plugin-smart-typing/releases/latest [Status/Text] 200
+[2023-08-08 19:57:06.319] [debug] [Marketplace] [Release Asset] # v0.11.0  => https://api.github.com/repos/sethyuan/logseq-plugin-smart-typing/releases/assets/118681460
+[2023-08-08 19:57:06.320] [debug] [Marketplace] [Updating Latest?]  v0.10.6  >  v0.11.0
+[2023-08-08 19:57:06.320] [debug] [Marketplace] [Updating Latest]  v0.11.0
+[2023-08-08 19:57:06.320] [debug] [Marketplace] [CheckedDONE] v0.11.0
+[2023-08-08 19:57:06.829] [debug] [Marketplace] Updating: sethfair/logseq-atlas-theme
+[2023-08-08 19:57:07.120] [debug] [Marketplace] [Release URL]  https://api.github.com/repos/sethfair/logseq-atlas-theme/releases/latest [Status/Text] 200
+[2023-08-08 19:57:07.123] [debug] [Marketplace] [Release Asset] # v0.3.5  => https://api.github.com/repos/sethfair/logseq-atlas-theme/releases/assets/83811325
+[2023-08-08 19:57:07.124] [debug] [Marketplace] [Updating Latest?]  v0.3.5  >  v0.3.5
+[2023-08-08 19:57:07.125] [debug] [Marketplace] Error: :no-new-version
+    at /opt/logseq-desktop/resources/app/electron.js:594:123
+    at /opt/logseq-desktop/resources/app/electron.js:594:146
+    at Function.e [as g] (/opt/logseq-desktop/resources/app/electron.js:157:235)
+    at /opt/logseq-desktop/resources/app/electron.js:538:312
+    at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-08-08 19:59:27.459] [debug] [Marketplace] Installing: kirso/logseq-panic-theme
+[2023-08-08 19:59:27.775] [debug] [Marketplace] [Release URL]  https://api.github.com/repos/kirso/logseq-panic-theme/releases/latest [Status/Text] 200
+[2023-08-08 19:59:27.778] [debug] [Marketplace] [Release Asset] # v1.0.1  => null
+[2023-08-08 19:59:29.126] [debug] [Marketplace] [UpdatedDONE] v1.0.1
+[2023-08-08 19:59:49.536] [debug] [Marketplace] Installing: dracula/logseq
+[2023-08-08 19:59:49.821] [debug] [Marketplace] [Release URL]  https://api.github.com/repos/dracula/logseq/releases/latest [Status/Text] 200
+[2023-08-08 19:59:49.823] [debug] [Marketplace] [Release Asset] # 0.0.5  => null
+[2023-08-08 19:59:50.589] [debug] [Marketplace] [UpdatedDONE] 0.0.5
+[2023-08-08 20:25:20.706] [info] :electron.handler/unlink {:path "/home/trainingmontage/Documents/Notes/pages/4302_ReviewNotes.md"}
+[2023-08-08 20:25:20.706] [debug] :electron.handler/unlink recycle to /home/trainingmontage/Documents/Notes/logseq/.recycle/pages_4302_ReviewNotes.md
+[2023-08-08 20:25:20.819] [debug] :electron.fs-watcher/on-unlink {:path "/home/trainingmontage/Documents/Notes/pages/4302_ReviewNotes.md"}
+[2023-08-08 20:30:59.519] [info] :electron.handler/open-dir open folder selection dialog
+[2023-08-08 20:31:23.141] [debug] :electron.handler/open-dir {:path nil}
+[2023-08-08 20:31:35.465] [debug] :electron.handler/watch-dir {:path "/home/trainingmontage/Documents/Notes"}
+[2023-08-08 20:32:20.389] [info] :electron.handler/open-dir open folder selection dialog
+[2023-08-08 20:32:28.967] [debug] :electron.handler/open-dir {:path "/home/trainingmontage/notes"}
+[2023-08-08 20:32:29.134] [debug] :electron.handler/watch-dir {:path "/home/trainingmontage/notes"}
+[2023-08-08 20:33:41.699] [debug] [Marketplace] Installing: haydenull/logseq-plugin-git
+[2023-08-08 20:33:42.139] [debug] [Marketplace] [Release URL]  https://api.github.com/repos/haydenull/logseq-plugin-git/releases/latest [Status/Text] 200
+[2023-08-08 20:33:42.141] [debug] [Marketplace] [Release Asset] # v1.5.4  => https://api.github.com/repos/haydenull/logseq-plugin-git/releases/assets/118831598
+[2023-08-08 20:33:42.794] [debug] [Marketplace] [UpdatedDONE] v1.5.4
+[2023-08-08 21:10:17.871] [debug] :electron.fs-watcher/on-unlink {:path "/home/trainingmontage/notes/policy-and-procedure-for-the-protection-of-human.pdf"}
+[2023-08-08 21:10:58.870] [debug] [Marketplace] Installing: OverflowCat/logseq-pdf-nav
+[2023-08-08 21:10:59.128] [debug] [Marketplace] [Release URL]  https://api.github.com/repos/OverflowCat/logseq-pdf-nav/releases/latest [Status/Text] 200
+[2023-08-08 21:10:59.131] [debug] [Marketplace] [Release Asset] # v0.1.3  => https://api.github.com/repos/OverflowCat/logseq-pdf-nav/releases/assets/98818631
+[2023-08-08 21:10:59.844] [debug] [Marketplace] [UpdatedDONE] v0.1.3
+[2023-08-08 21:18:31.034] [debug] :electron.fs-watcher/on-unlink {:path "/home/trainingmontage/notes/pages/policy-and-procedure-for-the-protection-of-human.pdf"}
+[2023-08-08 21:20:06.654] [debug] :electron.fs-watcher/on-unlink {:path "/home/trainingmontage/notes/assets/irb-blackboard-site-tutorial.pdf"}
+[2023-08-08 22:01:29.574] [info] :electron.handler/unlink {:path "/home/trainingmontage/notes/pages/A11yCrwlrURLs.md"}
+[2023-08-08 22:01:29.574] [debug] :electron.handler/unlink recycle to /home/trainingmontage/notes/logseq/.recycle/pages_A11yCrwlrURLs.md
+[2023-08-08 22:01:29.681] [debug] :electron.fs-watcher/on-unlink {:path "/home/trainingmontage/notes/pages/A11yCrwlrURLs.md"}
+[2023-08-08 22:02:20.820] [info] :electron.handler/rename from /home/trainingmontage/notes/pages/KevinGarrison.md to /home/trainingmontage/notes/pages/Kevin Garrison.md
+[2023-08-08 22:02:20.923] [debug] :electron.fs-watcher/on-unlink {:path "/home/trainingmontage/notes/pages/KevinGarrison.md"}
+[2023-08-09 06:37:30.743] [info] :electron.handler/rename from /home/trainingmontage/notes/pages/CITI.md to /home/trainingmontage/notes/pages/CITI Human Research Course%3A alias%3A%3A CITI.md
+[2023-08-09 06:37:30.845] [debug] :electron.fs-watcher/on-unlink {:path "/home/trainingmontage/notes/pages/CITI.md"}
+[2023-08-09 06:39:16.552] [info] :electron.handler/rename from /home/trainingmontage/notes/pages/CITI Human Research Course%3A alias%3A%3A CITI.md to /home/trainingmontage/notes/pages/CITI Human Research Course.md
+[2023-08-09 06:39:16.653] [debug] :electron.fs-watcher/on-unlink {:path "/home/trainingmontage/notes/pages/CITI Human Research Course%3A alias%3A%3A CITI.md"}
+[2023-08-09 06:47:59.079] [debug] [Marketplace] Installing: ahonn/logseq-plugin-todo
+[2023-08-09 06:47:59.382] [debug] [Marketplace] [Release URL]  https://api.github.com/repos/ahonn/logseq-plugin-todo/releases/latest [Status/Text] 200
+[2023-08-09 06:47:59.384] [debug] [Marketplace] [Release Asset] # v1.19.0  => https://api.github.com/repos/ahonn/logseq-plugin-todo/releases/assets/104919172
+[2023-08-09 06:48:00.063] [debug] [Marketplace] [UpdatedDONE] v1.19.0
+[2023-08-09 06:49:17.592] [debug] [Marketplace] Updating: sethyuan/logseq-plugin-tocgen
+[2023-08-09 06:49:17.889] [debug] [Marketplace] [Release URL]  https://api.github.com/repos/sethyuan/logseq-plugin-tocgen/releases/latest [Status/Text] 200
+[2023-08-09 06:49:17.890] [debug] [Marketplace] [Release Asset] # v2.11.0  => https://api.github.com/repos/sethyuan/logseq-plugin-tocgen/releases/assets/120453641
+[2023-08-09 06:49:17.891] [debug] [Marketplace] [Updating Latest?]  v2.7.0  >  v2.11.0
+[2023-08-09 06:49:17.891] [debug] [Marketplace] [Updating Latest]  v2.11.0
+[2023-08-09 06:49:18.444] [debug] [Marketplace] [UpdatedDONE] v2.11.0
+[2023-08-09 06:49:18.680] [debug] [Marketplace] Updating: sethyuan/logseq-plugin-smart-typing
+[2023-08-09 06:49:18.961] [debug] [Marketplace] [Release URL]  https://api.github.com/repos/sethyuan/logseq-plugin-smart-typing/releases/latest [Status/Text] 200
+[2023-08-09 06:49:18.962] [debug] [Marketplace] [Release Asset] # v0.11.0  => https://api.github.com/repos/sethyuan/logseq-plugin-smart-typing/releases/assets/118681460
+[2023-08-09 06:49:18.962] [debug] [Marketplace] [Updating Latest?]  v0.10.6  >  v0.11.0
+[2023-08-09 06:49:18.962] [debug] [Marketplace] [Updating Latest]  v0.11.0
+[2023-08-09 06:49:19.693] [debug] [Marketplace] [UpdatedDONE] v0.11.0
+[2023-08-09 06:51:00.183] [debug] window-all-closed Quitting...
+[2023-08-09 06:51:07.066] [info] Logseq App(0.9.9) Starting... 
+[2023-08-09 06:51:07.087] [info] restore proxy settings {:type "system"}
+[2023-08-09 06:51:07.088] [info] set proxy to {:type "system"}
+[2023-08-09 06:51:10.492] [debug] :electron.handler/watch-dir {:path "/home/trainingmontage/.logseq/config"}
+[2023-08-09 06:51:10.600] [debug] :electron.handler/unwatch-dir {:path "/home/trainingmontage/notes"}
+[2023-08-09 06:51:10.601] [debug] :electron.handler/watch-dir {:path "/home/trainingmontage/notes"}
+[2023-08-09 07:54:07.014] [info] :electron.handler/rename from /home/trainingmontage/notes/whiteboards/64d3899b-2fa9-4d4a-b6f3-f9c95dadaa1e.edn to /home/trainingmontage/notes/whiteboards/Demo Whiteboard.edn
+[2023-08-09 07:54:07.115] [debug] :electron.fs-watcher/on-unlink {:path "/home/trainingmontage/notes/whiteboards/64d3899b-2fa9-4d4a-b6f3-f9c95dadaa1e.edn"}
+[2023-08-10 12:02:12.764] [debug] window-all-closed Quitting...
