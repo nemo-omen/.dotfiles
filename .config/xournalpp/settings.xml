@@ -6,7 +6,7 @@
   <property name="pressureMultiplier" value="1"/>
   <property name="zoomGesturesEnabled" value="true"/>
   <property name="selectedToolbar" value="Right hand Note Taking"/>
-  <property name="lastSavePath" value="/home/trainingmontage/dev/projects/a11ycrwlr/docs"/>
+  <property name="lastSavePath" value="/home/trainingmontage/dev/projects/brook/doc"/>
   <property name="lastOpenPath" value="/home/trainingmontage/Documents/Vault/School/Summer 2023/PHYS 3444"/>
   <property name="lastImagePath" value=""/>
   <property name="edgePanSpeed" value="20"/>
@@ -19,7 +19,7 @@
   <property name="maximized" value="true"/>
   <property name="showToolbar" value="true"/>
   <property name="showSidebar" value="true"/>
-  <property name="sidebarWidth" value="141"/>
+  <property name="sidebarWidth" value="164"/>
   <property name="sidebarNumberingStyle" value="1"/>
   <property name="sidebarOnRight" value="true"/>
   <property name="scrollbarOnLeft" value="false"/>
@@ -242,7 +242,7 @@
       <attribute name="drawingType" type="string" value="default"/>
     </data>
     <data name="pen">
-      <attribute name="color" type="hex" value="ff5f47"/>
+      <attribute name="color" type="hex" value="ff4788"/>
       <attribute name="drawingType" type="string" value="default"/>
       <attribute name="fill" type="int" value="0"/>
       <attribute name="fillAlpha" type="int" value="128"/>
