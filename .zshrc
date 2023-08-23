@@ -231,6 +231,10 @@ alias sourcerc="source ~/.zshrc"
 alias hx="helix"
 alias rmvim="rm -rf ~/.config/nvim ~/.local/share/nvim ~/.cache/nvim"
 alias nvide="WINIT_UNIX_BACKEND=x11 neovide"
+alias klstmpv="mpv 'https://tkx.mp.lura.live/rest/v2/mcp/video/adstnK6qeDVydwa7?anvack=rz93EA0L2zkpVU2wY9fdOi6PnvRA8DMe&eud=1PfQlqQNPbM%2FYzKuNMFZcVAB70xSBb%2FPOCRP9hjrVDBpq0XdyAa1ShiMNFkzzkZk2SMWUiVdIcuGBmNDYmzoNA%3D%3D' disown"
+alias loadtabletdaemon="systemctl --user daemon-reload && systemctl --user enable opentabletdriver --now"
+
+
 # Replace yay with paru if installed
 [ ! -x /usr/bin/yay ] && [ -x /usr/bin/paru ] && alias yay='paru'
 
@@ -264,3 +268,4 @@ export QT_QPA_PLATFORM=wayland
 
 export BEGIN_INSTALL="/home/trainingmontage/.begin"
 export PATH="$BEGIN_INSTALL:$PATH"
+export PATH="$PATH:$HOME/.dotnet/tools"
