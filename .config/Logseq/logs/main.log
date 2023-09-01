@@ -1310,3 +1310,63 @@
     at Function.e [as g] (/opt/logseq-desktop/resources/app/electron.js:157:235)
     at /opt/logseq-desktop/resources/app/electron.js:538:312
     at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-08-22 22:56:25.839] [debug] [Marketplace] Updating: sethyuan/logseq-plugin-smart-typing
+[2023-08-22 22:56:26.130] [debug] [Marketplace] [Release URL]  https://api.github.com/repos/sethyuan/logseq-plugin-smart-typing/releases/latest [Status/Text] 200
+[2023-08-22 22:56:26.131] [debug] [Marketplace] [Release Asset] # v0.11.1  => https://api.github.com/repos/sethyuan/logseq-plugin-smart-typing/releases/assets/121546878
+[2023-08-22 22:56:26.131] [debug] [Marketplace] [Updating Latest?]  v0.11.0  >  v0.11.1
+[2023-08-22 22:56:26.131] [debug] [Marketplace] [Updating Latest]  v0.11.1
+[2023-08-22 22:56:26.842] [debug] [Marketplace] [UpdatedDONE] v0.11.1
+[2023-08-22 22:56:27.006] [debug] [Marketplace] Updating: sethyuan/logseq-plugin-tocgen
+[2023-08-22 22:56:27.379] [debug] [Marketplace] [Release URL]  https://api.github.com/repos/sethyuan/logseq-plugin-tocgen/releases/latest [Status/Text] 200
+[2023-08-22 22:56:27.381] [debug] [Marketplace] [Release Asset] # v2.11.1  => https://api.github.com/repos/sethyuan/logseq-plugin-tocgen/releases/assets/121715803
+[2023-08-22 22:56:27.381] [debug] [Marketplace] [Updating Latest?]  v2.11.0  >  v2.11.1
+[2023-08-22 22:56:27.382] [debug] [Marketplace] [Updating Latest]  v2.11.1
+[2023-08-22 22:56:27.922] [debug] [Marketplace] [UpdatedDONE] v2.11.1
+[2023-08-23 19:20:33.347] [debug] window-all-closed Quitting...
+[2023-08-23 20:27:53.527] [info] Logseq App(0.9.9) Starting... 
+[2023-08-23 20:27:53.544] [info] restore proxy settings {:type "system"}
+[2023-08-23 20:27:53.546] [info] set proxy to {:type "system"}
+[2023-08-23 20:27:57.680] [debug] :electron.handler/watch-dir {:path "/home/trainingmontage/.logseq/config"}
+[2023-08-23 20:27:57.838] [debug] :electron.handler/unwatch-dir {:path "/home/trainingmontage/notes"}
+[2023-08-23 20:27:57.840] [debug] :electron.handler/watch-dir {:path "/home/trainingmontage/notes"}
+[2023-08-23 20:27:58.271] [debug] [Marketplace] Updating: kirso/logseq-panic-theme
+[2023-08-23 20:27:58.606] [debug] [Marketplace] [Release URL]  https://api.github.com/repos/kirso/logseq-panic-theme/releases/latest [Status/Text] 200
+[2023-08-23 20:27:58.630] [debug] [Marketplace] [Release Asset] # v1.0.1  => null
+[2023-08-23 20:27:58.632] [debug] [Marketplace] [Updating Latest?]  v1.0.1  >  v1.0.1
+[2023-08-23 20:27:58.633] [debug] [Marketplace] Error: :no-new-version
+    at /opt/logseq-desktop/resources/app/electron.js:594:123
+    at /opt/logseq-desktop/resources/app/electron.js:594:146
+    at Function.e [as g] (/opt/logseq-desktop/resources/app/electron.js:157:235)
+    at /opt/logseq-desktop/resources/app/electron.js:538:312
+    at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-08-23 20:27:59.140] [debug] [Marketplace] Updating: sethfair/logseq-atlas-theme
+[2023-08-23 20:27:59.403] [debug] [Marketplace] [Release URL]  https://api.github.com/repos/sethfair/logseq-atlas-theme/releases/latest [Status/Text] 200
+[2023-08-23 20:27:59.404] [debug] [Marketplace] [Release Asset] # v0.3.5  => https://api.github.com/repos/sethfair/logseq-atlas-theme/releases/assets/83811325
+[2023-08-23 20:27:59.404] [debug] [Marketplace] [Updating Latest?]  v0.3.5  >  v0.3.5
+[2023-08-23 20:27:59.405] [debug] [Marketplace] Error: :no-new-version
+    at /opt/logseq-desktop/resources/app/electron.js:594:123
+    at /opt/logseq-desktop/resources/app/electron.js:594:146
+    at Function.e [as g] (/opt/logseq-desktop/resources/app/electron.js:157:235)
+    at /opt/logseq-desktop/resources/app/electron.js:538:312
+    at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-08-23 20:27:59.929] [debug] [Marketplace] Updating: ahonn/logseq-plugin-todo
+[2023-08-23 20:28:00.203] [debug] [Marketplace] [Release URL]  https://api.github.com/repos/ahonn/logseq-plugin-todo/releases/latest [Status/Text] 200
+[2023-08-23 20:28:00.206] [debug] [Marketplace] [Release Asset] # v1.19.0  => https://api.github.com/repos/ahonn/logseq-plugin-todo/releases/assets/104919172
+[2023-08-23 20:28:00.207] [debug] [Marketplace] [Updating Latest?]  v1.19.0  >  v1.19.0
+[2023-08-23 20:28:00.207] [debug] [Marketplace] Error: :no-new-version
+    at /opt/logseq-desktop/resources/app/electron.js:594:123
+    at /opt/logseq-desktop/resources/app/electron.js:594:146
+    at Function.e [as g] (/opt/logseq-desktop/resources/app/electron.js:157:235)
+    at /opt/logseq-desktop/resources/app/electron.js:538:312
+    at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-08-23 20:28:00.714] [debug] [Marketplace] Updating: sethyuan/logseq-plugin-smart-typing
+[2023-08-23 20:28:01.013] [debug] [Marketplace] [Release URL]  https://api.github.com/repos/sethyuan/logseq-plugin-smart-typing/releases/latest [Status/Text] 200
+[2023-08-23 20:28:01.015] [debug] [Marketplace] [Release Asset] # v0.11.1  => https://api.github.com/repos/sethyuan/logseq-plugin-smart-typing/releases/assets/121546878
+[2023-08-23 20:28:01.016] [debug] [Marketplace] [Updating Latest?]  v0.11.1  >  v0.11.1
+[2023-08-23 20:28:01.018] [debug] [Marketplace] Error: :no-new-version
+    at /opt/logseq-desktop/resources/app/electron.js:594:123
+    at /opt/logseq-desktop/resources/app/electron.js:594:146
+    at Function.e [as g] (/opt/logseq-desktop/resources/app/electron.js:157:235)
+    at /opt/logseq-desktop/resources/app/electron.js:538:312
+    at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-08-23 20:28:01.103] [debug] window-all-closed Quitting...

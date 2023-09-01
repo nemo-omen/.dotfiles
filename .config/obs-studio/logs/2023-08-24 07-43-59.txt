@@ -1,0 +1,229 @@
+07:43:59.974: Platform: Wayland
+07:43:59.974: CPU Name: AMD Ryzen 5 4500U with Radeon Graphics
+07:43:59.974: CPU Speed: 1688.471MHz
+07:43:59.974: Physical Cores: 6, Logical Cores: 6
+07:43:59.974: Physical Memory: 63720MB Total, 23555MB Free
+07:43:59.974: Kernel Version: Linux 6.4.11-zen2-1-zen
+07:43:59.974: Distribution: "Garuda Linux" Unknown
+07:43:59.974: Desktop Environment: Hyprland (sway)
+07:43:59.974: Session Type: wayland
+07:43:59.976: Qt Version: 6.5.2 (runtime), 6.5.2 (compiled)
+07:43:59.976: Portable mode: false
+07:44:00.032: OBS 29.1.3-tytan652-2 (linux)
+07:44:00.032: ---------------------------------
+07:44:00.032: ---------------------------------
+07:44:00.032: audio settings reset:
+07:44:00.032: 	samples per sec: 48000
+07:44:00.032: 	speakers:        2
+07:44:00.032: 	max buffering:   960 milliseconds
+07:44:00.032: 	buffering type:  dynamically increasing
+07:44:00.037: ---------------------------------
+07:44:00.037: Initializing OpenGL...
+07:44:00.037: Using EGL/Wayland
+07:44:00.091: Initialized EGL 1.5
+07:44:00.124: Loading up OpenGL on adapter AMD AMD Radeon Graphics (renoir, LLVM 15.0.7, DRM 3.52, 6.4.11-zen2-1-zen)
+07:44:00.124: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 23.1.6, shading language 4.60
+07:44:00.155: ---------------------------------
+07:44:00.155: video settings reset:
+07:44:00.155: 	base resolution:   1920x1080
+07:44:00.155: 	output resolution: 1280x720
+07:44:00.155: 	downscale filter:  Bicubic
+07:44:00.155: 	fps:               60/1
+07:44:00.155: 	format:            NV12
+07:44:00.155: 	YUV mode:          Rec. 709/Partial
+07:44:00.158: NV12 texture support not available
+07:44:00.158: P010 texture support not available
+07:44:00.164: Audio monitoring device:
+07:44:00.164: 	name: Default
+07:44:00.164: 	id: default
+07:44:00.164: ---------------------------------
+07:44:00.191: No AJA devices found, skipping loading AJA UI plugin
+07:44:00.191: Failed to initialize module 'aja-output-ui.so'
+07:44:00.224: No AJA devices found, skipping loading AJA plugin
+07:44:00.224: Failed to initialize module 'aja.so'
+07:44:00.242: Failed to load 'en-US' text for module: 'decklink-captions.so'
+07:44:00.265: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+07:44:00.276: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+07:44:00.276: Failed to initialize module 'decklink.so'
+07:44:00.573: [pipewire] Available captures:
+07:44:00.574: [pipewire]     - Desktop capture
+07:44:00.611: v4l2loopback not installed, virtual camera disabled
+07:44:00.627: [obs-browser]: Version 2.21.1
+07:44:00.627: [obs-browser]: CEF Version 103.0.5060.134 (runtime), 103.0.0-5060-shared-textures_143.2591+g4204d54+chromium-103.0.5060.134 (compiled)
+07:44:00.661: VAAPI: API version 1.19
+07:44:00.663: FFmpeg VAAPI H264 encoding supported
+07:44:00.669: FFmpeg VAAPI HEVC encoding supported
+07:44:00.763: [obs-websocket] [obs_module_load] you can haz websockets (Version: 5.2.3 | RPC Version: 1)
+07:44:00.763: [obs-websocket] [obs_module_load] Qt version (compile-time): 6.5.2 | Qt version (run-time): 6.5.2
+07:44:00.763: [obs-websocket] [obs_module_load] Linked ASIO Version: 102800
+07:44:00.767: [obs-websocket] [obs_module_load] Module loaded.
+07:44:00.840: [vlc-video]: VLC 3.0.18 Vetinari found, VLC video source enabled
+07:44:00.854: ---------------------------------
+07:44:00.854:   Loaded Modules:
+07:44:00.854:     linux-pipewire-audio.so
+07:44:00.854:     vlc-video.so
+07:44:00.854:     text-freetype2.so
+07:44:00.854:     sndio.so
+07:44:00.854:     rtmp-services.so
+07:44:00.854:     obs-x264.so
+07:44:00.854:     obs-websocket.so
+07:44:00.854:     obs-vst.so
+07:44:00.854:     obs-transitions.so
+07:44:00.854:     obs-outputs.so
+07:44:00.854:     obs-libfdk.so
+07:44:00.854:     obs-filters.so
+07:44:00.854:     obs-ffmpeg.so
+07:44:00.854:     obs-browser.so
+07:44:00.854:     linux-v4l2.so
+07:44:00.854:     linux-pulseaudio.so
+07:44:00.854:     linux-pipewire.so
+07:44:00.854:     linux-jack.so
+07:44:00.854:     linux-capture.so
+07:44:00.854:     linux-alsa.so
+07:44:00.854:     image-source.so
+07:44:00.854:     frontend-tools.so
+07:44:00.854:     decklink-output-ui.so
+07:44:00.854:     decklink-captions.so
+07:44:00.854: ---------------------------------
+07:44:00.854: ==== Startup complete ===============================================
+07:44:00.855: Switched to Preview/Program mode
+07:44:00.855: ------------------------------------------------
+07:44:00.890: All scene data cleared
+07:44:00.890: ------------------------------------------------
+07:44:00.895: pulse-input: Server name: 'PulseAudio (on PipeWire 0.3.77) 15.0.0'
+07:44:00.895: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+07:44:00.895: pulse-input: Started recording from 'alsa_output.pci-0000_05_00.6.5.analog-stereo.monitor' (default)
+07:44:00.896: [Loaded global audio device]: 'Desktop Audio'
+07:44:00.896:     - filter: 'Gain' (gain_filter)
+07:44:00.896: pulse-input: Server name: 'PulseAudio (on PipeWire 0.3.77) 15.0.0'
+07:44:00.897: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+07:44:00.897: pulse-input: Started recording from 'alsa_input.usb-Focusrite_Scarlett_Solo_USB-00.5.analog-stereo' (default)
+07:44:00.897: [Loaded global audio device]: 'Mic/Aux'
+07:44:00.897: [Media Source 'Media Source']: settings:
+07:44:00.897: 	input:                   https://tkx.mp.lura.live/rest/v2/mcp/video/adstnK6qeDVydwa7?anvack=rz93EA0L2zkpVU2wY9fdOi6PnvRA8DMe&eud=1PfQlqQNPbM%2FYzKuNMFZcVAB70xSBb%2FPOCRP9hjrVDBpq0XdyAa1ShiMNFkzzkZk2SMWUiVdIcuGBmNDYmzoNA%3D%3D
+07:44:00.897: 	input_format:            
+07:44:00.897: 	speed:                   100
+07:44:00.897: 	is_looping:              no
+07:44:00.897: 	is_linear_alpha:         no
+07:44:00.897: 	is_hw_decoding:          no
+07:44:00.897: 	is_clear_on_media_end:   yes
+07:44:00.897: 	restart_on_activate:     yes
+07:44:00.897: 	close_when_inactive:     no
+07:44:00.897: 	full_decode:             no
+07:44:00.897: 	ffmpeg_options:          
+07:44:00.913: pulse-am: Server name: 'PulseAudio (on PipeWire 0.3.77) 15.0.0'
+07:44:00.914: pulse-am: Audio format: s32le, 48000 Hz, 2 channels
+07:44:00.914: pulse-am: Started Monitoring in 'alsa_output.pci-0000_05_00.6.5.analog-stereo'
+07:44:00.920: alsa-input: Failed to open 'front:CARD=USB,DEV=0': Device or resource busy
+07:44:00.923: pulse-am: Server name: 'PulseAudio (on PipeWire 0.3.77) 15.0.0'
+07:44:00.923: pulse-am: Audio format: s32le, 48000 Hz, 2 channels
+07:44:00.924: pulse-am: Started Monitoring in 'alsa_output.pci-0000_05_00.6.5.analog-stereo'
+07:44:00.926: PipeWire initialized
+07:44:00.975: [pipewire] Created stream 0x55a9b9edc960
+07:44:00.978: PipeWire initialized
+07:44:00.987: alsa-input: Failed to open 'front:CARD=USB,DEV=0': Device or resource busy
+07:44:00.999: [pipewire] Created app capture sink 116 with 2 channels and position FL,FR
+07:44:01.011: Switched to scene 'Shotgun Mic'
+07:44:01.023: ------------------------------------------------
+07:44:01.023: Loaded scenes:
+07:44:01.023: - scene 'KLST Anvack Stream':
+07:44:01.023:     - source: 'Media Source' (ffmpeg_source)
+07:44:01.023:         - monitoring: monitor and output
+07:44:01.023: - scene 'Timer Slate':
+07:44:01.023:     - source: 'Browser' (browser_source)
+07:44:01.023:     - source: 'Static Slate' (browser_source)
+07:44:01.023: - scene 'MPV Stream Window':
+07:44:01.023:     - source: 'Screen Capture (PipeWire)' (pipewire-desktop-capture-source)
+07:44:01.023:     - source: 'Application Audio Capture (PipeWire)' (pipewire_audio_application_capture)
+07:44:01.023: - scene 'Shotgun Mic':
+07:44:01.023:     - source: 'Scarlet Solo' (alsa_input_capture)
+07:44:01.023:         - monitoring: monitor and output
+07:44:01.023: - scene 'PIP Monitor':
+07:44:01.023:     - source: 'Monitor' (scene)
+07:44:01.023:     - source: 'Shotgun Mic' (scene)
+07:44:01.023: - scene 'Monitor':
+07:44:01.023:     - source: 'Notes' (text_ft2_source_v2)
+07:44:01.023:     - source: 'Screen Capture (PipeWire) 2' (pipewire-desktop-capture-source)
+07:44:01.023:     - source: 'Shotgun Mic' (scene)
+07:44:01.023: ------------------------------------------------
+07:44:01.062: [pipewire] 0x55a9b9edc960 Got format: rate 48000 - channels 2 - format 8
+07:44:01.078: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Application Audio Capture (PipeWire))
+07:44:01.078: 
+07:44:01.146: [pipewire] Screencast session created
+07:44:01.147: [pipewire] Screencast session created
+07:44:01.218: [pipewire] Asking for desktop
+07:44:01.219: [pipewire] Asking for desktop
+07:44:01.266: [pipewire] desktop selected, setting up screencast
+07:44:01.270: [pipewire] desktop selected, setting up screencast
+07:44:01.287: [pipewire] Server version: 0.3.77
+07:44:01.288: [pipewire] Library version: 0.3.77
+07:44:01.288: [pipewire] Header version: 0.3.75
+07:44:01.288: [pipewire] Created stream 0x55a9b9894c10
+07:44:01.288: [pipewire] Stream 0x55a9b9894c10 state: "connecting" (error: none)
+07:44:01.288: [pipewire] Playing stream 0x55a9b9894c10
+07:44:01.289: [pipewire] Stream 0x55a9b9894c10 state: "paused" (error: none)
+07:44:01.290: [pipewire] Server version: 0.3.77
+07:44:01.290: [pipewire] Library version: 0.3.77
+07:44:01.290: [pipewire] Header version: 0.3.75
+07:44:01.290: [pipewire] Created stream 0x55a9b98c9200
+07:44:01.290: [pipewire] Stream 0x55a9b98c9200 state: "connecting" (error: none)
+07:44:01.290: [pipewire] Playing stream 0x55a9b98c9200
+07:44:01.292: [pipewire] Stream 0x55a9b98c9200 state: "paused" (error: none)
+07:44:01.300: [pipewire] Negotiated format:
+07:44:01.300: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+07:44:01.300: [pipewire]     Modifier: 0x0
+07:44:01.300: [pipewire] Negotiated format:
+07:44:01.300: [pipewire]     Size: 1920x1080
+07:44:01.300: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+07:44:01.300: [pipewire]     Framerate: 0/1
+07:44:01.300: [pipewire]     Modifier: 0x0
+07:44:01.300: [pipewire]     Size: 1920x1080
+07:44:01.300: [pipewire]     Framerate: 0/1
+07:44:01.301: [pipewire] Negotiated format:
+07:44:01.301: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+07:44:01.301: [pipewire]     Modifier: 0x20000044051ba01
+07:44:01.301: [pipewire]     Size: 1920x1080
+07:44:01.301: [pipewire]     Framerate: 0/1
+07:44:01.301: [pipewire] Negotiated format:
+07:44:01.301: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+07:44:01.301: [pipewire]     Modifier: 0x20000044051ba01
+07:44:01.301: [pipewire]     Size: 1920x1080
+07:44:01.301: [pipewire]     Framerate: 0/1
+07:44:01.303: [pipewire] Stream 0x55a9b9894c10 state: "streaming" (error: none)
+07:44:01.303: [pipewire] Stream 0x55a9b98c9200 state: "streaming" (error: none)
+07:44:01.921: alsa-input: Failed to open 'front:CARD=USB,DEV=0': Device or resource busy
+07:44:03.922: alsa-input: Failed to open 'front:CARD=USB,DEV=0': Device or resource busy
+07:44:06.923: alsa-input: Failed to open 'front:CARD=USB,DEV=0': Device or resource busy
+07:44:10.928: alsa-input: Failed to open 'front:CARD=USB,DEV=0': Device or resource busy
+07:44:15.929: alsa-input: Failed to open 'front:CARD=USB,DEV=0': Device or resource busy
+07:44:20.929: alsa-input: Failed to open 'front:CARD=USB,DEV=0': Device or resource busy
+07:44:25.931: alsa-input: Failed to open 'front:CARD=USB,DEV=0': Device or resource busy
+07:44:30.932: alsa-input: Failed to open 'front:CARD=USB,DEV=0': Device or resource busy
+07:44:35.932: alsa-input: Failed to open 'front:CARD=USB,DEV=0': Device or resource busy
+07:44:40.933: alsa-input: Failed to open 'front:CARD=USB,DEV=0': Device or resource busy
+07:44:45.934: alsa-input: Failed to open 'front:CARD=USB,DEV=0': Device or resource busy
+07:44:50.935: alsa-input: Failed to open 'front:CARD=USB,DEV=0': Device or resource busy
+07:44:55.936: alsa-input: Failed to open 'front:CARD=USB,DEV=0': Device or resource busy
+07:45:00.938: alsa-input: Failed to open 'front:CARD=USB,DEV=0': Device or resource busy
+07:45:05.939: alsa-input: Failed to open 'front:CARD=USB,DEV=0': Device or resource busy
+07:45:10.939: alsa-input: Failed to open 'front:CARD=USB,DEV=0': Device or resource busy
+07:45:15.941: alsa-input: Failed to open 'front:CARD=USB,DEV=0': Device or resource busy
+07:45:20.941: alsa-input: Failed to open 'front:CARD=USB,DEV=0': Device or resource busy
+07:45:25.942: alsa-input: Failed to open 'front:CARD=USB,DEV=0': Device or resource busy
+07:45:30.943: alsa-input: Failed to open 'front:CARD=USB,DEV=0': Device or resource busy
+07:45:35.944: alsa-input: Failed to open 'front:CARD=USB,DEV=0': Device or resource busy
+07:45:40.945: alsa-input: Failed to open 'front:CARD=USB,DEV=0': Device or resource busy
+07:45:45.946: alsa-input: Failed to open 'front:CARD=USB,DEV=0': Device or resource busy
+07:45:50.947: alsa-input: Failed to open 'front:CARD=USB,DEV=0': Device or resource busy
+07:45:55.948: alsa-input: Failed to open 'front:CARD=USB,DEV=0': Device or resource busy
+07:46:00.949: alsa-input: Failed to open 'front:CARD=USB,DEV=0': Device or resource busy
+07:46:03.762: [pipewire] Created stream 0x55a9b9f44620
+07:46:03.764: [pipewire] 0x55a9b9f44620 streaming from 94
+07:46:03.767: User added source 'Audio Input Capture (PipeWire)' (pipewire_audio_input_capture) to scene 'Shotgun Mic'
+07:46:03.794: [pipewire] 0x55a9b9f44620 Got format: rate 48000 - channels 2 - format 8
+07:46:05.950: alsa-input: Failed to open 'front:CARD=USB,DEV=0': Device or resource busy
+07:46:10.951: alsa-input: Failed to open 'front:CARD=USB,DEV=0': Device or resource busy
+07:46:15.951: alsa-input: Failed to open 'front:CARD=USB,DEV=0': Device or resource busy
+07:46:20.955: alsa-input: Failed to open 'front:CARD=USB,DEV=0': Device or resource busy
+07:46:25.550: User Removed source 'Scarlet Solo' (alsa_input_capture) from scene 'Shotgun Mic'
+07:46:25.959: alsa-input: Failed to open 'front:CARD=USB,DEV=0': Device or resource busy
