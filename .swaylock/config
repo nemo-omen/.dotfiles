@@ -3,18 +3,22 @@
 # daemonize
 indicator-caps-lock
 # datestr=%A
-image=$HOME/.config/swaylock/GrackleLock.png
+image=$HOME/.swaylock/GrackleLock.png
 scaling=fill
 font=UbuntuMono
 font-size=20
-
+color=#13111b
 
 # Ring
 indicator-radius=360
+indicator-thickness=20
 # line-uses-ring
-line-color=#737aa2
+line-color=#545c7e
 text-color=#c0caf5
-inside-color=#24283b
+inside-color=#13111b
+inside-clear-color=#13111b
+inside-caps-lock-color=#ff6347
+inside-wrong-color=#ff6347
 inside-ver-color=#0db9d7
 line-ver-color=#0db9d7
 ring-ver-color=#0db9d7
@@ -22,4 +26,4 @@ ring-color=#545c7e
 key-hl-color=#0db9d7
 separator-color=#545c7e
 layout-text-color=#c0caf5
-line-wrong-color=#f7768e
+line-wrong-color=#ff6347
