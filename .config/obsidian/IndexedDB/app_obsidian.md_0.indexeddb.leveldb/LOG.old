@@ -1,21 +1,5 @@
-2023/09/02-14:40:45.568 17234 Reusing MANIFEST /home/trainingmontage/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/MANIFEST-000001
-2023/09/02-14:40:45.568 17234 Recovering log #199
-2023/09/02-14:40:45.618 17234 Reusing old log /home/trainingmontage/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/000199.log 
-2023/09/02-16:48:34.575 17234 Level-0 table #204: started
-2023/09/02-16:48:34.599 17234 Level-0 table #204: 1019977 bytes OK
-2023/09/02-16:48:34.602 17234 Delete type=0 #199
-2023/09/02-16:49:30.063 172af Compacting 1@1 + 1@2 files
-2023/09/02-16:49:30.086 172af Generated table #205@1: 3121 keys, 340146 bytes
-2023/09/02-16:49:30.086 172af Compacted 1@1 + 1@2 files => 340146 bytes
-2023/09/02-16:49:30.087 172af compacted to: files[ 0 0 1 0 0 0 0 ]
-2023/09/02-16:49:30.087 172af Delete type=2 #201
-2023/09/02-16:49:30.088 172af Delete type=2 #204
-2023/09/02-17:45:46.060 17235 Level-0 table #207: started
-2023/09/02-17:45:46.067 17235 Level-0 table #207: 736153 bytes OK
-2023/09/02-17:45:46.069 17235 Delete type=0 #203
-2023/09/02-17:46:41.175 17234 Compacting 1@1 + 1@2 files
-2023/09/02-17:46:41.194 17234 Generated table #208@1: 3138 keys, 375892 bytes
-2023/09/02-17:46:41.194 17234 Compacted 1@1 + 1@2 files => 375892 bytes
-2023/09/02-17:46:41.195 17234 compacted to: files[ 0 0 1 0 0 0 0 ]
-2023/09/02-17:46:41.196 17234 Delete type=2 #205
-2023/09/02-17:46:41.196 17234 Delete type=2 #207
+2023/09/04-06:37:54.014 1dac Reusing MANIFEST /home/trainingmontage/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/MANIFEST-000001
+2023/09/04-06:37:54.015 1dac Recovering log #210
+2023/09/04-06:37:54.028 1dac Reusing old log /home/trainingmontage/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/000210.log 
+2023/09/04-06:37:54.028 1dac Delete type=2 #208
+2023/09/04-06:37:54.028 1dac Delete type=2 #211

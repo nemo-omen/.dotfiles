@@ -1,3 +1,6 @@
-2023/09/03-06:44:24.536 d36 Reusing MANIFEST /home/trainingmontage/.config/obsidian/Local Storage/leveldb/MANIFEST-000001
-2023/09/03-06:44:24.541 d36 Recovering log #144
-2023/09/03-06:44:24.545 d36 Reusing old log /home/trainingmontage/.config/obsidian/Local Storage/leveldb/000144.log 
+2023/09/05-09:34:33.244 20b94 Reusing MANIFEST /home/trainingmontage/.config/obsidian/Local Storage/leveldb/MANIFEST-000001
+2023/09/05-09:34:33.244 20b94 Recovering log #206
+2023/09/05-09:34:33.244 20b94 Reusing old log /home/trainingmontage/.config/obsidian/Local Storage/leveldb/000206.log 
+2023/09/05-09:42:34.092 20b95 Level-0 table #210: started
+2023/09/05-09:42:34.128 20b95 Level-0 table #210: 15863 bytes OK
+2023/09/05-09:42:34.130 20b95 Delete type=0 #206
