@@ -269,3 +269,9 @@ export QT_QPA_PLATFORM=wayland
 export BEGIN_INSTALL="/home/trainingmontage/.begin"
 export PATH="$BEGIN_INSTALL:$PATH"
 export PATH="$PATH:$HOME/.dotnet/tools"
+# bun completions
+[ -s "/home/trainingmontage/.bun/_bun" ] && source "/home/trainingmontage/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"

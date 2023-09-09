@@ -1,5 +1,5 @@
-2023/09/04-06:37:54.014 1dac Reusing MANIFEST /home/trainingmontage/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/MANIFEST-000001
-2023/09/04-06:37:54.015 1dac Recovering log #210
-2023/09/04-06:37:54.028 1dac Reusing old log /home/trainingmontage/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/000210.log 
-2023/09/04-06:37:54.028 1dac Delete type=2 #208
-2023/09/04-06:37:54.028 1dac Delete type=2 #211
+2023/09/07-16:44:04.923 72079 Reusing MANIFEST /home/trainingmontage/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/MANIFEST-000001
+2023/09/07-16:44:04.923 72079 Recovering log #222
+2023/09/07-16:44:04.925 72079 Reusing old log /home/trainingmontage/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/000222.log 
+2023/09/07-16:44:04.925 72079 Delete type=2 #220
+2023/09/07-16:44:04.925 72079 Delete type=2 #223

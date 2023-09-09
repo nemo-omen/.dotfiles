@@ -5,7 +5,7 @@
     "height": 30,
     "modules-left": [
         "custom/launcher",
-        "wlr/workspaces",
+        "hyprland/workspaces",
         "hyprland/window"
     ],
     "modules-center": [
@@ -21,7 +21,7 @@
         "tray",
         "custom/power"
     ],
-    "wlr/workspaces": {
+    "hyprland/workspaces": {
         "format": "{icon}",
         "on-click": "activate",
         "all-outputs": false,

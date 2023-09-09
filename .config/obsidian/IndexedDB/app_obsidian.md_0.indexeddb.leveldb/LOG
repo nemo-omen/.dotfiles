@@ -1,12 +1,15 @@
-2023/09/05-09:34:37.179 20b94 Reusing MANIFEST /home/trainingmontage/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/MANIFEST-000001
-2023/09/05-09:34:37.179 20b94 Recovering log #210
-2023/09/05-09:34:37.240 20b94 Reusing old log /home/trainingmontage/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/000210.log 
-2023/09/05-09:34:40.901 20b94 Level-0 table #215: started
-2023/09/05-09:34:40.927 20b94 Level-0 table #215: 1136236 bytes OK
-2023/09/05-09:34:40.930 20b94 Delete type=0 #210
-2023/09/05-09:34:41.440 20b94 Compacting 1@1 + 1@2 files
-2023/09/05-09:34:41.453 20b94 Generated table #216@1: 3006 keys, 331657 bytes
-2023/09/05-09:34:41.453 20b94 Compacted 1@1 + 1@2 files => 331657 bytes
-2023/09/05-09:34:41.454 20b94 compacted to: files[ 0 0 1 0 0 0 0 ]
-2023/09/05-09:34:41.455 20b94 Delete type=2 #212
-2023/09/05-09:34:41.455 20b94 Delete type=2 #215
+2023/09/08-07:07:08.560 82665 Reusing MANIFEST /home/trainingmontage/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/MANIFEST-000001
+2023/09/08-07:07:08.561 82665 Recovering log #222
+2023/09/08-07:07:08.585 82665 Reusing old log /home/trainingmontage/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/000222.log 
+2023/09/08-08:21:53.428 82669 Level-0 table #227: started
+2023/09/08-08:21:53.441 82669 Level-0 table #227: 1204062 bytes OK
+2023/09/08-08:21:53.443 82669 Delete type=0 #222
+2023/09/08-08:22:52.451 82667 Compacting 1@1 + 1@2 files
+2023/09/08-08:22:52.473 82667 Generated table #228@1: 3106 keys, 353413 bytes
+2023/09/08-08:22:52.473 82667 Compacted 1@1 + 1@2 files => 353413 bytes
+2023/09/08-08:22:52.474 82667 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/09/08-08:22:52.474 82667 Delete type=2 #224
+2023/09/08-08:22:52.474 82667 Delete type=2 #227
+2023/09/08-10:26:37.577 82667 Level-0 table #230: started
+2023/09/08-10:26:37.614 82667 Level-0 table #230: 1252142 bytes OK
+2023/09/08-10:26:37.617 82667 Delete type=0 #226
