@@ -5,8 +5,8 @@
     "height": 30,
     "modules-left": [
         "custom/launcher",
-        "hyprland/workspaces",
-        "hyprland/window"
+        "sway/workspaces",
+        "sway/window"
     ],
     "modules-center": [
         "clock"
@@ -21,7 +21,7 @@
         "tray",
         "custom/power"
     ],
-    "hyprland/workspaces": {
+    "sway/workspaces": {
         "format": "{icon}",
         "on-click": "activate",
         "all-outputs": false,
@@ -54,7 +54,7 @@
         "on-scroll-up": "hyprctl dispatch workspace e+1",
         "on-scroll-down": "hyprctl dispatch workspace e-1"
     },
-    "hyprland/window": {
+    "sway/window": {
         "format": "{}",
         "icon": true,
         "icon-size": 20,

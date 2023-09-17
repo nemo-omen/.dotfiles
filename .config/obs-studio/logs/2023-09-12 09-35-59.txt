@@ -1,0 +1,996 @@
+09:35:59.241: Platform: Wayland
+09:35:59.241: CPU Name: AMD Ryzen 5 4500U with Radeon Graphics
+09:35:59.241: CPU Speed: 3992.362MHz
+09:35:59.241: Physical Cores: 6, Logical Cores: 6
+09:35:59.241: Physical Memory: 63720MB Total, 18873MB Free
+09:35:59.241: Kernel Version: Linux 6.5.2-zen1-1-zen
+09:35:59.241: Distribution: "Garuda Linux" Unknown
+09:35:59.241: Desktop Environment: Hyprland (sway)
+09:35:59.241: Session Type: wayland
+09:35:59.243: Qt Version: 6.5.2 (runtime), 6.5.2 (compiled)
+09:35:59.243: Portable mode: false
+09:35:59.284: OBS 29.1.3-tytan652-4 (linux)
+09:35:59.284: ---------------------------------
+09:35:59.285: ---------------------------------
+09:35:59.285: audio settings reset:
+09:35:59.285: 	samples per sec: 48000
+09:35:59.285: 	speakers:        2
+09:35:59.285: 	max buffering:   960 milliseconds
+09:35:59.285: 	buffering type:  dynamically increasing
+09:35:59.290: ---------------------------------
+09:35:59.290: Initializing OpenGL...
+09:35:59.290: Using EGL/Wayland
+09:35:59.345: Initialized EGL 1.5
+09:35:59.363: Loading up OpenGL on adapter AMD AMD Radeon Graphics (renoir, LLVM 16.0.6, DRM 3.54, 6.5.2-zen1-1-zen)
+09:35:59.363: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 23.1.7-arch1.1, shading language 4.60
+09:35:59.481: ---------------------------------
+09:35:59.481: video settings reset:
+09:35:59.481: 	base resolution:   1920x1080
+09:35:59.481: 	output resolution: 1280x720
+09:35:59.481: 	downscale filter:  Bicubic
+09:35:59.481: 	fps:               60/1
+09:35:59.481: 	format:            NV12
+09:35:59.481: 	YUV mode:          Rec. 709/Partial
+09:35:59.481: NV12 texture support not available
+09:35:59.481: P010 texture support not available
+09:35:59.486: Audio monitoring device:
+09:35:59.486: 	name: Default
+09:35:59.486: 	id: default
+09:35:59.487: ---------------------------------
+09:35:59.520: No AJA devices found, skipping loading AJA UI plugin
+09:35:59.520: Failed to initialize module 'aja-output-ui.so'
+09:35:59.558: No AJA devices found, skipping loading AJA plugin
+09:35:59.558: Failed to initialize module 'aja.so'
+09:35:59.570: Failed to load 'en-US' text for module: 'decklink-captions.so'
+09:35:59.580: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+09:35:59.590: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+09:35:59.590: Failed to initialize module 'decklink.so'
+09:35:59.882: [pipewire] Available captures:
+09:35:59.882: [pipewire]     - Desktop capture
+09:35:59.908: v4l2loopback not installed, virtual camera disabled
+09:35:59.929: [obs-browser]: Version 2.21.1
+09:35:59.929: [obs-browser]: CEF Version 103.0.5060.134 (runtime), 103.0.0-5060-shared-textures_143.2591+g4204d54+chromium-103.0.5060.134 (compiled)
+09:35:59.974: VAAPI: API version 1.19
+09:35:59.976: FFmpeg VAAPI H264 encoding supported
+09:35:59.982: FFmpeg VAAPI HEVC encoding supported
+09:36:00.071: [obs-websocket] [obs_module_load] you can haz websockets (Version: 5.2.3 | RPC Version: 1)
+09:36:00.071: [obs-websocket] [obs_module_load] Qt version (compile-time): 6.5.2 | Qt version (run-time): 6.5.2
+09:36:00.071: [obs-websocket] [obs_module_load] Linked ASIO Version: 102800
+09:36:00.076: [obs-websocket] [obs_module_load] Module loaded.
+09:36:00.141: [vlc-video]: VLC 3.0.18 Vetinari found, VLC video source enabled
+09:36:00.151: ---------------------------------
+09:36:00.151:   Loaded Modules:
+09:36:00.151:     linux-pipewire-audio.so
+09:36:00.151:     vlc-video.so
+09:36:00.151:     text-freetype2.so
+09:36:00.151:     sndio.so
+09:36:00.151:     rtmp-services.so
+09:36:00.151:     obs-x264.so
+09:36:00.151:     obs-websocket.so
+09:36:00.151:     obs-vst.so
+09:36:00.151:     obs-transitions.so
+09:36:00.151:     obs-outputs.so
+09:36:00.151:     obs-libfdk.so
+09:36:00.151:     obs-filters.so
+09:36:00.151:     obs-ffmpeg.so
+09:36:00.151:     obs-browser.so
+09:36:00.151:     linux-v4l2.so
+09:36:00.151:     linux-pulseaudio.so
+09:36:00.151:     linux-pipewire.so
+09:36:00.151:     linux-jack.so
+09:36:00.151:     linux-capture.so
+09:36:00.151:     linux-alsa.so
+09:36:00.151:     image-source.so
+09:36:00.151:     frontend-tools.so
+09:36:00.151:     decklink-output-ui.so
+09:36:00.151:     decklink-captions.so
+09:36:00.151: ---------------------------------
+09:36:00.152: ==== Startup complete ===============================================
+09:36:00.153: Switched to Preview/Program mode
+09:36:00.153: ------------------------------------------------
+09:36:00.187: All scene data cleared
+09:36:00.187: ------------------------------------------------
+09:36:00.194: pulse-input: Server name: 'PulseAudio (on PipeWire 0.3.79) 15.0.0'
+09:36:00.195: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+09:36:00.195: pulse-input: Started recording from 'alsa_output.pci-0000_05_00.6.analog-stereo.monitor' (default)
+09:36:00.195: [Loaded global audio device]: 'Desktop Audio'
+09:36:00.195:     - filter: 'Gain' (gain_filter)
+09:36:00.195: pulse-input: Server name: 'PulseAudio (on PipeWire 0.3.79) 15.0.0'
+09:36:00.196: pulse-input: Audio format: s16le, 32000 Hz, 2 channels
+09:36:00.196: pulse-input: Started recording from 'alsa_input.usb-046d_0821_6DBDC9A0-00.analog-stereo' (default)
+09:36:00.196: [Loaded global audio device]: 'Mic/Aux'
+09:36:00.196: [Media Source 'Media Source']: settings:
+09:36:00.196: 	input:                   https://tkx.mp.lura.live/rest/v2/mcp/video/adstnK6qeDVydwa7?anvack=rz93EA0L2zkpVU2wY9fdOi6PnvRA8DMe&eud=1PfQlqQNPbM%2FYzKuNMFZcVAB70xSBb%2FPOCRP9hjrVDBpq0XdyAa1ShiMNFkzzkZk2SMWUiVdIcuGBmNDYmzoNA%3D%3D
+09:36:00.196: 	input_format:            
+09:36:00.196: 	speed:                   100
+09:36:00.196: 	is_looping:              no
+09:36:00.196: 	is_linear_alpha:         no
+09:36:00.196: 	is_hw_decoding:          no
+09:36:00.196: 	is_clear_on_media_end:   yes
+09:36:00.196: 	restart_on_activate:     yes
+09:36:00.196: 	close_when_inactive:     no
+09:36:00.196: 	full_decode:             no
+09:36:00.196: 	ffmpeg_options:          
+09:36:00.200: pulse-am: Server name: 'PulseAudio (on PipeWire 0.3.79) 15.0.0'
+09:36:00.201: pulse-am: Audio format: s32le, 48000 Hz, 2 channels
+09:36:00.201: pulse-am: Started Monitoring in 'alsa_output.pci-0000_05_00.6.analog-stereo'
+09:36:00.202: PipeWire initialized
+09:36:00.214: [pipewire] Created stream 0x55b1f6d3ce30
+09:36:00.216: v4l2-input: Start capture from 
+09:36:00.216: v4l2-input: Unable to open device
+09:36:00.216: v4l2-input: Initialization failed, errno: No such file or directory
+09:36:00.218: Switched to scene 'cam'
+09:36:00.220: ------------------------------------------------
+09:36:00.220: Loaded scenes:
+09:36:00.220: - scene 'KLST Anvack Stream':
+09:36:00.220:     - source: 'Media Source' (ffmpeg_source)
+09:36:00.220:         - monitoring: monitor and output
+09:36:00.220: - scene 'Timer Slate':
+09:36:00.220:     - source: 'Browser' (browser_source)
+09:36:00.220:     - source: 'Static Slate' (browser_source)
+09:36:00.220: - scene 'Shotgun Mic':
+09:36:00.220:     - source: 'Audio Input Capture (PipeWire)' (pipewire_audio_input_capture)
+09:36:00.220: - scene 'Monitor':
+09:36:00.220:     - source: 'Notes' (text_ft2_source_v2)
+09:36:00.220:     - source: 'Screen Capture (PipeWire) 2' (pipewire-desktop-capture-source)
+09:36:00.220:     - source: 'Shotgun Mic' (scene)
+09:36:00.220: - scene 'cam':
+09:36:00.220:     - source: 'Video Capture Device (V4L2)' (v4l2_input)
+09:36:00.220: ------------------------------------------------
+09:36:00.335: [pipewire] Screencast session created
+09:36:00.778: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Desktop Audio)
+09:36:00.778: 
+09:36:07.679: [pipewire] Asking for desktop
+09:36:07.697: [pipewire] desktop selected, setting up screencast
+09:36:07.710: [pipewire] Server version: 0.3.79
+09:36:07.710: [pipewire] Library version: 0.3.79
+09:36:07.710: [pipewire] Header version: 0.3.79
+09:36:07.710: [pipewire] Created stream 0x55b1f6748fa0
+09:36:07.710: [pipewire] Stream 0x55b1f6748fa0 state: "connecting" (error: none)
+09:36:07.710: [pipewire] Playing stream 0x55b1f6748fa0
+09:36:07.711: [pipewire] Stream 0x55b1f6748fa0 state: "paused" (error: none)
+09:36:07.714: [pipewire] Negotiated format:
+09:36:07.714: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:36:07.714: [pipewire]     Modifier: 0x0
+09:36:07.714: [pipewire]     Size: 1876x993
+09:36:07.714: [pipewire]     Framerate: 0/1
+09:36:07.716: [pipewire] Negotiated format:
+09:36:07.716: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:36:07.716: [pipewire]     Modifier: 0x20000044051ba01
+09:36:07.716: [pipewire]     Size: 1876x993
+09:36:07.716: [pipewire]     Framerate: 0/1
+09:36:07.717: [pipewire] Stream 0x55b1f6748fa0 state: "streaming" (error: none)
+09:36:12.357: ---------------------------------
+09:36:12.357: [x264 encoder: 'simple_video_stream'] preset: veryfast
+09:36:12.357: [x264 encoder: 'simple_video_stream'] settings:
+09:36:12.357: 	rate_control: CBR
+09:36:12.357: 	bitrate:      4350
+09:36:12.357: 	buffer size:  4350
+09:36:12.357: 	crf:          23
+09:36:12.357: 	fps_num:      60
+09:36:12.357: 	fps_den:      1
+09:36:12.357: 	width:        1280
+09:36:12.357: 	height:       720
+09:36:12.357: 	keyint:       250
+09:36:12.357: 
+09:36:12.362: libfdk_aac encoder created
+09:36:12.362: libfdk_aac bitrate: 160, channels: 2
+09:36:12.362: [ffmpeg muxer: 'simple_file_output'] Using muxer settings:
+09:36:12.362: 	movflags=frag_keyframe+empty_moov+delay_moov
+09:36:12.364: ==== Recording Start ===============================================
+09:36:12.364: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/trainingmontage/Videos/2023-09-12 09-36-12.mp4'...
+09:36:12.367: Failed to inhibit: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Inhibit” on object at path /org/freedesktop/portal/desktop
+09:37:04.966: User switched to scene 'Monitor'
+09:37:23.359: [pipewire] Negotiated format:
+09:37:23.359: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:37:23.359: [pipewire]     Modifier: 0x20000044051ba01
+09:37:23.359: [pipewire]     Size: 1880x1001
+09:37:23.359: [pipewire]     Framerate: 0/1
+09:37:23.359: [pipewire] Negotiated format:
+09:37:23.359: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:37:23.359: [pipewire]     Modifier: 0x20000044051ba01
+09:37:23.359: [pipewire]     Size: 1880x1001
+09:37:23.359: [pipewire]     Framerate: 0/1
+09:37:23.359: [pipewire] Negotiated format:
+09:37:23.359: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:37:23.359: [pipewire]     Modifier: 0x20000044051ba01
+09:37:23.359: [pipewire]     Size: 1880x1001
+09:37:23.359: [pipewire]     Framerate: 0/1
+09:37:23.379: [pipewire] Stream 0x55b1f6748fa0 state: "paused" (error: none)
+09:37:23.379: [pipewire] Stream 0x55b1f6748fa0 state: "streaming" (error: none)
+09:37:23.380: [pipewire] Negotiated format:
+09:37:23.380: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:37:23.380: [pipewire]     Modifier: 0x20000044051ba01
+09:37:23.380: [pipewire]     Size: 1896x1032
+09:37:23.380: [pipewire]     Framerate: 0/1
+09:37:23.380: [pipewire] Negotiated format:
+09:37:23.380: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:37:23.380: [pipewire]     Modifier: 0x20000044051ba01
+09:37:23.380: [pipewire]     Size: 1896x1032
+09:37:23.380: [pipewire]     Framerate: 0/1
+09:37:23.383: [pipewire] Negotiated format:
+09:37:23.383: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:37:23.383: [pipewire]     Modifier: 0x20000044051ba01
+09:37:23.383: [pipewire]     Size: 1897x1035
+09:37:23.383: [pipewire]     Framerate: 0/1
+09:37:23.383: [pipewire] Negotiated format:
+09:37:23.383: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:37:23.383: [pipewire]     Modifier: 0x20000044051ba01
+09:37:23.383: [pipewire]     Size: 1897x1036
+09:37:23.383: [pipewire]     Framerate: 0/1
+09:37:23.383: [pipewire] Negotiated format:
+09:37:23.384: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:37:23.384: [pipewire]     Modifier: 0x20000044051ba01
+09:37:23.384: [pipewire]     Size: 1897x1036
+09:37:23.384: [pipewire]     Framerate: 0/1
+09:37:23.384: [pipewire] Negotiated format:
+09:37:23.384: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:37:23.384: [pipewire]     Modifier: 0x20000044051ba01
+09:37:23.384: [pipewire]     Size: 1898x1038
+09:37:23.384: [pipewire]     Framerate: 0/1
+09:37:23.386: [pipewire] Negotiated format:
+09:37:23.386: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:37:23.386: [pipewire]     Modifier: 0x20000044051ba01
+09:37:23.386: [pipewire]     Size: 1898x1038
+09:37:23.386: [pipewire]     Framerate: 0/1
+09:37:23.393: [pipewire] Negotiated format:
+09:37:23.398: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:37:23.398: [pipewire]     Modifier: 0x20000044051ba01
+09:37:23.398: [pipewire]     Size: 1899x1039
+09:37:23.398: [pipewire]     Framerate: 0/1
+09:37:23.401: [pipewire] Negotiated format:
+09:37:23.401: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:37:23.401: [pipewire]     Modifier: 0x20000044051ba01
+09:37:23.401: [pipewire]     Size: 1900x1040
+09:37:23.401: [pipewire]     Framerate: 0/1
+09:37:23.401: [pipewire] Negotiated format:
+09:37:23.401: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:37:23.401: [pipewire]     Modifier: 0x20000044051ba01
+09:37:23.401: [pipewire]     Size: 1900x1041
+09:37:23.401: [pipewire]     Framerate: 0/1
+09:37:23.410: [pipewire] Negotiated format:
+09:37:23.411: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:37:23.411: [pipewire]     Modifier: 0x20000044051ba01
+09:37:23.411: [pipewire]     Size: 1900x1041
+09:37:23.411: [pipewire]     Framerate: 0/1
+09:37:23.411: [pipewire] Negotiated format:
+09:37:23.411: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:37:23.411: [pipewire]     Modifier: 0x20000044051ba01
+09:37:23.412: [pipewire]     Size: 1901x1042
+09:37:23.412: [pipewire]     Framerate: 0/1
+09:37:23.412: [pipewire] Negotiated format:
+09:37:23.412: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:37:23.412: [pipewire]     Modifier: 0x20000044051ba01
+09:37:23.412: [pipewire]     Size: 1901x1042
+09:37:23.412: [pipewire]     Framerate: 0/1
+09:37:23.412: [pipewire] Negotiated format:
+09:37:23.412: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:37:23.412: [pipewire]     Modifier: 0x20000044051ba01
+09:37:23.412: [pipewire]     Size: 1901x1043
+09:37:23.412: [pipewire]     Framerate: 0/1
+09:37:23.412: [pipewire] Negotiated format:
+09:37:23.412: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:37:23.412: [pipewire]     Modifier: 0x20000044051ba01
+09:37:23.412: [pipewire]     Size: 1901x1043
+09:37:23.412: [pipewire]     Framerate: 0/1
+09:37:23.412: [pipewire] Negotiated format:
+09:37:23.412: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:37:23.412: [pipewire]     Modifier: 0x20000044051ba01
+09:37:23.412: [pipewire]     Size: 1901x1044
+09:37:23.412: [pipewire]     Framerate: 0/1
+09:37:23.412: [pipewire] Negotiated format:
+09:37:23.412: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:37:23.412: [pipewire]     Modifier: 0x20000044051ba01
+09:37:23.412: [pipewire]     Size: 1902x1044
+09:37:23.412: [pipewire]     Framerate: 0/1
+09:37:23.412: [pipewire] Negotiated format:
+09:37:23.412: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:37:23.412: [pipewire]     Modifier: 0x20000044051ba01
+09:37:23.412: [pipewire]     Size: 1902x1044
+09:37:23.412: [pipewire]     Framerate: 0/1
+09:37:23.413: [pipewire] Negotiated format:
+09:37:23.413: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:37:23.413: [pipewire]     Modifier: 0x20000044051ba01
+09:37:23.413: [pipewire]     Size: 1902x1046
+09:37:23.413: [pipewire]     Framerate: 0/1
+09:37:23.413: [pipewire] Negotiated format:
+09:37:23.413: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:37:23.413: [pipewire]     Modifier: 0x20000044051ba01
+09:37:23.413: [pipewire]     Size: 1903x1047
+09:37:23.413: [pipewire]     Framerate: 0/1
+09:37:23.413: [pipewire] Negotiated format:
+09:37:23.413: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:37:23.413: [pipewire]     Modifier: 0x20000044051ba01
+09:37:23.413: [pipewire]     Size: 1904x1049
+09:37:23.413: [pipewire]     Framerate: 0/1
+09:37:23.413: [pipewire] Negotiated format:
+09:37:23.413: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:37:23.413: [pipewire]     Modifier: 0x20000044051ba01
+09:37:23.413: [pipewire]     Size: 1904x1049
+09:37:23.413: [pipewire]     Framerate: 0/1
+09:37:23.413: [pipewire] Negotiated format:
+09:37:23.413: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:37:23.413: [pipewire]     Modifier: 0x20000044051ba01
+09:37:23.413: [pipewire]     Size: 1905x1050
+09:37:23.413: [pipewire]     Framerate: 0/1
+09:37:23.413: [pipewire] Negotiated format:
+09:37:23.413: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:37:23.413: [pipewire]     Modifier: 0x20000044051ba01
+09:37:23.413: [pipewire]     Size: 1905x1050
+09:37:23.413: [pipewire]     Framerate: 0/1
+09:37:23.414: [pipewire] Negotiated format:
+09:37:23.414: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:37:23.414: [pipewire]     Modifier: 0x20000044051ba01
+09:37:23.414: [pipewire]     Size: 1905x1051
+09:37:23.414: [pipewire]     Framerate: 0/1
+09:37:23.414: [pipewire] Negotiated format:
+09:37:23.414: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:37:23.414: [pipewire]     Modifier: 0x20000044051ba01
+09:37:23.414: [pipewire]     Size: 1905x1052
+09:37:23.414: [pipewire]     Framerate: 0/1
+09:37:23.414: [pipewire] Negotiated format:
+09:37:23.414: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:37:23.414: [pipewire]     Modifier: 0x20000044051ba01
+09:37:23.414: [pipewire]     Size: 1905x1052
+09:37:23.414: [pipewire]     Framerate: 0/1
+09:37:23.414: [pipewire] Negotiated format:
+09:37:23.414: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:37:23.415: [pipewire]     Modifier: 0x20000044051ba01
+09:37:23.415: [pipewire]     Size: 1906x1052
+09:37:23.415: [pipewire]     Framerate: 0/1
+09:37:23.415: [pipewire] Negotiated format:
+09:37:23.415: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:37:23.415: [pipewire]     Modifier: 0x20000044051ba01
+09:37:23.415: [pipewire]     Size: 1906x1052
+09:37:23.415: [pipewire]     Framerate: 0/1
+09:37:23.415: [pipewire] Negotiated format:
+09:37:23.415: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:37:23.415: [pipewire]     Modifier: 0x20000044051ba01
+09:37:23.415: [pipewire]     Size: 1906x1053
+09:37:23.415: [pipewire]     Framerate: 0/1
+09:37:23.415: [pipewire] Negotiated format:
+09:37:23.415: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:37:23.415: [pipewire]     Modifier: 0x20000044051ba01
+09:37:23.415: [pipewire]     Size: 1906x1053
+09:37:23.415: [pipewire]     Framerate: 0/1
+09:37:23.433: [pipewire] Negotiated format:
+09:37:23.433: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:37:23.433: [pipewire]     Modifier: 0x20000044051ba01
+09:37:23.433: [pipewire]     Size: 1908x1057
+09:37:23.433: [pipewire]     Framerate: 0/1
+09:37:23.433: [pipewire] Negotiated format:
+09:37:23.433: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:37:23.433: [pipewire]     Modifier: 0x20000044051ba01
+09:37:23.433: [pipewire]     Size: 1909x1058
+09:37:23.433: [pipewire]     Framerate: 0/1
+09:37:23.436: [pipewire] Negotiated format:
+09:37:23.436: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:37:23.436: [pipewire]     Modifier: 0x20000044051ba01
+09:37:23.436: [pipewire]     Size: 1909x1059
+09:37:23.436: [pipewire]     Framerate: 0/1
+09:37:23.446: [pipewire] Negotiated format:
+09:37:23.446: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:37:23.446: [pipewire]     Modifier: 0x20000044051ba01
+09:37:23.446: [pipewire]     Size: 1909x1059
+09:37:23.447: [pipewire]     Framerate: 0/1
+09:37:23.451: [pipewire] Negotiated format:
+09:37:23.451: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:37:23.451: [pipewire]     Modifier: 0x20000044051ba01
+09:37:23.451: [pipewire]     Size: 1911x1062
+09:37:23.451: [pipewire]     Framerate: 0/1
+09:37:23.452: [pipewire] Negotiated format:
+09:37:23.452: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:37:23.452: [pipewire]     Modifier: 0x20000044051ba01
+09:37:23.452: [pipewire]     Size: 1911x1062
+09:37:23.452: [pipewire]     Framerate: 0/1
+09:37:23.459: [pipewire] Negotiated format:
+09:37:23.459: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:37:23.459: [pipewire]     Modifier: 0x20000044051ba01
+09:37:23.459: [pipewire]     Size: 1911x1064
+09:37:23.459: [pipewire]     Framerate: 0/1
+09:37:23.459: [pipewire] Negotiated format:
+09:37:23.459: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:37:23.459: [pipewire]     Modifier: 0x20000044051ba01
+09:37:23.459: [pipewire]     Size: 1912x1064
+09:37:23.459: [pipewire]     Framerate: 0/1
+09:37:23.461: [pipewire] Negotiated format:
+09:37:23.461: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:37:23.461: [pipewire]     Modifier: 0x20000044051ba01
+09:37:23.461: [pipewire]     Size: 1912x1064
+09:37:23.461: [pipewire]     Framerate: 0/1
+09:37:23.463: [pipewire] Negotiated format:
+09:37:23.463: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:37:23.463: [pipewire]     Modifier: 0x20000044051ba01
+09:37:23.463: [pipewire]     Size: 1912x1064
+09:37:23.463: [pipewire]     Framerate: 0/1
+09:37:23.484: [pipewire] Negotiated format:
+09:37:23.484: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:37:23.484: [pipewire]     Modifier: 0x20000044051ba01
+09:37:23.484: [pipewire]     Size: 1913x1066
+09:37:23.484: [pipewire]     Framerate: 0/1
+09:37:23.484: [pipewire] Negotiated format:
+09:37:23.484: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:37:23.484: [pipewire]     Modifier: 0x20000044051ba01
+09:37:23.484: [pipewire]     Size: 1913x1066
+09:37:23.484: [pipewire]     Framerate: 0/1
+09:37:23.487: [pipewire] Negotiated format:
+09:37:23.487: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:37:23.487: [pipewire]     Modifier: 0x20000044051ba01
+09:37:23.487: [pipewire]     Size: 1913x1066
+09:37:23.487: [pipewire]     Framerate: 0/1
+09:37:23.487: [pipewire] Negotiated format:
+09:37:23.487: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:37:23.487: [pipewire]     Modifier: 0x20000044051ba01
+09:37:23.487: [pipewire]     Size: 1914x1068
+09:37:23.487: [pipewire]     Framerate: 0/1
+09:37:23.496: [pipewire] Negotiated format:
+09:37:23.496: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:37:23.496: [pipewire]     Modifier: 0x20000044051ba01
+09:37:23.496: [pipewire]     Size: 1914x1068
+09:37:23.496: [pipewire]     Framerate: 0/1
+09:37:23.501: [pipewire] Negotiated format:
+09:37:23.501: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:37:23.501: [pipewire]     Modifier: 0x20000044051ba01
+09:37:23.501: [pipewire]     Size: 1914x1069
+09:37:23.501: [pipewire]     Framerate: 0/1
+09:37:23.509: [pipewire] Negotiated format:
+09:37:23.509: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:37:23.509: [pipewire]     Modifier: 0x20000044051ba01
+09:37:23.509: [pipewire]     Size: 1914x1069
+09:37:23.509: [pipewire]     Framerate: 0/1
+09:37:23.524: [pipewire] Negotiated format:
+09:37:23.524: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:37:23.524: [pipewire]     Modifier: 0x20000044051ba01
+09:37:23.524: [pipewire]     Size: 1915x1070
+09:37:23.524: [pipewire]     Framerate: 0/1
+09:37:23.527: [pipewire] Negotiated format:
+09:37:23.527: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:37:23.527: [pipewire]     Modifier: 0x20000044051ba01
+09:37:23.527: [pipewire]     Size: 1915x1070
+09:37:23.527: [pipewire]     Framerate: 0/1
+09:37:23.532: [pipewire] Negotiated format:
+09:37:23.532: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:37:23.532: [pipewire]     Modifier: 0x20000044051ba01
+09:37:23.532: [pipewire]     Size: 1916x1072
+09:37:23.532: [pipewire]     Framerate: 0/1
+09:37:23.534: [pipewire] Negotiated format:
+09:37:23.534: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:37:23.534: [pipewire]     Modifier: 0x20000044051ba01
+09:37:23.534: [pipewire]     Size: 1916x1072
+09:37:23.534: [pipewire]     Framerate: 0/1
+09:37:23.551: [pipewire] Negotiated format:
+09:37:23.551: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:37:23.551: [pipewire]     Modifier: 0x20000044051ba01
+09:37:23.551: [pipewire]     Size: 1916x1073
+09:37:23.551: [pipewire]     Framerate: 0/1
+09:37:23.555: [pipewire] Negotiated format:
+09:37:23.555: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:37:23.555: [pipewire]     Modifier: 0x20000044051ba01
+09:37:23.555: [pipewire]     Size: 1917x1074
+09:37:23.555: [pipewire]     Framerate: 0/1
+09:37:23.571: [pipewire] Negotiated format:
+09:37:23.571: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:37:23.571: [pipewire]     Modifier: 0x20000044051ba01
+09:37:23.571: [pipewire]     Size: 1917x1074
+09:37:23.571: [pipewire]     Framerate: 0/1
+09:37:23.577: [pipewire] Negotiated format:
+09:37:23.577: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:37:23.577: [pipewire]     Modifier: 0x20000044051ba01
+09:37:23.577: [pipewire]     Size: 1917x1075
+09:37:23.577: [pipewire]     Framerate: 0/1
+09:37:23.582: [pipewire] Negotiated format:
+09:37:23.582: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:37:23.582: [pipewire]     Modifier: 0x20000044051ba01
+09:37:23.582: [pipewire]     Size: 1917x1075
+09:37:23.582: [pipewire]     Framerate: 0/1
+09:37:23.594: [pipewire] Negotiated format:
+09:37:23.594: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:37:23.594: [pipewire]     Modifier: 0x20000044051ba01
+09:37:23.594: [pipewire]     Size: 1918x1076
+09:37:23.595: [pipewire]     Framerate: 0/1
+09:37:23.603: [pipewire] Negotiated format:
+09:37:23.603: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:37:23.603: [pipewire]     Modifier: 0x20000044051ba01
+09:37:23.603: [pipewire]     Size: 1918x1076
+09:37:23.603: [pipewire]     Framerate: 0/1
+09:37:23.603: [pipewire] Negotiated format:
+09:37:23.603: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:37:23.603: [pipewire]     Modifier: 0x20000044051ba01
+09:37:23.603: [pipewire]     Size: 1918x1076
+09:37:23.603: [pipewire]     Framerate: 0/1
+09:37:23.622: [pipewire] Negotiated format:
+09:37:23.623: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:37:23.623: [pipewire]     Modifier: 0x20000044051ba01
+09:37:23.623: [pipewire]     Size: 1918x1077
+09:37:23.623: [pipewire]     Framerate: 0/1
+09:37:23.624: [pipewire] Negotiated format:
+09:37:23.624: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:37:23.624: [pipewire]     Modifier: 0x20000044051ba01
+09:37:23.624: [pipewire]     Size: 1918x1077
+09:37:23.624: [pipewire]     Framerate: 0/1
+09:37:23.634: [pipewire] Negotiated format:
+09:37:23.634: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:37:23.634: [pipewire]     Modifier: 0x20000044051ba01
+09:37:23.634: [pipewire]     Size: 1918x1077
+09:37:23.634: [pipewire]     Framerate: 0/1
+09:37:23.648: [pipewire] Negotiated format:
+09:37:23.648: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:37:23.648: [pipewire]     Modifier: 0x20000044051ba01
+09:37:23.648: [pipewire]     Size: 1919x1078
+09:37:23.648: [pipewire]     Framerate: 0/1
+09:37:23.650: [pipewire] Negotiated format:
+09:37:23.650: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:37:23.650: [pipewire]     Modifier: 0x20000044051ba01
+09:37:23.650: [pipewire]     Size: 1919x1078
+09:37:23.650: [pipewire]     Framerate: 0/1
+09:37:23.671: [pipewire] Negotiated format:
+09:37:23.671: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:37:23.671: [pipewire]     Modifier: 0x20000044051ba01
+09:37:23.671: [pipewire]     Size: 1919x1078
+09:37:23.671: [pipewire]     Framerate: 0/1
+09:37:23.700: [pipewire] Stream 0x55b1f6748fa0 state: "paused" (error: none)
+09:37:23.700: [pipewire] Stream 0x55b1f6748fa0 state: "streaming" (error: none)
+09:37:23.700: [pipewire] Negotiated format:
+09:37:23.700: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:37:23.700: [pipewire]     Modifier: 0x20000044051ba01
+09:37:23.700: [pipewire]     Size: 1919x1079
+09:37:23.700: [pipewire]     Framerate: 0/1
+09:37:23.702: [pipewire] Negotiated format:
+09:37:23.702: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:37:23.702: [pipewire]     Modifier: 0x20000044051ba01
+09:37:23.702: [pipewire]     Size: 1919x1079
+09:37:23.702: [pipewire]     Framerate: 0/1
+09:37:23.704: [pipewire] Negotiated format:
+09:37:23.704: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:37:23.704: [pipewire]     Modifier: 0x20000044051ba01
+09:37:23.704: [pipewire]     Size: 1919x1079
+09:37:23.704: [pipewire]     Framerate: 0/1
+09:37:23.742: [pipewire] Stream 0x55b1f6748fa0 state: "paused" (error: none)
+09:37:23.744: [pipewire] Stream 0x55b1f6748fa0 state: "streaming" (error: none)
+09:37:23.745: [pipewire] Negotiated format:
+09:37:23.745: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:37:23.745: [pipewire]     Modifier: 0x20000044051ba01
+09:37:23.745: [pipewire]     Size: 1920x1080
+09:37:23.745: [pipewire]     Framerate: 0/1
+09:37:23.746: [pipewire] Negotiated format:
+09:37:23.746: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:37:23.746: [pipewire]     Modifier: 0x20000044051ba01
+09:37:23.746: [pipewire]     Size: 1920x1080
+09:37:23.746: [pipewire]     Framerate: 0/1
+09:52:00.867: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/trainingmontage/Videos/2023-09-12 09-36-12.mp4' stopped
+09:52:00.867: Output 'simple_file_output': stopping
+09:52:00.867: Output 'simple_file_output': Total frames output: 56885
+09:52:00.867: Output 'simple_file_output': Total drawn frames: 56901 (56910 attempted)
+09:52:00.867: Output 'simple_file_output': Number of lagged frames due to rendering lag/stalls: 9 (0.0%)
+09:52:00.867: ==== Recording Stop ================================================
+09:52:00.885: libfdk_aac encoder destroyed
+09:52:08.462: [pipewire] Stream 0x55b1f6748fa0 state: "paused" (error: none)
+09:52:08.463: [pipewire] Stream 0x55b1f6748fa0 state: "streaming" (error: none)
+09:52:08.463: [pipewire] Negotiated format:
+09:52:08.463: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:52:08.463: [pipewire]     Modifier: 0x20000044051ba01
+09:52:08.463: [pipewire]     Size: 1917x1075
+09:52:08.463: [pipewire]     Framerate: 0/1
+09:52:08.463: [pipewire] Negotiated format:
+09:52:08.463: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:52:08.463: [pipewire]     Modifier: 0x20000044051ba01
+09:52:08.463: [pipewire]     Size: 1917x1075
+09:52:08.463: [pipewire]     Framerate: 0/1
+09:52:08.482: [pipewire] Stream 0x55b1f6748fa0 state: "paused" (error: none)
+09:52:08.483: [pipewire] Stream 0x55b1f6748fa0 state: "streaming" (error: none)
+09:52:08.483: [pipewire] Negotiated format:
+09:52:08.483: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:52:08.483: [pipewire]     Modifier: 0x20000044051ba01
+09:52:08.483: [pipewire]     Size: 1899x1039
+09:52:08.483: [pipewire]     Framerate: 0/1
+09:52:08.484: [pipewire] Negotiated format:
+09:52:08.485: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:52:08.485: [pipewire]     Modifier: 0x20000044051ba01
+09:52:08.485: [pipewire]     Size: 1899x1039
+09:52:08.485: [pipewire]     Framerate: 0/1
+09:52:08.510: [pipewire] Stream 0x55b1f6748fa0 state: "paused" (error: none)
+09:52:08.511: [pipewire] Stream 0x55b1f6748fa0 state: "streaming" (error: none)
+09:52:08.511: [pipewire] Negotiated format:
+09:52:08.511: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:52:08.511: [pipewire]     Modifier: 0x20000044051ba01
+09:52:08.511: [pipewire]     Size: 1890x1022
+09:52:08.511: [pipewire]     Framerate: 0/1
+09:52:08.512: [pipewire] Negotiated format:
+09:52:08.513: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:52:08.513: [pipewire]     Modifier: 0x20000044051ba01
+09:52:08.513: [pipewire]     Size: 1890x1022
+09:52:08.513: [pipewire]     Framerate: 0/1
+09:52:08.513: [pipewire] Negotiated format:
+09:52:08.513: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:52:08.513: [pipewire]     Modifier: 0x20000044051ba01
+09:52:08.513: [pipewire]     Size: 1889x1020
+09:52:08.513: [pipewire]     Framerate: 0/1
+09:52:08.513: [pipewire] Negotiated format:
+09:52:08.513: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:52:08.513: [pipewire]     Modifier: 0x20000044051ba01
+09:52:08.513: [pipewire]     Size: 1889x1020
+09:52:08.513: [pipewire]     Framerate: 0/1
+09:52:08.514: [pipewire] Negotiated format:
+09:52:08.514: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:52:08.514: [pipewire]     Modifier: 0x20000044051ba01
+09:52:08.514: [pipewire]     Size: 1889x1019
+09:52:08.514: [pipewire]     Framerate: 0/1
+09:52:08.516: [pipewire] Negotiated format:
+09:52:08.516: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:52:08.516: [pipewire]     Modifier: 0x20000044051ba01
+09:52:08.516: [pipewire]     Size: 1889x1019
+09:52:08.516: [pipewire]     Framerate: 0/1
+09:52:08.516: [pipewire] Negotiated format:
+09:52:08.516: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:52:08.516: [pipewire]     Modifier: 0x20000044051ba01
+09:52:08.516: [pipewire]     Size: 1889x1018
+09:52:08.516: [pipewire]     Framerate: 0/1
+09:52:08.516: [pipewire] Negotiated format:
+09:52:08.516: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:52:08.516: [pipewire]     Modifier: 0x20000044051ba01
+09:52:08.516: [pipewire]     Size: 1889x1018
+09:52:08.516: [pipewire]     Framerate: 0/1
+09:52:08.517: [pipewire] Negotiated format:
+09:52:08.517: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:52:08.517: [pipewire]     Modifier: 0x20000044051ba01
+09:52:08.517: [pipewire]     Size: 1888x1018
+09:52:08.517: [pipewire]     Framerate: 0/1
+09:52:08.517: [pipewire] Negotiated format:
+09:52:08.517: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:52:08.517: [pipewire]     Modifier: 0x20000044051ba01
+09:52:08.517: [pipewire]     Size: 1888x1018
+09:52:08.517: [pipewire]     Framerate: 0/1
+09:52:08.519: [pipewire] Negotiated format:
+09:52:08.520: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:52:08.520: [pipewire]     Modifier: 0x20000044051ba01
+09:52:08.520: [pipewire]     Size: 1888x1017
+09:52:08.520: [pipewire]     Framerate: 0/1
+09:52:08.520: [pipewire] Negotiated format:
+09:52:08.520: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:52:08.520: [pipewire]     Modifier: 0x20000044051ba01
+09:52:08.520: [pipewire]     Size: 1888x1017
+09:52:08.520: [pipewire]     Framerate: 0/1
+09:52:08.521: [pipewire] Negotiated format:
+09:52:08.521: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:52:08.521: [pipewire]     Modifier: 0x20000044051ba01
+09:52:08.521: [pipewire]     Size: 1888x1017
+09:52:08.521: [pipewire]     Framerate: 0/1
+09:52:08.522: [pipewire] Negotiated format:
+09:52:08.522: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:52:08.522: [pipewire]     Modifier: 0x20000044051ba01
+09:52:08.522: [pipewire]     Size: 1888x1016
+09:52:08.522: [pipewire]     Framerate: 0/1
+09:52:08.523: [pipewire] Negotiated format:
+09:52:08.523: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:52:08.523: [pipewire]     Modifier: 0x20000044051ba01
+09:52:08.523: [pipewire]     Size: 1888x1016
+09:52:08.523: [pipewire]     Framerate: 0/1
+09:52:08.524: [pipewire] Negotiated format:
+09:52:08.524: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:52:08.524: [pipewire]     Modifier: 0x20000044051ba01
+09:52:08.524: [pipewire]     Size: 1887x1016
+09:52:08.524: [pipewire]     Framerate: 0/1
+09:52:08.526: [pipewire] Negotiated format:
+09:52:08.526: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:52:08.526: [pipewire]     Modifier: 0x20000044051ba01
+09:52:08.526: [pipewire]     Size: 1887x1016
+09:52:08.526: [pipewire]     Framerate: 0/1
+09:52:08.530: [pipewire] Negotiated format:
+09:52:08.530: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:52:08.530: [pipewire]     Modifier: 0x20000044051ba01
+09:52:08.530: [pipewire]     Size: 1887x1015
+09:52:08.530: [pipewire]     Framerate: 0/1
+09:52:08.534: [pipewire] Negotiated format:
+09:52:08.535: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:52:08.535: [pipewire]     Modifier: 0x20000044051ba01
+09:52:08.535: [pipewire]     Size: 1887x1015
+09:52:08.535: [pipewire]     Framerate: 0/1
+09:52:08.535: [pipewire] Negotiated format:
+09:52:08.535: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:52:08.535: [pipewire]     Modifier: 0x20000044051ba01
+09:52:08.535: [pipewire]     Size: 1886x1014
+09:52:08.535: [pipewire]     Framerate: 0/1
+09:52:08.536: [pipewire] Negotiated format:
+09:52:08.536: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:52:08.536: [pipewire]     Modifier: 0x20000044051ba01
+09:52:08.536: [pipewire]     Size: 1886x1014
+09:52:08.536: [pipewire]     Framerate: 0/1
+09:52:08.537: [pipewire] Negotiated format:
+09:52:08.537: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:52:08.537: [pipewire]     Modifier: 0x20000044051ba01
+09:52:08.537: [pipewire]     Size: 1886x1013
+09:52:08.537: [pipewire]     Framerate: 0/1
+09:52:08.537: [pipewire] Negotiated format:
+09:52:08.537: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:52:08.537: [pipewire]     Modifier: 0x20000044051ba01
+09:52:08.537: [pipewire]     Size: 1886x1013
+09:52:08.537: [pipewire]     Framerate: 0/1
+09:52:08.539: [pipewire] Negotiated format:
+09:52:08.539: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:52:08.539: [pipewire]     Modifier: 0x20000044051ba01
+09:52:08.539: [pipewire]     Size: 1886x1013
+09:52:08.539: [pipewire]     Framerate: 0/1
+09:52:08.542: [pipewire] Negotiated format:
+09:52:08.542: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:52:08.542: [pipewire]     Modifier: 0x20000044051ba01
+09:52:08.542: [pipewire]     Size: 1885x1012
+09:52:08.542: [pipewire]     Framerate: 0/1
+09:52:08.544: [pipewire] Negotiated format:
+09:52:08.544: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:52:08.544: [pipewire]     Modifier: 0x20000044051ba01
+09:52:08.544: [pipewire]     Size: 1885x1012
+09:52:08.544: [pipewire]     Framerate: 0/1
+09:52:08.544: [pipewire] Negotiated format:
+09:52:08.545: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:52:08.545: [pipewire]     Modifier: 0x20000044051ba01
+09:52:08.545: [pipewire]     Size: 1885x1011
+09:52:08.545: [pipewire]     Framerate: 0/1
+09:52:08.545: [pipewire] Negotiated format:
+09:52:08.545: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:52:08.545: [pipewire]     Modifier: 0x20000044051ba01
+09:52:08.545: [pipewire]     Size: 1885x1011
+09:52:08.545: [pipewire]     Framerate: 0/1
+09:52:08.556: [pipewire] Stream 0x55b1f6748fa0 state: "paused" (error: none)
+09:52:08.556: [pipewire] Stream 0x55b1f6748fa0 state: "streaming" (error: none)
+09:52:08.556: [pipewire] Negotiated format:
+09:52:08.556: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:52:08.556: [pipewire]     Modifier: 0x20000044051ba01
+09:52:08.556: [pipewire]     Size: 1884x1009
+09:52:08.556: [pipewire]     Framerate: 0/1
+09:52:08.558: [pipewire] Negotiated format:
+09:52:08.558: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:52:08.558: [pipewire]     Modifier: 0x20000044051ba01
+09:52:08.558: [pipewire]     Size: 1884x1009
+09:52:08.558: [pipewire]     Framerate: 0/1
+09:52:08.559: [pipewire] Negotiated format:
+09:52:08.559: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:52:08.559: [pipewire]     Modifier: 0x20000044051ba01
+09:52:08.559: [pipewire]     Size: 1883x1008
+09:52:08.559: [pipewire]     Framerate: 0/1
+09:52:08.560: [pipewire] Negotiated format:
+09:52:08.560: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:52:08.560: [pipewire]     Modifier: 0x20000044051ba01
+09:52:08.560: [pipewire]     Size: 1883x1008
+09:52:08.560: [pipewire]     Framerate: 0/1
+09:52:08.583: [pipewire] Stream 0x55b1f6748fa0 state: "paused" (error: none)
+09:52:08.584: [pipewire] Stream 0x55b1f6748fa0 state: "streaming" (error: none)
+09:52:08.584: [pipewire] Negotiated format:
+09:52:08.584: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:52:08.584: [pipewire]     Modifier: 0x20000044051ba01
+09:52:08.584: [pipewire]     Size: 1882x1005
+09:52:08.584: [pipewire]     Framerate: 0/1
+09:52:08.585: [pipewire] Negotiated format:
+09:52:08.585: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:52:08.585: [pipewire]     Modifier: 0x20000044051ba01
+09:52:08.585: [pipewire]     Size: 1882x1005
+09:52:08.585: [pipewire]     Framerate: 0/1
+09:52:08.586: [pipewire] Negotiated format:
+09:52:08.586: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:52:08.586: [pipewire]     Modifier: 0x20000044051ba01
+09:52:08.586: [pipewire]     Size: 1881x1004
+09:52:08.586: [pipewire]     Framerate: 0/1
+09:52:08.586: [pipewire] Negotiated format:
+09:52:08.586: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:52:08.586: [pipewire]     Modifier: 0x20000044051ba01
+09:52:08.586: [pipewire]     Size: 1881x1004
+09:52:08.586: [pipewire]     Framerate: 0/1
+09:52:08.588: [pipewire] Negotiated format:
+09:52:08.588: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:52:08.588: [pipewire]     Modifier: 0x20000044051ba01
+09:52:08.588: [pipewire]     Size: 1881x1004
+09:52:08.588: [pipewire]     Framerate: 0/1
+09:52:08.606: [pipewire] Stream 0x55b1f6748fa0 state: "paused" (error: none)
+09:52:08.606: [pipewire] Stream 0x55b1f6748fa0 state: "streaming" (error: none)
+09:52:08.606: [pipewire] Negotiated format:
+09:52:08.606: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:52:08.606: [pipewire]     Modifier: 0x20000044051ba01
+09:52:08.606: [pipewire]     Size: 1880x1002
+09:52:08.606: [pipewire]     Framerate: 0/1
+09:52:08.606: [pipewire] Negotiated format:
+09:52:08.606: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:52:08.606: [pipewire]     Modifier: 0x20000044051ba01
+09:52:08.606: [pipewire]     Size: 1880x1002
+09:52:08.606: [pipewire]     Framerate: 0/1
+09:52:08.610: [pipewire] Negotiated format:
+09:52:08.612: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:52:08.612: [pipewire]     Modifier: 0x20000044051ba01
+09:52:08.612: [pipewire]     Size: 1880x1002
+09:52:08.612: [pipewire]     Framerate: 0/1
+09:52:08.613: [pipewire] Negotiated format:
+09:52:08.613: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:52:08.613: [pipewire]     Modifier: 0x20000044051ba01
+09:52:08.614: [pipewire]     Size: 1880x1001
+09:52:08.614: [pipewire]     Framerate: 0/1
+09:52:08.616: [pipewire] Negotiated format:
+09:52:08.616: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:52:08.616: [pipewire]     Modifier: 0x20000044051ba01
+09:52:08.616: [pipewire]     Size: 1880x1001
+09:52:08.616: [pipewire]     Framerate: 0/1
+09:52:08.640: [pipewire] Stream 0x55b1f6748fa0 state: "paused" (error: none)
+09:52:08.640: [pipewire] Stream 0x55b1f6748fa0 state: "streaming" (error: none)
+09:52:08.641: [pipewire] Negotiated format:
+09:52:08.641: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:52:08.641: [pipewire]     Modifier: 0x20000044051ba01
+09:52:08.641: [pipewire]     Size: 1879x999
+09:52:08.641: [pipewire]     Framerate: 0/1
+09:52:08.642: [pipewire] Negotiated format:
+09:52:08.642: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:52:08.642: [pipewire]     Modifier: 0x20000044051ba01
+09:52:08.642: [pipewire]     Size: 1879x999
+09:52:08.642: [pipewire]     Framerate: 0/1
+09:52:08.666: [pipewire] Stream 0x55b1f6748fa0 state: "paused" (error: none)
+09:52:08.667: [pipewire] Stream 0x55b1f6748fa0 state: "streaming" (error: none)
+09:52:08.667: [pipewire] Negotiated format:
+09:52:08.668: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:52:08.668: [pipewire]     Modifier: 0x20000044051ba01
+09:52:08.668: [pipewire]     Size: 1878x997
+09:52:08.668: [pipewire]     Framerate: 0/1
+09:52:08.669: [pipewire] Negotiated format:
+09:52:08.669: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:52:08.669: [pipewire]     Modifier: 0x20000044051ba01
+09:52:08.670: [pipewire]     Size: 1878x997
+09:52:08.670: [pipewire]     Framerate: 0/1
+09:52:08.689: [pipewire] Stream 0x55b1f6748fa0 state: "paused" (error: none)
+09:52:08.689: [pipewire] Stream 0x55b1f6748fa0 state: "streaming" (error: none)
+09:52:08.689: [pipewire] Negotiated format:
+09:52:08.689: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:52:08.689: [pipewire]     Modifier: 0x20000044051ba01
+09:52:08.689: [pipewire]     Size: 1877x996
+09:52:08.689: [pipewire]     Framerate: 0/1
+09:52:08.689: [pipewire] Negotiated format:
+09:52:08.689: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:52:08.689: [pipewire]     Modifier: 0x20000044051ba01
+09:52:08.689: [pipewire]     Size: 1877x996
+09:52:08.689: [pipewire]     Framerate: 0/1
+09:52:08.715: [pipewire] Stream 0x55b1f6748fa0 state: "paused" (error: none)
+09:52:08.715: [pipewire] Stream 0x55b1f6748fa0 state: "streaming" (error: none)
+09:52:08.715: [pipewire] Negotiated format:
+09:52:08.716: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:52:08.716: [pipewire]     Modifier: 0x20000044051ba01
+09:52:08.716: [pipewire]     Size: 1877x995
+09:52:08.716: [pipewire]     Framerate: 0/1
+09:52:08.717: [pipewire] Negotiated format:
+09:52:08.717: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:52:08.717: [pipewire]     Modifier: 0x20000044051ba01
+09:52:08.717: [pipewire]     Size: 1877x995
+09:52:08.717: [pipewire]     Framerate: 0/1
+09:52:08.737: [pipewire] Stream 0x55b1f6748fa0 state: "paused" (error: none)
+09:52:08.737: [pipewire] Stream 0x55b1f6748fa0 state: "streaming" (error: none)
+09:52:08.737: [pipewire] Negotiated format:
+09:52:08.737: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:52:08.737: [pipewire]     Modifier: 0x20000044051ba01
+09:52:08.737: [pipewire]     Size: 1876x994
+09:52:08.737: [pipewire]     Framerate: 0/1
+09:52:08.738: [pipewire] Negotiated format:
+09:52:08.738: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:52:08.738: [pipewire]     Modifier: 0x20000044051ba01
+09:52:08.738: [pipewire]     Size: 1876x994
+09:52:08.738: [pipewire]     Framerate: 0/1
+09:52:08.782: [pipewire] Stream 0x55b1f6748fa0 state: "paused" (error: none)
+09:52:08.784: [pipewire] Stream 0x55b1f6748fa0 state: "streaming" (error: none)
+09:52:08.784: [pipewire] Negotiated format:
+09:52:08.784: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:52:08.784: [pipewire]     Modifier: 0x20000044051ba01
+09:52:08.784: [pipewire]     Size: 1876x993
+09:52:08.784: [pipewire]     Framerate: 0/1
+09:52:08.785: [pipewire] Negotiated format:
+09:52:08.785: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:52:08.785: [pipewire]     Modifier: 0x20000044051ba01
+09:52:08.785: [pipewire]     Size: 1876x993
+09:52:08.785: [pipewire]     Framerate: 0/1
+09:52:08.842: [pipewire] Stream 0x55b1f6748fa0 state: "paused" (error: none)
+09:52:08.843: [pipewire] Stream 0x55b1f6748fa0 state: "streaming" (error: none)
+09:52:08.843: [pipewire] Negotiated format:
+09:52:08.843: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:52:08.843: [pipewire]     Modifier: 0x20000044051ba01
+09:52:08.843: [pipewire]     Size: 1875x992
+09:52:08.843: [pipewire]     Framerate: 0/1
+09:52:08.845: [pipewire] Negotiated format:
+09:52:08.846: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:52:08.846: [pipewire]     Modifier: 0x20000044051ba01
+09:52:08.846: [pipewire]     Size: 1875x992
+09:52:08.846: [pipewire]     Framerate: 0/1
+09:52:09.154: [pipewire] Stream 0x55b1f6748fa0 state: "paused" (error: none)
+09:52:09.154: [pipewire] Stream 0x55b1f6748fa0 state: "streaming" (error: none)
+09:52:09.154: [pipewire] Negotiated format:
+09:52:09.154: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:52:09.154: [pipewire]     Modifier: 0x20000044051ba01
+09:52:09.154: [pipewire]     Size: 1876x993
+09:52:09.154: [pipewire]     Framerate: 0/1
+09:52:09.156: [pipewire] Negotiated format:
+09:52:09.156: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:52:09.156: [pipewire]     Modifier: 0x20000044051ba01
+09:52:09.156: [pipewire]     Size: 1876x993
+09:52:09.156: [pipewire]     Framerate: 0/1
+09:53:12.525: ==== Shutting down ==================================================
+09:53:12.532: pulse-am: Stopped Monitoring in 'alsa_output.pci-0000_05_00.6.analog-stereo'
+09:53:12.532: pulse-am: Got 0 packets with 0 frames
+09:53:12.533: pulse-input: Stopped recording from 'alsa_output.pci-0000_05_00.6.analog-stereo.monitor'
+09:53:12.533: pulse-input: Got 41291 packets with 49549200 frames
+09:53:12.534: pulse-input: Stopped recording from 'alsa_input.usb-046d_0821_6DBDC9A0-00.analog-stereo'
+09:53:12.534: pulse-input: Got 41288 packets with 33030400 frames
+09:53:12.542: [pipewire] Stream 0x55b1f6748fa0 state: "paused" (error: none)
+09:53:12.544: [pipewire] Stream 0x55b1f6748fa0 state: "unconnected" (error: none)
+09:53:12.567: All scene data cleared
+09:53:12.567: ------------------------------------------------
+09:53:12.634: [obs-websocket] [obs_module_unload] Shutting down...
+09:53:12.635: [obs-websocket] [obs_module_unload] Finished shutting down.
+09:53:12.654: [Scripting] Total detached callbacks: 0
+09:53:12.654: Freeing OBS context data
+09:53:12.684: == Profiler Results =============================
+09:53:12.684: run_program_init: 1139.18 ms
+09:53:12.684:  ┣OBSApp::AppInit: 7.743 ms
+09:53:12.684:  ┃ ┗OBSApp::InitLocale: 3.407 ms
+09:53:12.684:  ┗OBSApp::OBSInit: 1083.45 ms
+09:53:12.684:    ┣obs_startup: 2.122 ms
+09:53:12.684:    ┗OBSBasic::OBSInit: 1039.61 ms
+09:53:12.684:      ┣OBSBasic::InitBasicConfig: 0.111 ms
+09:53:12.684:      ┣OBSBasic::ResetAudio: 0.227 ms
+09:53:12.684:      ┣OBSBasic::ResetVideo: 201.38 ms
+09:53:12.684:      ┣OBSBasic::InitOBSCallbacks: 0.021 ms
+09:53:12.684:      ┣OBSBasic::InitHotkeys: 0.142 ms
+09:53:12.684:      ┣obs_load_all_modules2: 664.537 ms
+09:53:12.684:      ┃ ┣obs_init_module(aja-output-ui.so): 0.069 ms
+09:53:12.684:      ┃ ┣obs_init_module(aja.so): 0.067 ms
+09:53:12.684:      ┃ ┣obs_init_module(decklink-captions.so): 0.001 ms
+09:53:12.684:      ┃ ┣obs_init_module(decklink-output-ui.so): 0.001 ms
+09:53:12.684:      ┃ ┣obs_init_module(decklink.so): 0.214 ms
+09:53:12.684:      ┃ ┣obs_init_module(frontend-tools.so): 72.705 ms
+09:53:12.684:      ┃ ┣obs_init_module(image-source.so): 0.01 ms
+09:53:12.684:      ┃ ┣obs_init_module(linux-alsa.so): 0.005 ms
+09:53:12.684:      ┃ ┣obs_init_module(linux-capture.so): 0.001 ms
+09:53:12.684:      ┃ ┣obs_init_module(linux-jack.so): 0.003 ms
+09:53:12.684:      ┃ ┣obs_init_module(linux-pipewire.so): 1.309 ms
+09:53:12.684:      ┃ ┣obs_init_module(linux-pulseaudio.so): 0.003 ms
+09:53:12.684:      ┃ ┣obs_init_module(linux-v4l2.so): 3.735 ms
+09:53:12.684:      ┃ ┣obs_init_module(obs-browser.so): 0.057 ms
+09:53:12.684:      ┃ ┣obs_init_module(obs-ffmpeg.so): 17.694 ms
+09:53:12.684:      ┃ ┃ ┗nvenc_check: 0.744 ms
+09:53:12.684:      ┃ ┣obs_init_module(obs-filters.so): 0.028 ms
+09:53:12.684:      ┃ ┣obs_init_module(obs-libfdk.so): 0.004 ms
+09:53:12.684:      ┃ ┣obs_init_module(obs-outputs.so): 0.007 ms
+09:53:12.684:      ┃ ┣obs_init_module(obs-transitions.so): 0.011 ms
+09:53:12.684:      ┃ ┣obs_init_module(obs-vst.so): 0.007 ms
+09:53:12.684:      ┃ ┣obs_init_module(obs-websocket.so): 4.662 ms
+09:53:12.684:      ┃ ┣obs_init_module(obs-x264.so): 0.004 ms
+09:53:12.684:      ┃ ┣obs_init_module(rtmp-services.so): 1.89 ms
+09:53:12.684:      ┃ ┣obs_init_module(sndio.so): 0.005 ms
+09:53:12.684:      ┃ ┣obs_init_module(text-freetype2.so): 0.018 ms
+09:53:12.684:      ┃ ┣obs_init_module(vlc-video.so): 1.796 ms
+09:53:12.684:      ┃ ┗obs_init_module(linux-pipewire-audio.so): 0.024 ms
+09:53:12.685:      ┣OBSBasic::InitService: 0.435 ms
+09:53:12.685:      ┣OBSBasic::ResetOutputs: 0.22 ms
+09:53:12.685:      ┣OBSBasic::CreateHotkeys: 0.034 ms
+09:53:12.685:      ┣OBSBasic::InitPrimitives: 0.111 ms
+09:53:12.685:      ┗OBSBasic::Load: 68.031 ms
+09:53:12.685: obs_hotkey_thread(25 ms): min=0 ms, median=0.002 ms, max=0.423 ms, 99th percentile=0.008 ms, 100% below 25 ms
+09:53:12.685: audio_thread(Audio): min=0.017 ms, median=0.669 ms, max=24.938 ms, 99th percentile=3.983 ms
+09:53:12.685:  ┗receive_audio: min=0.004 ms, median=0.572 ms, max=10.504 ms, 99th percentile=3.441 ms, 0.917936 calls per parent call
+09:53:12.685:    ┣buffer_audio: min=0 ms, median=0.002 ms, max=0.683 ms, 99th percentile=0.01 ms
+09:53:12.685:    ┗do_encode: min=0.143 ms, median=0.562 ms, max=10.491 ms, 99th percentile=3.418 ms
+09:53:12.685:      ┣encode(simple_aac): min=0.122 ms, median=0.539 ms, max=10.45 ms, 99th percentile=3.224 ms
+09:53:12.685:      ┗send_packet: min=0.002 ms, median=0.019 ms, max=4.914 ms, 99th percentile=0.284 ms
+09:53:12.685: obs_graphics_thread(16.6667 ms): min=0.178 ms, median=1.705 ms, max=119.503 ms, 99th percentile=6.464 ms, 99.979% below 16.667 ms
+09:53:12.685:  ┣tick_sources: min=0.001 ms, median=0.021 ms, max=61.687 ms, 99th percentile=0.109 ms
+09:53:12.685:  ┣output_frame: min=0.148 ms, median=0.794 ms, max=57.753 ms, 99th percentile=3.417 ms
+09:53:12.685:  ┃ ┣gs_context(video->graphics): min=0.144 ms, median=0.595 ms, max=57.749 ms, 99th percentile=2.67 ms
+09:53:12.685:  ┃ ┃ ┣render_video: min=0.031 ms, median=0.299 ms, max=42.403 ms, 99th percentile=1.474 ms
+09:53:12.685:  ┃ ┃ ┃ ┣render_main_texture: min=0.02 ms, median=0.197 ms, max=42.385 ms, 99th percentile=0.92 ms
+09:53:12.685:  ┃ ┃ ┃ ┣render_output_texture: min=0.015 ms, median=0.034 ms, max=15.505 ms, 99th percentile=0.175 ms, 0.918173 calls per parent call
+09:53:12.685:  ┃ ┃ ┃ ┣render_convert_texture: min=0.021 ms, median=0.042 ms, max=3.637 ms, 99th percentile=0.218 ms, 0.918173 calls per parent call
+09:53:12.685:  ┃ ┃ ┃ ┗stage_output_texture: min=0.013 ms, median=0.027 ms, max=1.621 ms, 99th percentile=0.113 ms, 0.918173 calls per parent call
+09:53:12.685:  ┃ ┃ ┣gs_flush: min=0.002 ms, median=0.188 ms, max=41.946 ms, 99th percentile=0.868 ms
+09:53:12.685:  ┃ ┃ ┗download_frame: min=0.001 ms, median=0.09 ms, max=6.745 ms, 99th percentile=0.438 ms, 0.918173 calls per parent call
+09:53:12.685:  ┃ ┗output_video_data: min=0.134 ms, median=0.194 ms, max=10.549 ms, 99th percentile=0.967 ms, 0.918157 calls per parent call
+09:53:12.685:  ┗render_displays: min=0.002 ms, median=0.845 ms, max=52.205 ms, 99th percentile=4.089 ms
+09:53:12.685: video_thread(video): min=0.469 ms, median=0.955 ms, max=36.367 ms, 99th percentile=4.179 ms
+09:53:12.685:  ┗receive_video: min=0.466 ms, median=0.95 ms, max=26.896 ms, 99th percentile=4.17 ms
+09:53:12.685:    ┗do_encode: min=0.463 ms, median=0.946 ms, max=26.893 ms, 99th percentile=4.163 ms
+09:53:12.685:      ┣encode(simple_video_stream): min=0.45 ms, median=0.913 ms, max=26.823 ms, 99th percentile=3.996 ms
+09:53:12.685:      ┗send_packet: min=0.002 ms, median=0.021 ms, max=5.615 ms, 99th percentile=0.287 ms
+09:53:12.685: =================================================
+09:53:12.685: == Profiler Time Between Calls ==================
+09:53:12.685: obs_hotkey_thread(25 ms): min=25.02 ms, median=25.082 ms, max=37.514 ms, 99.3635% within ±2% of 25 ms (0% lower, 0.636463% higher)
+09:53:12.685: obs_graphics_thread(16.6667 ms): min=1.701 ms, median=16.667 ms, max=119.513 ms, 98.601% within ±2% of 16.667 ms (0.695487% lower, 0.703555% higher)
+09:53:12.685: =================================================
+09:53:12.773: Number of memory leaks: 0

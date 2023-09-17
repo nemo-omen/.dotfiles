@@ -6961,3 +6961,201 @@
 2023-09-09 01:07:06 Success.
 2023-09-09 01:07:06 Latest version is 1.4.5
 2023-09-09 01:07:06 App is up to date.
+2023-09-09 05:48:34 Loading main app package /usr/lib/obsidian/obsidian.asar
+2023-09-09 05:48:34 Checking for update using Github
+2023-09-09 05:48:34 Success.
+2023-09-09 05:48:34 Latest version is 1.4.5
+2023-09-09 05:48:34 App is up to date.
+2023-09-09 06:48:34 Checking for update using Github
+2023-09-09 06:48:34 Success.
+2023-09-09 06:48:34 Latest version is 1.4.5
+2023-09-09 06:48:34 App is up to date.
+2023-09-09 07:48:34 Checking for update using Github
+2023-09-09 07:48:34 Success.
+2023-09-09 07:48:34 Latest version is 1.4.5
+2023-09-09 07:48:34 App is up to date.
+2023-09-09 08:48:34 Checking for update using Github
+2023-09-09 08:48:34 Success.
+2023-09-09 08:48:34 Latest version is 1.4.5
+2023-09-09 08:48:34 App is up to date.
+2023-09-09 09:48:34 Checking for update using Github
+2023-09-09 09:48:34 Success.
+2023-09-09 09:48:34 Latest version is 1.4.5
+2023-09-09 09:48:34 App is up to date.
+2023-09-09 10:48:34 Checking for update using Github
+2023-09-09 10:48:34 Success.
+2023-09-09 10:48:34 Latest version is 1.4.5
+2023-09-09 10:48:34 App is up to date.
+2023-09-09 11:50:44 Loading main app package /usr/lib/obsidian/obsidian.asar
+2023-09-09 11:50:44 Checking for update using Github
+2023-09-09 11:50:45 Success.
+2023-09-09 11:50:45 Latest version is 1.4.5
+2023-09-09 11:50:45 App is up to date.
+2023-09-09 12:50:44 Checking for update using Github
+2023-09-09 12:50:44 Success.
+2023-09-09 12:50:44 Latest version is 1.4.5
+2023-09-09 12:50:44 App is up to date.
+2023-09-12 12:25:02 Loading main app package /usr/lib/obsidian/obsidian.asar
+2023-09-12 12:25:03 Checking for update using Github
+2023-09-12 12:25:03 Success.
+2023-09-12 12:25:03 Latest version is 1.4.11
+2023-09-12 12:25:03 Downloading update from https://github.com/obsidianmd/obsidian-releases/releases/download/v1.4.11/obsidian-1.4.11.asar.gz
+2023-09-12 12:25:03 Verifying hash & signature. Size= 8394463
+2023-09-12 12:25:03 Saving file
+2023-09-12 12:25:04 Update complete.
+2023-09-12 13:25:02 Checking for update using Github
+2023-09-12 13:25:03 Success.
+2023-09-12 13:25:03 Latest version is 1.4.11
+2023-09-12 13:25:03 An update is already downloaded.
+2023-09-12 14:25:03 Checking for update using Github
+2023-09-12 14:25:03 Success.
+2023-09-12 14:25:03 Latest version is 1.4.11
+2023-09-12 14:25:03 An update is already downloaded.
+2023-09-12 15:25:03 Checking for update using Github
+2023-09-12 15:25:03 Success.
+2023-09-12 15:25:03 Latest version is 1.4.11
+2023-09-12 15:25:03 An update is already downloaded.
+2023-09-12 16:25:03 Checking for update using Github
+2023-09-12 16:25:03 Success.
+2023-09-12 16:25:03 Latest version is 1.4.11
+2023-09-12 16:25:03 An update is already downloaded.
+2023-09-12 17:25:03 Checking for update using Github
+2023-09-12 17:25:03 Success.
+2023-09-12 17:25:03 Latest version is 1.4.12
+2023-09-12 17:25:03 Downloading update from https://github.com/obsidianmd/obsidian-releases/releases/download/v1.4.12/obsidian-1.4.12.asar.gz
+2023-09-12 17:25:04 Verifying hash & signature. Size= 8394475
+2023-09-12 17:25:04 Saving file
+2023-09-12 17:25:04 Update complete.
+2023-09-12 18:25:03 Checking for update using Github
+2023-09-12 18:25:03 Success.
+2023-09-12 18:25:03 Latest version is 1.4.12
+2023-09-12 18:25:03 An update is already downloaded.
+2023-09-12 19:25:03 Checking for update using Github
+2023-09-12 19:25:03 Success.
+2023-09-12 19:25:03 Latest version is 1.4.12
+2023-09-12 19:25:03 An update is already downloaded.
+2023-09-12 20:25:03 Checking for update using Github
+2023-09-12 20:25:03 Success.
+2023-09-12 20:25:03 Latest version is 1.4.12
+2023-09-12 20:25:03 An update is already downloaded.
+2023-09-12 21:25:03 Checking for update using Github
+2023-09-12 21:25:03 Success.
+2023-09-12 21:25:03 Latest version is 1.4.12
+2023-09-12 21:25:03 An update is already downloaded.
+2023-09-12 22:25:03 Checking for update using Github
+2023-09-12 22:25:03 Success.
+2023-09-12 22:25:03 Latest version is 1.4.12
+2023-09-12 22:25:03 An update is already downloaded.
+2023-09-12 23:25:03 Checking for update using Github
+2023-09-12 23:25:03 Success.
+2023-09-12 23:25:03 Latest version is 1.4.12
+2023-09-12 23:25:03 An update is already downloaded.
+2023-09-13 00:25:03 Checking for update using Github
+2023-09-13 00:25:03 Success.
+2023-09-13 00:25:03 Latest version is 1.4.12
+2023-09-13 00:25:03 An update is already downloaded.
+2023-09-13 01:25:03 Checking for update using Github
+2023-09-13 01:25:04 Success.
+2023-09-13 01:25:04 Latest version is 1.4.12
+2023-09-13 01:25:04 An update is already downloaded.
+2023-09-13 02:25:03 Checking for update using Github
+2023-09-13 02:25:04 Success.
+2023-09-13 02:25:04 Latest version is 1.4.12
+2023-09-13 02:25:04 An update is already downloaded.
+2023-09-13 03:25:04 Checking for update using Github
+2023-09-13 03:25:04 Success.
+2023-09-13 03:25:04 Latest version is 1.4.12
+2023-09-13 03:25:04 An update is already downloaded.
+2023-09-13 04:25:04 Checking for update using Github
+2023-09-13 04:25:04 Success.
+2023-09-13 04:25:04 Latest version is 1.4.12
+2023-09-13 04:25:04 An update is already downloaded.
+2023-09-13 05:25:04 Checking for update using Github
+2023-09-13 05:25:04 Success.
+2023-09-13 05:25:04 Latest version is 1.4.12
+2023-09-13 05:25:04 An update is already downloaded.
+2023-09-13 06:25:04 Checking for update using Github
+2023-09-13 06:25:04 Success.
+2023-09-13 06:25:04 Latest version is 1.4.12
+2023-09-13 06:25:04 An update is already downloaded.
+2023-09-13 07:25:04 Checking for update using Github
+2023-09-13 07:25:04 Success.
+2023-09-13 07:25:04 Latest version is 1.4.12
+2023-09-13 07:25:04 An update is already downloaded.
+2023-09-13 08:25:04 Checking for update using Github
+2023-09-13 08:25:04 Success.
+2023-09-13 08:25:04 Latest version is 1.4.12
+2023-09-13 08:25:04 An update is already downloaded.
+2023-09-13 09:25:04 Checking for update using Github
+2023-09-13 09:25:04 Success.
+2023-09-13 09:25:04 Latest version is 1.4.12
+2023-09-13 09:25:04 An update is already downloaded.
+2023-09-13 10:25:04 Checking for update using Github
+2023-09-13 10:25:04 Success.
+2023-09-13 10:25:04 Latest version is 1.4.12
+2023-09-13 10:25:04 An update is already downloaded.
+2023-09-14 01:40:04 Loading updated app package /home/trainingmontage/.config/obsidian/obsidian-1.4.12.asar
+2023-09-14 01:40:04 Checking for update using Github
+2023-09-14 01:40:05 Success.
+2023-09-14 01:40:05 Latest version is 1.4.12
+2023-09-14 01:40:05 App is up to date.
+2023-09-16 21:08:36 Loading main app package /usr/lib/obsidian/obsidian.asar
+2023-09-16 21:08:36 Checking for update using Github
+2023-09-16 21:08:37 Success.
+2023-09-16 21:08:37 Latest version is 1.4.13
+2023-09-16 21:08:37 Downloading update from https://github.com/obsidianmd/obsidian-releases/releases/download/v1.4.13/obsidian-1.4.13.asar.gz
+2023-09-16 21:08:37 Verifying hash & signature. Size= 8394487
+2023-09-16 21:08:37 Saving file
+2023-09-16 21:08:38 Update complete.
+2023-09-16 22:08:36 Checking for update using Github
+2023-09-16 22:08:36 Success.
+2023-09-16 22:08:36 Latest version is 1.4.13
+2023-09-16 22:08:36 An update is already downloaded.
+2023-09-16 23:08:36 Checking for update using Github
+2023-09-16 23:08:37 Success.
+2023-09-16 23:08:37 Latest version is 1.4.13
+2023-09-16 23:08:37 An update is already downloaded.
+2023-09-17 00:08:36 Checking for update using Github
+2023-09-17 00:08:37 Success.
+2023-09-17 00:08:37 Latest version is 1.4.13
+2023-09-17 00:08:37 An update is already downloaded.
+2023-09-17 01:08:37 Checking for update using Github
+2023-09-17 01:08:37 Success.
+2023-09-17 01:08:37 Latest version is 1.4.13
+2023-09-17 01:08:37 An update is already downloaded.
+2023-09-17 02:08:37 Checking for update using Github
+2023-09-17 02:08:37 Success.
+2023-09-17 02:08:37 Latest version is 1.4.13
+2023-09-17 02:08:37 An update is already downloaded.
+2023-09-17 03:08:37 Checking for update using Github
+2023-09-17 03:08:37 Success.
+2023-09-17 03:08:37 Latest version is 1.4.13
+2023-09-17 03:08:37 An update is already downloaded.
+2023-09-17 04:08:37 Checking for update using Github
+2023-09-17 04:08:37 Success.
+2023-09-17 04:08:37 Latest version is 1.4.13
+2023-09-17 04:08:37 An update is already downloaded.
+2023-09-17 05:08:37 Checking for update using Github
+2023-09-17 05:08:37 Success.
+2023-09-17 05:08:37 Latest version is 1.4.13
+2023-09-17 05:08:37 An update is already downloaded.
+2023-09-17 06:08:37 Checking for update using Github
+2023-09-17 06:08:37 Success.
+2023-09-17 06:08:37 Latest version is 1.4.13
+2023-09-17 06:08:37 An update is already downloaded.
+2023-09-17 07:08:37 Checking for update using Github
+2023-09-17 07:08:37 Success.
+2023-09-17 07:08:37 Latest version is 1.4.13
+2023-09-17 07:08:37 An update is already downloaded.
+2023-09-17 08:08:37 Checking for update using Github
+2023-09-17 08:08:37 Success.
+2023-09-17 08:08:37 Latest version is 1.4.13
+2023-09-17 08:08:37 An update is already downloaded.
+2023-09-17 09:08:37 Checking for update using Github
+2023-09-17 09:08:37 Success.
+2023-09-17 09:08:37 Latest version is 1.4.13
+2023-09-17 09:08:37 An update is already downloaded.
+2023-09-17 10:08:37 Checking for update using Github
+2023-09-17 10:08:37 Success.
+2023-09-17 10:08:37 Latest version is 1.4.13
+2023-09-17 10:08:37 An update is already downloaded.
